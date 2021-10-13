@@ -44,6 +44,8 @@ $serim-web-theme: mat.define-light-theme((
   }
 }
 
+
+
 @keyframes slideIn {
   0% {
     transform: translateY(1rem);
@@ -82,6 +84,26 @@ $serim-web-theme: mat.define-light-theme((
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
 }
+//--custom scroolbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+//custom scrolbar--
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Poppins", sans-serif; }

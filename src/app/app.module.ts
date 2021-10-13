@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -14,6 +15,7 @@ import { MatIconModule } from '@angular/material/icon';
     AppRoutingModule,
     NoopAnimationsModule,
     MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],

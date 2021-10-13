@@ -111,6 +111,14 @@ nav {
   }
 }
 
+.is-active-menu-mobile {
+  width: 50px;
+  background-color: #4c54fd;
+  height: 2px;
+  margin-right: auto;
+  margin-left: 15px;
+}
+
 .header-image {
   background-image: url("../../../assets/home-background.png");
   background-repeat: no-repeat;
@@ -126,4 +134,159 @@ nav {
 .bg-color {
   height: 1245px;
   background: rgba(0, 1, 33, 0.3);
+}
+
+//mobile navbar css
+.burger-button {
+  color: white;
+}
+
+#mySidenav {
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  .sidenavImg {
+    background-image: url("../../../assets/logo_beyaz2x.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 28rem;
+    height: inherit;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(33, 33, 46, 0.9) 0%,
+        rgba(33, 33, 46, 0.9) 100%
+      ),
+      url("../../../assets/logo_beyaz2x.png");
+  }
+
+  .mobile-menu {
+    padding: 1.5rem !important;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    .mobile-menu-li {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      a {
+        color: #818181;
+        &:hover {
+          color: white;
+        }
+        &:focus {
+          color: white;
+        }
+      }
+    }
+  }
+}
+.ul-sidenav {
+  li {
+    .dropdown-item {
+      font-size: 14px;
+      &:hover {
+        background-color: gray;
+      }
+      &:focus {
+        background-color: #0d6efc;
+      }
+    }
+    &:before {
+      content: attr(data-icon);
+      color: #4c54fd;
+    }
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.closebtn {
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openSideNav {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #21212e;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.closeSideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .burger-button {
+    display: none;
+  }
+  .openSideNav {
+    width: 0 !important;
+    overflow-x: hidden !important;
+    transition: 0.5s !important;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #mySidenav {
+    li {
+      a {
+        color: white !important;
+      }
+    }
+  }
 }

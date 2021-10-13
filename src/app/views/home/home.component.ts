@@ -11,6 +11,8 @@ export class HomeComponent implements OnInit {
   isActiveMenu2: boolean = false;
   isActiveMenu3: boolean = false;
 
+  menuButtonClass: string = 'sidenav';
+
   constructor() {}
 
   ngOnInit(): void {}
@@ -53,5 +55,13 @@ export class HomeComponent implements OnInit {
         ? (this.isActiveMenu3 = false)
         : (this.isActiveMenu3 = true);
     }
+  }
+
+  closeNav(): string {
+    return this.menuButtonClass = 'closeSideNav';
+   
+  }
+  openNav(): string {
+     return this.menuButtonClass = 'openSideNav';
   }
 }
