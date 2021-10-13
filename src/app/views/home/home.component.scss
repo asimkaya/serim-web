@@ -16,14 +16,14 @@ nav {
     span {
       font-family: "Open Sans";
       font-weight: 600;
-      font-size: 15px;
+      font-size: 18px;
       color: white;
     }
   }
   .navbar-nav {
     font-family: "Poppins";
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     color: white;
     justify-content: space-evenly;
     align-items: center;
@@ -116,10 +116,14 @@ nav {
   background-repeat: no-repeat;
   background-size: 100% auto;
   height: 1245px;
-  background: #000121 0% 0% no-repeat padding-box;
 }
 
 .dropdown-menu-dark {
   background-color: #21212e !important;
   box-shadow: 0px 0px 40px #0000008a;
+}
+
+.bg-color {
+  height: 1245px;
+  background: rgba(0, 1, 33, 0.3);
 }

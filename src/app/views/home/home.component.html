@@ -1,124 +1,131 @@
 <main>
+
     <div class="header-image">
-        <nav class="navbar navbar-expand-lg">
-            <div class="logo d-flex flex-column align-items-center">
-                <img src="../../../assets/logo_beyaz2x.png" alt="">
-                <span>SERİM</span>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                <div class="col-9">
-                    <ul class="list-unstyled navbar-nav me-auto">
-                        <li class="dropdown menu-button">
-                            <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false" (click)="navbarMenuClick($event)">
-                                Akıllı Şehir Çözümleri</a>
-                            <div *ngIf="isActiveMenu0" class="is-active-menu"></div>
-                            <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
-                                aria-labelledby="navbarDropdown">
-                                <div class="box-arrow-border">
-                                    <div class="box-arrow-background"></div>
-                                </div>
-                                <ul class="d-flex">
-                                    <div>
-                                        <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
-                                                href="#">Biletleme Sistemi</a></li>
-                                        <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
-                                                href="#">Akıllı Otopark Sistemi</a></li>
-                                        <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
-                                                href="#">Elektrikli Scooter Platformu</a></li>
-                                        <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
-                                                href="#">Rent a Car Araç Kiralama Sistemi</a></li>
-                                        <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
-                                                href="#">Maas</a></li>
-                                    </div>
-                                    <div>
-                                        <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
-                                                href="#">Paylaşımlı Bisiklet Sistemi</a></li>
-                                        <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
-                                                href="#">Toplu Taşıma Planlama Çözümü</a></li>
-                                        <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
-                                                href="#">Tur Yönetim Sistemi</a></li>
-                                    </div>
-                                </ul>
-                            </div>
-
-                        </li>
-
-                        <li class="dropdown menu-button">
-                            <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown1" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false"
-                                (click)="navbarMenuClick($event)">Hizmetlerimiz</a>
-                            <div *ngIf="isActiveMenu1" class="is-active-menu"></div>
-                            <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
-                                aria-labelledby="navbarDropdown1">
-                                <div class="box-arrow-border1">
-                                    <div class="box-arrow-background"></div>
-                                </div>
-                                <ul>
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="dropdown menu-button">
-                            <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown2" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false"
-                                (click)="navbarMenuClick($event)">Hakkımızda</a>
-                            <div *ngIf="isActiveMenu2" class="is-active-menu"></div>
-                            <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
-                                aria-labelledby="navbarDropdown2">
-                                <div class="box-arrow-border2">
-                                    <div class="box-arrow-background"></div>
-                                </div>
-                                <ul>
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="dropdown menu-button">
-                            <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown3" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false"
-                                (click)="navbarMenuClick($event)">İletişim</a>
-                            <div *ngIf="isActiveMenu3" class="is-active-menu"></div>
-                            <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
-                                aria-labelledby="navbarDropdown3">
-                                <div class="box-arrow-border3">
-                                    <div class="box-arrow-background"></div>
-                                </div>
-                                <ul>
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
+        <div class="bg-color">
+            <nav class="navbar navbar-expand-lg">
+                <div class="logo d-flex flex-column align-items-center">
+                    <img src="../../../assets/logo_beyaz2x.png" alt="">
+                    <span>SERİM</span>
                 </div>
-                <div>
-                    <button class="language-button">TR</button>
-                </div>
-            </div>
-        </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <mat-icon color="accent">menu</mat-icon>
+                </button>
+                <!--burası desktop için navbar-->
+                <div class="collapse navbar-collapse justify-content-between" >
+                    <div class="col-9">
+                        <ul class="list-unstyled navbar-nav me-auto">
+                            <li class="dropdown menu-button">
+                                <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" (click)="navbarMenuClick($event)">
+                                    Akıllı Şehir Çözümleri</a>
+                                <div *ngIf="isActiveMenu0" class="is-active-menu"></div>
+                                <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
+                                    aria-labelledby="navbarDropdown">
+                                    <div class="box-arrow-border">
+                                        <div class="box-arrow-background"></div>
+                                    </div>
+                                    <ul class="d-flex">
+                                        <div>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="#">Biletleme Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="#">Akıllı Otopark Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="#">Elektrikli Scooter Platformu</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="#">Rent a Car Araç Kiralama Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="#">Maas</a></li>
+                                        </div>
+                                        <div>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="#">Paylaşımlı Bisiklet Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="#">Toplu Taşıma Planlama Çözümü</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="#">Tur Yönetim Sistemi</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
 
+                            </li>
+
+                            <li class="dropdown menu-button">
+                                <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown1" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    (click)="navbarMenuClick($event)">Hizmetlerimiz</a>
+                                <div *ngIf="isActiveMenu1" class="is-active-menu"></div>
+                                <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
+                                    aria-labelledby="navbarDropdown1">
+                                    <div class="box-arrow-border1">
+                                        <div class="box-arrow-background"></div>
+                                    </div>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="dropdown menu-button">
+                                <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown2" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    (click)="navbarMenuClick($event)">Hakkımızda</a>
+                                <div *ngIf="isActiveMenu2" class="is-active-menu"></div>
+                                <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
+                                    aria-labelledby="navbarDropdown2">
+                                    <div class="box-arrow-border2">
+                                        <div class="box-arrow-background"></div>
+                                    </div>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="dropdown menu-button">
+                                <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown3" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    (click)="navbarMenuClick($event)">İletişim</a>
+                                <div *ngIf="isActiveMenu3" class="is-active-menu"></div>
+                                <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
+                                    aria-labelledby="navbarDropdown3">
+                                    <div class="box-arrow-border3">
+                                        <div class="box-arrow-background"></div>
+                                    </div>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button class="language-button">TR</button>
+                    </div>
+                </div>
+                <!--mobile navbar-->
+                <div class="collapse" id="navbarSupportedContent">
+                    <h1 style="color: white;">test</h1>
+                </div>
+            </nav>
+        </div>
     </div>
-
 </main>
