@@ -17,12 +17,44 @@
     font-size: 18px;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .section-image {
+    width:0% !important;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .section-image {
+    width:100% !important;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+  }
+}
 @media only screen and (max-device-width: 400px) {
   .mobile-menu {
     padding: 0 !important;
   }
   .openSideNav {
     width: 95% !important;
+  }
+}
+@media only screen and (max-device-width: 1650px) {
+  .page-cards {
+    .ticket-system {
+      margin-top: 20px !important;
+    }
+    .smart-system {
+      margin-top: 20px !important;
+    }
+    .share-platform {
+      margin-top: 20px !important;
+    }
   }
 }
 @media only screen and (max-device-width: 600px) {
@@ -175,7 +207,6 @@ nav {
   background-image: url("../../../assets/home-background.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 1245px;
 }
 
 .dropdown-menu-dark {
@@ -184,7 +215,9 @@ nav {
 }
 
 .bg-color {
-  height: 1245px;
+  //height: 1245px;
+  min-height: 1245px;
+  max-height: max-content;
   background: rgba(0, 1, 33, 0.3);
 }
 
@@ -316,7 +349,7 @@ nav {
 
 .carousel-div {
   margin-left: 9.3%;
-  margin-top: 12.1%;
+  margin-top: 10%;
   .carousel {
     .carousel-item-content {
       font-family: "Poppins";
@@ -373,19 +406,15 @@ nav {
 }
 
 .page-cards {
-  margin-left: 9.2%;
-  margin-right: 9.1%;
   margin-top: 115px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   .smart-system {
     margin-left: 16px;
     margin-right: 16px;
   }
   .ticket-system {
-    &:hover {
-      .left {
-        background-image: url("../../../assets/share-icon.png");
-      }
-    }
     .left {
       background-image: url("../../../assets/ticket-system-icon.png");
       background-repeat: no-repeat;
@@ -394,11 +423,6 @@ nav {
     }
   }
   .share-platform {
-    &:hover {
-      .left {
-        background-image: url("../../../assets/smart-system-icon.png");
-      }
-    }
     .left {
       background-image: url("../../../assets/share-icon.png");
       background-repeat: no-repeat;
@@ -407,11 +431,11 @@ nav {
     }
   }
   .smart-system {
-    &:hover {
-      .left {
-        background-image: url("../../../assets/share-icon.png");
-      }
-    }
+    // &:hover {
+    //   .left {
+    //     background-image: url("../../../assets/share-icon.png");
+    //   }
+    // }
     .left {
       background-image: url("../../../assets/smart-system-icon.png");
       background-repeat: no-repeat;
@@ -422,7 +446,7 @@ nav {
   .ticket-system,
   .share-platform,
   .smart-system {
-    width: 536px;
+    width: 510px;
     height: 277px;
     background-color: #262634;
     box-shadow: 0px 10px 20px #0000008a;
@@ -467,6 +491,113 @@ nav {
         height: 1px;
         margin-top: 10px;
         margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.mouse-icon {
+  background-image: url("../../../assets/mouse-icon.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section-two {
+  .left-line {
+    position: absolute;
+    border-left: 2px dashed rgba(255, 255, 255, 0.2);
+    height: inherit;
+    left: 9.2%;
+  }
+  .right-line {
+    position: absolute;
+    border-left: 2px dashed rgba(255, 255, 255, 0.2);
+    height: inherit;
+    right: 9.1%;
+  }
+  background: #21212e 0% 0% no-repeat padding-box;
+  height: 1759px;
+
+  .section-two-position {
+    margin-left: 14%;
+    margin-right: 14%;
+    background-color: transparent;
+    height: inherit;
+    padding-top: 200px;
+
+    .section-ticket-system,
+    .section-share-platform,
+    .section-smart-system {
+      width: 100%;
+      min-height: 328px;
+      max-height: max-content;
+      background: #2e2e41 0% 0% no-repeat padding-box;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 10px;
+      display: flex;
+      color: white;
+      .section-words {
+        padding-left: 39px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        .section-header {
+          font: normal normal bold 32px/75px Poppins;
+          letter-spacing: 0px;
+          color: #ffffff;
+          text-transform: uppercase;
+        }
+        .section-content {
+          text-align: left;
+          font: normal normal 300 14px/35px Poppins;
+          padding-right: 50px;
+        }
+        .section-button {
+          margin-top: 20px;
+          button {
+            width: 220px;
+            height: 40px;
+            background-color: #4C54FD;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 11px;
+          }
+        }
+      }
+     
+    }
+    .section-ticket-system {
+      .section-image {
+        background-image: url("../../../assets/iphone-travel.png");
+        background-size: 100% 100%;
+        border-radius: 0px 10px 10px 0px;
+        width: 100%;
+        background-repeat: no-repeat;
+      }
+    }
+    .section-smart-system {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      .section-image {
+        background-image: url("../../../assets/smart-auto.png");
+        background-size: 100% 100%;
+        border-radius: 10px 0px 0px 10px;
+        width: 100%;
+        background-repeat: no-repeat;
+      }
+    }
+    .section-share-platform {
+      .section-image {
+        background-image: url("../../../assets/smart-scooter.png");
+        background-size: 100% 100%;
+        border-radius: 0px 10px 10px 0px;
+        width: 100%;
+        background-repeat: no-repeat;
       }
     }
   }
