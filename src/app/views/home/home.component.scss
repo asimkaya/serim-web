@@ -19,7 +19,7 @@
 }
 @media only screen and (max-width: 1200px) {
   .section-image {
-    width:0% !important;
+    width: 0% !important;
     -webkit-transition: width 1s ease-in-out;
     -moz-transition: width 1s ease-in-out;
     -o-transition: width 1s ease-in-out;
@@ -29,7 +29,7 @@
 
 @media only screen and (min-width: 1201px) {
   .section-image {
-    width:100% !important;
+    width: 100% !important;
     -webkit-transition: width 1s ease-in-out;
     -moz-transition: width 1s ease-in-out;
     -o-transition: width 1s ease-in-out;
@@ -508,18 +508,6 @@ nav {
 }
 
 .section-two {
-  .left-line {
-    position: absolute;
-    border-left: 2px dashed rgba(255, 255, 255, 0.2);
-    height: inherit;
-    left: 9.2%;
-  }
-  .right-line {
-    position: absolute;
-    border-left: 2px dashed rgba(255, 255, 255, 0.2);
-    height: inherit;
-    right: 9.1%;
-  }
   background: #21212e 0% 0% no-repeat padding-box;
   height: 1759px;
 
@@ -561,7 +549,7 @@ nav {
           button {
             width: 220px;
             height: 40px;
-            background-color: #4C54FD;
+            background-color: #4c54fd;
             border: none;
             border-radius: 10px;
             color: white;
@@ -569,7 +557,6 @@ nav {
           }
         }
       }
-     
     }
     .section-ticket-system {
       .section-image {
@@ -598,6 +585,90 @@ nav {
         border-radius: 0px 10px 10px 0px;
         width: 100%;
         background-repeat: no-repeat;
+      }
+    }
+  }
+
+  .haberler-word {
+    height: 211px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    div {
+      font-weight: bold;
+      font-size: 32px;
+      color: white;
+      text-align: center;
+    }
+    &:before {
+      content: "HABERLER";
+      color: white;
+      font-size: 150px;
+      opacity: 0.1;
+      font-weight: bold;
+      position: absolute;
+    }
+  }
+
+  .div-news {
+    height: 656px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    .img-div {
+      height: inherit;
+      border-radius: 10px;
+      width: 67%;
+      img {
+        border-radius: 10px 0 0 10px;
+        height: inherit;
+        width: 100%;
+      }
+    }
+    .new-headers {
+      width: 33%;
+      height: inherit;
+      background-color: white;
+      padding-top: 30px;
+      .new-headers-header {
+        font-weight: bold;
+        color: black;
+        font-size: 18px;
+        padding-left: 34px;
+      }
+      .new-tech,.new-design,.new-politics,.new-education,.new-finance {
+        padding-left: 34px;
+        padding-right: 25px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        .header-tech {
+          color: #46C2FF;
+        }
+        .header-design {
+          color: #719BB0;
+        }
+        .header-politics {
+          color: #F69F58;
+        }
+        .header-education {
+          color: #45C487;
+        } 
+        .header-finance {
+          color: #4C54FD;
+        }
+        .header {
+          text-transform: uppercase;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .content {
+          font-weight: 300;
+          font-size: 14px;
+          margin-top: 6px;
+        }
       }
     }
   }
