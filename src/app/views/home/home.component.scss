@@ -20,7 +20,6 @@
 @media only screen and (max-device-width: 400px) {
   .mobile-menu {
     padding: 0 !important;
-
   }
   .openSideNav {
     width: 95% !important;
@@ -33,9 +32,8 @@
         color: white !important;
       }
     }
-    
   }
-  
+
   .carousel-div {
     margin-left: 0 !important;
     margin-top: 3rem !important;
@@ -50,7 +48,6 @@
   .bg-color {
     background: rgba(0, 1, 33, 0.7) !important;
   }
-  
 }
 
 nav {
@@ -214,7 +211,7 @@ nav {
   }
 
   .mobile-menu {
-    padding: 1.5rem ;
+    padding: 1.5rem;
     font-size: 18px;
     text-decoration: none;
     color: white;
@@ -371,6 +368,106 @@ nav {
       height: 50px;
       background-color: transparent;
       border: none;
+    }
+  }
+}
+
+.page-cards {
+  margin-left: 9.2%;
+  margin-right: 9.1%;
+  margin-top: 115px;
+  .smart-system {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .ticket-system {
+    &:hover {
+      .left {
+        background-image: url("../../../assets/share-icon.png");
+      }
+    }
+    .left {
+      background-image: url("../../../assets/ticket-system-icon.png");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+    }
+  }
+  .share-platform {
+    &:hover {
+      .left {
+        background-image: url("../../../assets/smart-system-icon.png");
+      }
+    }
+    .left {
+      background-image: url("../../../assets/share-icon.png");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+    }
+  }
+  .smart-system {
+    &:hover {
+      .left {
+        background-image: url("../../../assets/share-icon.png");
+      }
+    }
+    .left {
+      background-image: url("../../../assets/smart-system-icon.png");
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+    }
+  }
+  .ticket-system,
+  .share-platform,
+  .smart-system {
+    width: 536px;
+    height: 277px;
+    background-color: #262634;
+    box-shadow: 0px 10px 20px #0000008a;
+    border-radius: 10px;
+    display: inline-flex;
+    &:hover {
+      background-color: #4c54fd;
+      -webkit-transition: background-color 200ms linear;
+      -ms-transition: background-color 200ms linear;
+      transition: background-color 200ms linear;
+    }
+
+    .left {
+      width: 140px;
+      height: auto;
+      background-color: #4c54fd;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .right {
+      width: 250px;
+      color: white;
+      padding-left: 24px;
+      padding-top: 35px;
+      .header {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .content {
+        font-size: 13px;
+        font-weight: 200;
+      }
+      .a-div {
+        a {
+          color: white;
+        }
+        margin-top: 25px;
+      }
+      .hr-div {
+        width: 240px;
+        background-color: #4c54fd;
+        height: 1px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
     }
   }
 }
