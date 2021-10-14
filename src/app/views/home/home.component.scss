@@ -17,14 +17,25 @@
     font-size: 18px;
   }
 }
-@media screen and (max-width: 600px) {
+@media only screen and (max-device-width: 400px) {
+  .mobile-menu {
+    padding: 0 !important;
+
+  }
+  .openSideNav {
+    width: 95% !important;
+  }
+}
+@media only screen and (max-device-width: 600px) {
   #mySidenav {
     li {
       a {
         color: white !important;
       }
     }
+    
   }
+  
   .carousel-div {
     margin-left: 0 !important;
     margin-top: 3rem !important;
@@ -203,7 +214,7 @@ nav {
   }
 
   .mobile-menu {
-    padding: 1.5rem !important;
+    padding: 1.5rem ;
     font-size: 18px;
     text-decoration: none;
     color: white;
