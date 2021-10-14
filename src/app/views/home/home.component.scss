@@ -57,7 +57,37 @@
     }
   }
 }
+@media only screen and (max-width: 900px) {
+  .haberler-word {
+    &:before {
+      font-size: 100px !important;
+    }
+  }
+}
 @media only screen and (max-device-width: 600px) {
+  .haberler-word {
+    &:before {
+      font-size: 70px !important;
+    }
+  }
+  .page-cards {
+    .smart-system {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    .ticket-system,
+    .share-platform,
+    .smart-system {
+      width: 310px !important;
+      height: auto !important;
+      .left {
+        width: 100px !important;
+      }
+      .right {
+        width: 200px !important;
+      }
+    }
+  }
   #mySidenav {
     li {
       a {
@@ -73,6 +103,17 @@
   }
   .bg-color {
     background: rgba(0, 1, 33, 0.5) !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .haberler-word {
+    &:before {
+      font-size: 50px !important;
+    }
+    div {
+      font-size: 20px !important;
+    }
   }
 }
 
@@ -486,7 +527,7 @@ nav {
         margin-top: 25px;
       }
       .hr-div {
-        width: 240px;
+        width: 100%;
         background-color: #4c54fd;
         height: 1px;
         margin-top: 10px;
@@ -509,7 +550,7 @@ nav {
 
 .section-two {
   background: #21212e 0% 0% no-repeat padding-box;
-  height: 1759px;
+  min-height: 1759px;
 
   .section-two-position {
     margin-left: 14%;
@@ -633,31 +674,36 @@ nav {
       height: inherit;
       background-color: white;
       padding-top: 30px;
+      border-radius: 0 10px 10px 0;
       .new-headers-header {
         font-weight: bold;
         color: black;
         font-size: 18px;
         padding-left: 34px;
       }
-      .new-tech,.new-design,.new-politics,.new-education,.new-finance {
+      .new-tech,
+      .new-design,
+      .new-politics,
+      .new-education,
+      .new-finance {
         padding-left: 34px;
         padding-right: 25px;
         padding-top: 9px;
         padding-bottom: 9px;
         .header-tech {
-          color: #46C2FF;
+          color: #46c2ff;
         }
         .header-design {
-          color: #719BB0;
+          color: #719bb0;
         }
         .header-politics {
-          color: #F69F58;
+          color: #f69f58;
         }
         .header-education {
-          color: #45C487;
-        } 
+          color: #45c487;
+        }
         .header-finance {
-          color: #4C54FD;
+          color: #4c54fd;
         }
         .header {
           text-transform: uppercase;
