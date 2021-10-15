@@ -11,6 +11,10 @@ export class HomeComponent implements OnInit {
   isActiveMenu2: boolean = false;
   isActiveMenu3: boolean = false;
 
+  newsInformationHeader: string = 'Teknoloji';
+  newsInformationContent: string = 'Serim’den Yeni Nesil Biletleme Sistemi';
+  newsHeaderColor: string = '#46c2ff';
+
   menuButtonClass: string = 'sidenav';
 
   constructor() {}
@@ -21,7 +25,7 @@ export class HomeComponent implements OnInit {
     let eventTarget: Element = event.target as Element;
     let elementId: string = eventTarget.id;
     let elementClass: string = eventTarget.className;
-    
+
     elementId == 'navbarDropdown'
       ? (this.isActiveMenu0 = true)
       : (this.isActiveMenu0 = false);
@@ -58,10 +62,14 @@ export class HomeComponent implements OnInit {
   }
 
   closeNav(): string {
-    return this.menuButtonClass = 'closeSideNav';
-   
+    return (this.menuButtonClass = 'closeSideNav');
   }
   openNav(): string {
-     return this.menuButtonClass = 'openSideNav';
+    return (this.menuButtonClass = 'openSideNav');
+  }
+
+  newsClick(element: string, color: string): void {
+    this.newsInformationHeader = element;
+    this.newsHeaderColor = color;
   }
 }
