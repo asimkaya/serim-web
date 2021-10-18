@@ -8,6 +8,35 @@ $(document).ready(function () {
   $("#isActiveMenu01").hide();
   $("#isActiveMenu02").hide();
   $("#isActiveMenu03").hide();
+
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+      1300: {
+        items: 4,
+      },
+      1500: {
+        items: 5,
+      },
+      1700: {
+        items: 6,
+      }
+    },
+  });
 });
 
 function navbarMenuClick(event) {

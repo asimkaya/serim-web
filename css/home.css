@@ -1002,6 +1002,9 @@ nav .language-button {
   font-weight: bold;
   position: absolute;
 }
+#carouselExampleIndicators1 {
+  padding-bottom: 3rem;
+}
 
 .slider-blog-button-div {
   width: 400px;
@@ -1038,9 +1041,45 @@ nav .language-button {
   font-weight: bold;
   position: absolute;
 }
-.section-four #carouselExampleControls2 .client-card-item {
-  width: 210px;
+
+.clients-slider {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.section-four .owl-carousel .item .client-card-item {
   height: 210px;
   background: #2e2e41 0% 0% no-repeat padding-box;
   border-radius: 7px;
+}
+
+.owl-carousel .nav-btn {
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 80px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+  background: url("../assets/photos/coursel-btn.png") no-repeat scroll 0 0;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  left: -65px;
+  transform: rotate(180deg);
+}
+.owl-carousel .next-slide {
+  background: url("../assets/photos/coursel-btn.png") no-repeat scroll 0px 0px;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  right: -65px;
 }
