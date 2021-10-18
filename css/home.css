@@ -72,7 +72,7 @@
     font-size: 100px !important;
   }
   .musterilerimiz-word:before {
-    font-size: 100px !important;
+    font-size: 50px !important;
   }
   .page-cards .smart-system {
     margin-left: 0 !important;
@@ -119,17 +119,32 @@
   .blog-word div {
     font-size: 20px !important;
   }
-
   .musterilerimiz-word:before {
-    font-size: 50px !important;
+    font-size: 40px !important;
   }
   .musterilerimiz-word div {
     font-size: 20px !important;
   }
 }
-@media screen and (max-width: 500) {
+@media screen and (max-width: 550px) {
   .bg-color {
     background: rgba(0, 1, 33, 0.7) !important;
+  }
+  .musterilerimiz-word:before {
+    font-size: 40px !important;
+  }
+  .musterilerimiz-word div {
+    font-size: 20px !important;
+  }
+  .owl-carousel .next-slide {
+    width: 48px !important;
+    height: 48px !important;
+    right: -48px !important;
+  }
+  .owl-carousel .prev-slide {
+    width: 48px !important;
+    height: 48px !important;
+    left: -48px !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1043,8 +1058,8 @@ nav .language-button {
 }
 
 .clients-slider {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 13%;
+  margin-right: 13%;
   margin-top: 50px;
 }
 
@@ -1052,6 +1067,13 @@ nav .language-button {
   height: 210px;
   background: #2e2e41 0% 0% no-repeat padding-box;
   border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-four .owl-carousel .item .client-card-item img {
+  width: 75% !important;
 }
 
 .owl-carousel .nav-btn {
@@ -1073,7 +1095,7 @@ nav .language-button {
   background-size: cover;
   width: 60px;
   height: 60px;
-  left: -65px;
+  left: -100px;
   transform: rotate(180deg);
 }
 .owl-carousel .next-slide {
@@ -1081,5 +1103,5 @@ nav .language-button {
   background-size: cover;
   width: 60px;
   height: 60px;
-  right: -65px;
+  right: -100px;
 }
