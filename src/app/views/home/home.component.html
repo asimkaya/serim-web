@@ -407,7 +407,7 @@
                     <hr>
                     <div class="new-tech" (click)="newsClick('Teknoloji', '#46c2ff')">
                         <div class="arrow"></div>
-                        <div class="header header-tech" >Teknoloji</div>
+                        <div class="header header-tech">Teknoloji</div>
                         <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonum.
                         </div>
                     </div>
@@ -445,9 +445,244 @@
     </div>
 
     <div class="section-three">
-        <div class="divider"></div>
         <div class="blog-word">
             <div>BLOG</div>
+        </div>
+        <div class="section-three-position">
+            <div class="blog-slider">
+                <!-- <drag-scroll #nav [drag-scroll-disabled]="true" >
+                    <div class="card" style="width: 18rem;" drag-scroll-item>
+                        <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 18rem;" drag-scroll-item>
+                        <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+
+                      <div class="card" style="width: 18rem;" drag-scroll-item>
+                        <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                  </drag-scroll>
+                  <button (click)="moveLeft()">Left</button>
+                  <button (click)="moveRight()">Right</button>
+                  <button (click)="moveTo(2)">Last</button> -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
+                    <!-- <div class="carousel-indicators" style="background-color: red;">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div> -->
+                    <div class="carousel-inner" style="min-height: 33rem; padding-top: 2rem;">
+                        <div class="carousel-item active">
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 330px;">
+                                <div class="card-header-custom">
+                                    <span class="date">01.01.2021</span>
+                                    <span class="card-title">Teknoloji</span>
+                                </div>
+                                <img src="../../../assets/card-photo-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
+                                    <div class="card-hr"></div>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
+                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 400px; margin-left: auto; margin-right: auto;">
+                        <div class="blog-slider-button-div">
+                            <button class=" button-geri" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="prev">
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <button class=" button-ileri" type="button" data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="next">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </main>

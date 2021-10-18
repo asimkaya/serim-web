@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import { DragScrollComponent } from 'ngx-drag-scroll';
 
 @Component({
   selector: 'app-home',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  //burası kullanılmayacak
+  @ViewChild('nav', {read: DragScrollComponent}) ds!: DragScrollComponent;
+
   isActiveMenu0: boolean = false;
   isActiveMenu1: boolean = false;
   isActiveMenu2: boolean = false;
@@ -19,7 +23,10 @@ export class HomeComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    
+  }
+  
 
   navbarMenuClick(event: Event): void {
     let eventTarget: Element = event.target as Element;
@@ -71,5 +78,17 @@ export class HomeComponent implements OnInit {
   newsClick(element: string, color: string): void {
     this.newsInformationHeader = element;
     this.newsHeaderColor = color;
+  }
+  
+  moveLeft() {
+    this.ds.moveLeft();
+  }
+
+  moveRight() {
+    this.ds.moveRight();
+  }
+
+  moveTo(index: number) {
+    this.ds.moveTo(index);
   }
 }

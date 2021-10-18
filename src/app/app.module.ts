@@ -7,6 +7,7 @@ import { HomeComponent } from './views/home/home.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { DragScrollModule } from 'ngx-drag-scroll';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -15,7 +16,8 @@ import {MatButtonModule} from '@angular/material/button';
     AppRoutingModule,
     NoopAnimationsModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    DragScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent],
