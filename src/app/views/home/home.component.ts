@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { DragScrollComponent } from 'ngx-drag-scroll';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,7 @@ import { DragScrollComponent } from 'ngx-drag-scroll';
 })
 export class HomeComponent implements OnInit {
   //burası kullanılmayacak
-  @ViewChild('nav', {read: DragScrollComponent}) ds!: DragScrollComponent;
+  @ViewChild('nav', { read: DragScrollComponent }) ds!: DragScrollComponent;
 
   isActiveMenu0: boolean = false;
   isActiveMenu1: boolean = false;
@@ -24,9 +25,12 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    
+    this.jqueryModal();
   }
-  
+
+  jqueryModal() {
+    ($('#carouselExampleIndicators1') as any).carousel();
+  }
 
   navbarMenuClick(event: Event): void {
     let eventTarget: Element = event.target as Element;
@@ -79,7 +83,7 @@ export class HomeComponent implements OnInit {
     this.newsInformationHeader = element;
     this.newsHeaderColor = color;
   }
-  
+
   moveLeft() {
     this.ds.moveLeft();
   }
