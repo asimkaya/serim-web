@@ -29,6 +29,9 @@
   #mySidenav li a {
     color: white !important;
   }
+  .bg-color {
+    background: rgba(0, 1, 33, 0.5) !important;
+  }
 }
 nav {
   background: transparent linear-gradient(180deg, #21212e 0%, #21212e00 100%) 0% 0% no-repeat padding-box;
@@ -144,8 +147,13 @@ nav .language-button {
   margin-right: auto;
   margin-left: 15px;
 }
+.bg-color {
+  min-height: 450px;
+  max-height: max-content;
+  background: rgba(0, 1, 33, 0.3);
+}
 .header-image {
-  background-image: url("../assets/photos/home-background.png");
+  background-image: url("../assets/photos/e-scooter.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -269,4 +277,30 @@ nav .language-button {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+}
+.page-header {
+  height: 211px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.page-header::before {
+  content: "SCOOTER";
+  color: white;
+  opacity: 0.1;
+  position: absolute;
+  font: normal normal bold 150px/226px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.15;
+}
+
+.page-header span {
+  font: normal normal bold 32px/48px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
 }
