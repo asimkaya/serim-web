@@ -121,6 +121,16 @@ function checkScreen() {
     $(".yorumlar-people-special-left").show();
     $(".yorumlar-people-special-right").show();
   }
+
+  if ($(window).width() < 992) {
+    $("#footer-iletisim-div").addClass("mt-5");
+    $("#footer-whoweare").addClass("mt-5");
+    $("#footer-speed-menu").addClass("mt-5");
+  } else {
+    $("#footer-iletisim-div").removeClass("mt-5");
+    $("#footer-whoweare").removeClass("mt-5");
+    $("#footer-speed-menu").removeClass("mt-5");
+  }
 }
 
 checkScreen();

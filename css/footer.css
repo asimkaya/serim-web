@@ -1,0 +1,66 @@
+ footer {
+  width: 100%;
+  min-height: 460px;
+  background-color: #21212e;
+}
+
+footer .main-div {
+  margin-right: 7%;
+  margin-left: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+footer .main-div .footer-logo img {
+  width: 170px;
+  height: 170px;
+}
+
+footer .main-div .footer-logo span {
+  width: 140px;
+  height: 68px;
+  font: normal normal 600 50px/68px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+footer .main-div .header {
+  font: normal normal 600 20px/35px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.footer-iletisim .iletisim-content {
+  margin-top: 30px;
+}
+.footer-iletisim .iletisim-content img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-speed-menu .speed-menu-content {
+  margin-top: 13px;
+}
+
+.footer-speed-menu .speed-menu-content ul li a {
+  font: normal normal 300 16px/40px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-speed-menu .speed-menu-content ul li a:hover {
+  font-weight: bold;
+}
+
+.footer-whoweare .whoweare-content {
+  margin-top: 13px;
+  max-width: 21rem;
+}
+
+.footer-whoweare .whoweare-content span {
+  font: normal normal 300 16px/35px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+} 

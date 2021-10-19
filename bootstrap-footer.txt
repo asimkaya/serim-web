@@ -1,0 +1,112 @@
+<footer class="bd-footer py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <div class="footer-logo d-flex align-items-center flex-column">
+                        <img src="./assets/photos/logo_beyaz2x.png" alt="">
+                        <span class="fst-italic">SERİM</span>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <h5>Community</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+                        <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
+                        <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
+                        <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
+                        <li class="mb-2"><a href="https://bootstrap-slack.herokuapp.com/">Slack</a></li>
+                        <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack
+                                Overflow</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                    <span class="header">İletişim</span>
+                    <div class="iletisim-content d-flex">
+                        <div><img src="./assets/photos/footer-facebook.png" alt=""></div>
+                        <div style="margin-right: 24px; margin-left: 24px;"><img
+                                src="./assets/photos/footer-twitter.png" alt=""></div>
+                        <div><img src="./assets/photos/footer-instagram.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <span class="header">Hızlı Menü</span>
+                    <div class="speed-menu-content">
+                        <ul class="list-unstyled">
+                            <li> <a href="#">ANA SAYFA</a></li>
+                            <li><a href="#">HİZMETLERİMİZ</a></li>
+                            <li><a href="#">HAKKIMIZDA</a></li>
+                            <li><a href="#">İLETİŞİM</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                    <span class="header">Biz Kimiz?</span>
+                    <div class="whoweare-content">
+                        <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+    footer {
+  width: 100%;
+  background-color: #21212e;
+}
+
+footer .footer-logo img {
+  width: 170px;
+  height: 170px;
+}
+
+footer .footer-logo span {
+  width: 140px;
+  height: 68px;
+  font: normal normal 600 50px/68px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+footer .header {
+  font: normal normal 600 20px/35px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+footer .iletisim-content {
+  margin-top: 30px;
+}
+footer .iletisim-content img {
+  width: 40px;
+  height: 40px;
+}
+
+footer .speed-menu-content {
+  margin-top: 13px;
+}
+
+footer .speed-menu-content ul li a {
+  font: normal normal 300 16px/40px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer .speed-menu-content ul li a:hover {
+  font-weight: bold;
+}
+
+footer .whoweare-content {
+  margin-top: 13px;
+  max-width: 21rem;
+}
+
+footer .whoweare-content span {
+  font: normal normal 300 16px/35px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
