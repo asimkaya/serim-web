@@ -61,6 +61,9 @@
     font-size: 100px !important;
   }
   .musterilerimiz-word:before {
+    font-size: 70px !important;
+  }
+  .yorumlar-word::before {
     font-size: 100px !important;
   }
 }
@@ -73,6 +76,9 @@
   }
   .musterilerimiz-word:before {
     font-size: 50px !important;
+  }
+  .yorumlar-world::before {
+    font-size: 60px !important;
   }
   .page-cards .smart-system {
     margin-left: 0 !important;
@@ -125,6 +131,12 @@
   .musterilerimiz-word div {
     font-size: 20px !important;
   }
+  .yorumlar-word:before {
+    font-size: 65px !important;
+  }
+  .yorumlar-word div {
+    font-size: 20px !important;
+  }
 }
 @media screen and (max-width: 550px) {
   .bg-color {
@@ -136,6 +148,12 @@
   .musterilerimiz-word div {
     font-size: 20px !important;
   }
+  .yorumlar-word:before {
+    font-size: 70px !important;
+  }
+  .yorumlar-word div {
+    font-size: 20px !important;
+  }
   .owl-carousel .next-slide {
     width: 48px !important;
     height: 48px !important;
@@ -145,6 +163,10 @@
     width: 48px !important;
     height: 48px !important;
     left: -48px !important;
+  }
+  .section-four .yorumlar-people {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -192,6 +214,12 @@
   .section-two .div-news .new-headers {
     width: 100% !important;
     border-radius: 10px !important;
+  }
+  .section-three .section-three-position .blog-slider .button-ileri {
+    right: 0 !important;
+  }
+  .section-three .section-three-position .blog-slider .button-geri {
+    left: 0 !important;
   }
 }
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
@@ -906,6 +934,9 @@ nav .language-button {
   background-color: transparent;
   height: inherit;
 }
+.owl-one .owl-stage-outer {
+  box-shadow: 0px 0px 40px #21212e33;
+}
 .section-three .section-three-position .blog-slider .carousel-indicators {
   position: unset;
   align-items: center;
@@ -928,20 +959,24 @@ nav .language-button {
   align-items: center;
   padding-top: 40px;
 }
-.section-three .section-three-position .blog-slider .blog-slider-button-div .button-ileri {
+.section-three .section-three-position .blog-slider .button-ileri {
   background-image: url("../assets/photos/blog-button.png");
   width: 61px;
   height: 61px;
   border: none;
   background-color: transparent;
+  top: 32rem !important;
+  right: 21rem;
 }
-.section-three .section-three-position .blog-slider .blog-slider-button-div .button-geri {
+.section-three .section-three-position .blog-slider .button-geri {
   background-image: url("../assets/photos/blog-button.png");
   transform: rotate(180deg);
   width: 61px;
   height: 61px;
   border: none;
   background-color: transparent;
+  top: 32rem !important;
+  left: 21rem;
 }
 .section-three .section-three-position .blog-slider .carousel-item-next,
 .section-three .section-three-position .blog-slider .carousel-item-prev,
@@ -950,42 +985,42 @@ nav .language-button {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.section-three .section-three-position .blog-slider .carousel-item-next .card,
-.section-three .section-three-position .blog-slider .carousel-item-prev .card,
-.section-three .section-three-position .blog-slider .carousel-item.active .card {
+.section-three .section-three-position .blog-slider .card,
+.section-three .section-three-position .blog-slider .card,
+.section-three .section-three-position .blog-slider .card {
   box-shadow: 0px 0px 40px #21212e33;
   border-radius: 10px;
 }
-.section-three .section-three-position .blog-slider .carousel-item-next .card .card-body,
-.section-three .section-three-position .blog-slider .carousel-item-prev .card .card-body,
-.section-three .section-three-position .blog-slider .carousel-item.active .card .card-body {
+.section-three .section-three-position .blog-slider .card .card-body,
+.section-three .section-three-position .blog-slider .card .card-body,
+.section-three .section-three-position .blog-slider .card .card-body {
   padding: 23px;
 }
-.section-three .section-three-position .blog-slider .carousel-item-next .card .card-body .card-title,
-.section-three .section-three-position .blog-slider .carousel-item-prev .card .card-body .card-title,
-.section-three .section-three-position .blog-slider .carousel-item.active .card .card-body .card-title {
+.section-three .section-three-position .blog-slider .card .card-body .card-title,
+.section-three .section-three-position .blog-slider .card .card-body .card-title,
+.section-three .section-three-position .blog-slider .card .card-body .card-title {
   letter-spacing: 0px;
   color: black;
   font-size: 15px;
 }
-.section-three .section-three-position .blog-slider .carousel-item-next .card .card-body .card-hr,
-.section-three .section-three-position .blog-slider .carousel-item-prev .card .card-body .card-hr,
-.section-three .section-three-position .blog-slider .carousel-item.active .card .card-body .card-hr {
+.section-three .section-three-position .blog-slider .card .card-body .card-hr,
+.section-three .section-three-position .blog-slider .card .card-body .card-hr,
+.section-three .section-three-position .blog-slider .card .card-body .card-hr {
   width: 210px;
   height: 3px;
   background-color: pink;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.section-three .section-three-position .blog-slider .carousel-item-next .card .card-body .card-text,
-.section-three .section-three-position .blog-slider .carousel-item-prev .card .card-body .card-text,
-.section-three .section-three-position .blog-slider .carousel-item.active .card .card-body .card-text {
+.section-three .section-three-position .blog-slider .card .card-body .card-text,
+.section-three .section-three-position .blog-slider .card .card-body .card-text,
+.section-three .section-three-position .blog-slider .card .card-body .card-text {
   font-weight: 300;
   padding-bottom: 30px;
 }
-.section-three .section-three-position .blog-slider .carousel-item-next .card .card-header-custom,
-.section-three .section-three-position .blog-slider .carousel-item-prev .card .card-header-custom,
-.section-three .section-three-position .blog-slider .carousel-item.active .card .card-header-custom {
+.section-three .section-three-position .blog-slider .card .card-header-custom,
+.section-three .section-three-position .blog-slider .card .card-header-custom,
+.section-three .section-three-position .blog-slider .card .card-header-custom {
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -994,6 +1029,29 @@ nav .language-button {
   padding-right: 23px;
   color: #21212e;
   font-size: 11px;
+}
+.owl-one .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.owl-one .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #21212e;
+  width: 20px;
+  height: 20px;
+}
+.owl-one .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:focus span {
+  background: #21212e;
+  width: 20px;
+  height: 20px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #21212e;
+  width: 20px;
+  height: 20px;
 }
 .section-three .blog-word {
   height: 211px;
@@ -1051,7 +1109,7 @@ nav .language-button {
 .section-four .musterilerimiz-word:before {
   content: "MÜŞTERİLERİMİZ";
   color: #ffffff;
-  font-size: 150px;
+  font-size: 120px;
   opacity: 0.03;
   font-weight: bold;
   position: absolute;
@@ -1104,4 +1162,104 @@ nav .language-button {
   width: 60px;
   height: 60px;
   right: -100px;
+}
+.section-four .yorumlar-word {
+  height: 211px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 130px;
+}
+.section-four .yorumlar-word div {
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+.section-four .yorumlar-word:before {
+  content: "YORUMLAR";
+  color: #ffffff;
+  font-size: 150px;
+  opacity: 0.03;
+  font-weight: bold;
+  position: absolute;
+}
+
+.section-four .yorumlar-people {
+  background: #2e2e41 0% 0% no-repeat padding-box;
+  height: 400px;
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 4rem;
+  border-radius: 10px;
+}
+
+.yorumlar-people-special-left {
+  font: normal normal normal 268px/238px Gurmukhi MN;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.2;
+  margin-left: 9%;
+  margin-top: 3rem;
+}
+
+.yorumlar-people-special-right {
+  font: normal normal normal 268px/238px Gurmukhi MN;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.2;
+  margin-right: 9%;
+  transform: rotate(180deg);
+  margin-top: 6rem;
+}
+
+.yorumlar-people .carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.yorumlar-people .item-people {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.yorumlar-people .item-people img {
+  width: 120px;
+  height: 120px;
+}
+.yorumlar-people .item-people .yorum {
+  font: normal normal normal 18px/23px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  text-align: center;
+  font-weight: 200;
+}
+.yorumlar-people .item-people .people-name {
+  font: normal normal 800 22px/33px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.yorumlar-people .carousel-indicators [data-bs-target] {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+}
+.yorumlar-people .carousel-indicators {
+  align-items: center;
+}
+
+.yorumlar-people .carousel-indicators .active { 
+  width: 30px !important;
+  height: 30px !important;
 }

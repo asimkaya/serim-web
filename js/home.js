@@ -9,13 +9,13 @@ $(document).ready(function () {
   $("#isActiveMenu02").hide();
   $("#isActiveMenu03").hide();
 
-  $(".owl-carousel").owlCarousel({
+  $(".owl-two").owlCarousel({
     loop: true,
     margin: 10,
     responsiveClass: true,
     nav: true,
     dots: false,
-    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+    navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
     responsive: {
       0: {
         items: 1,
@@ -34,7 +34,36 @@ $(document).ready(function () {
       },
       1700: {
         items: 6,
-      }
+      },
+    },
+  });
+
+  $(".owl-one").owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    nav: true,
+    dots: true,
+    navText: ["<div class='nav-btn button-geri'></div>", "<div class='nav-btn button-ileri'></div>"],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 2,
+      },
+      1300: {
+        items: 3,
+      },
+      1500: {
+        items: 3,
+      },
+      1700: {
+        items: 4,
+      },
     },
   });
 });
@@ -83,3 +112,19 @@ function newsClick(element, color) {
   $(".news-information > .tech-header").text(element);
   $(".news-information > .tech-header").css("color", String(color));
 }
+
+function checkScreen() {
+  if ($(window).width() <= 1000) {
+    $(".yorumlar-people-special-left").hide();
+    $(".yorumlar-people-special-right").hide();
+  } else {
+    $(".yorumlar-people-special-left").show();
+    $(".yorumlar-people-special-right").show();
+  }
+}
+
+checkScreen();
+
+$(window).bind("resize", function () {
+  checkScreen();
+});
