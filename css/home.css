@@ -1,3 +1,9 @@
+@media only screen and (max-width: 700px) {
+  .footer-social-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
 @media screen and (min-width: 992px) {
   .burger-button {
     display: none;
@@ -1262,4 +1268,8 @@ nav .language-button {
 .yorumlar-people .carousel-indicators .active { 
   width: 30px !important;
   height: 30px !important;
+}
+.footer-social-margin {
+  margin-left: 24px;
+  margin-right: 24px;
 }

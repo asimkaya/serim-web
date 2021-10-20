@@ -1,0 +1,261 @@
+@media only screen and (max-width: 710px) {
+  .page-header::before {
+    font-size: 110px;
+  }
+  .page-header span {
+    font-size: 20px;
+  }
+  .section-five .section {
+    padding-top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .page-header::before {
+    font-size: 60px;
+  }
+  .page-header span {
+    font-size: 15px;
+  }
+  .section {
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+  }
+  .bg-color {
+    min-height: 300px !important;
+  }
+  .page-header {
+    margin-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1710px) {
+  .section-two .section-two-content {
+    padding-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1802px) {
+  .section-two .section {
+    justify-content: center;
+  }
+  .section-four .section {
+    justify-content: center;
+  }
+}
+.bg-color {
+  min-height: 450px;
+}
+
+.page-header::before {
+  content: "SCOOTER";
+}
+
+.section {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+}
+
+.section-one {
+  min-height: 710px;
+  background-color: #fff;
+}
+
+.section-one .page-route .top span {
+  font: normal normal 600 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #3c3c55;
+}
+
+.section-one .page-route .bottom div {
+  height: 3px;
+  background: #21212e 0% 0% no-repeat padding-box;
+  margin-top: 0.5rem;
+}
+
+.page-route-content {
+  margin-top: 100px;
+}
+
+.page-route-content .page-route-header {
+  font: normal normal bold 36px/60px Poppins;
+  letter-spacing: 0px;
+  color: #21212e;
+}
+
+.page-route-content .page-route-text,
+.page-route-content .page-route-text2 {
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #666686;
+}
+
+.card-route .card-custom {
+  width: 415px;
+  min-height: 595px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 10px 10px 50px #00000012;
+  border: none;
+}
+
+.card-route .card-custom .card-header-custom img {
+  width: 21px;
+  height: 25px;
+}
+
+.card-route .card-custom .card-header-custom {
+  background-color: #21212e;
+  border-radius: 10px 10px 0 0;
+  height: 66px;
+}
+
+.card-route .card-custom .card-header-custom .card-header-text {
+  color: white;
+  font: normal normal bold 18px/25px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.card-content .card-list ul li a {
+  text-decoration: none;
+  font: normal normal medium 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #666686;
+}
+
+.card-content .card-list ul li a:hover {
+  color: #4c54fd;
+}
+
+.card-content .card-list ul li .active {
+  color: #4c54fd;
+  font-weight: bold;
+}
+
+.card-content .card-list ul li::before {
+  content: attr(data-icon);
+  color: #4c54fd;
+  height: 3px;
+  font-weight: bold;
+}
+
+.card-content .card-list ul li {
+  margin: 1.5rem;
+}
+
+.card-content .card-list .hr-div {
+  height: 1px;
+  width: 100%;
+  background-color: #6a6363;
+  opacity: 0.2;
+  margin-top: 1rem;
+}
+
+.section-two {
+  min-height: 590px;
+  background-color: #f4f5f9;
+}
+
+.section-two .section-two-image {
+  margin-top: 5rem;
+}
+
+.section-two .section-two-content {
+  margin-top: 5rem;
+  padding-left: 8rem;
+  max-width: 45rem;
+}
+
+.section-two .section-two-image img {
+  max-width: 100%;
+  max-height: 25rem;
+}
+
+.section-two .section-two-content .header {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.section-two .section-two-content .liste ul li::before {
+  content: attr(data-icon);
+  font-weight: bold;
+}
+
+.section-two .section-two-content .liste ul li {
+  font-weight: bold;
+  color: #4e4e6d;
+}
+
+.section-three {
+  min-height: 590px;
+}
+
+.section-three .section {
+  padding-top: 200px;
+}
+
+.section-three .section .header {
+  font: normal normal bold 36px/60px Poppins;
+  letter-spacing: 0px;
+  color: #21212e;
+}
+
+.section-three .section .content,
+.section-three .section .content2 {
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #666686;
+  margin-top: 20px;
+}
+
+.section-four {
+  min-height: 590px;
+  background-color: #f4f5f9;
+}
+
+.section-four .section-four-content .header {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.section-four-image img {
+  max-width: 100%;
+  max-height: 25rem;
+}
+
+.section-four-content {
+  max-width: 45rem;
+  margin-top: 112px;
+}
+
+.section-five {
+  min-height: 590px;
+}
+
+.section-five .section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 10rem;
+}
+
+.section-five .header {
+  font: normal normal bold 36px/60px Poppins;
+  letter-spacing: 0px;
+  color: #21212e;
+  text-transform: capitalize;
+}
+
+.section-five .text {
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #666686;
+}
