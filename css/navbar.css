@@ -66,7 +66,7 @@ nav .navbar-nav {
 }
 nav .navbar-nav a {
   text-decoration: none;
-  color: white;
+  color: white !important;
 }
 nav .navbar-nav .menu-button .is-active-menu {
   width: 25px;
