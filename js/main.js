@@ -64,3 +64,4 @@ cardRouteHide();
 $(window).bind("resize", function () {
   cardRouteHide();
 });
+
