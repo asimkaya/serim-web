@@ -58,7 +58,8 @@
                             <ul class="list-unstyled navbar-nav me-auto">
                                 <li class="dropdown menu-button">
                                     <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)">
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-1">
                                         Akıllı Şehir Çözümleri</a>
                                     <div id="isActiveMenu0" class="is-active-menu"></div>
                                     <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
@@ -69,7 +70,8 @@
                                         <ul class="d-flex">
                                             <div>
                                                 <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="./ticket-system.html">Biletleme Sistemi</a></li>
+                                                        class="dropdown-item" href="./ticket-system.html">Biletleme
+                                                        Sistemi</a></li>
                                                 <li class="d-flex align-items-center" data-icon="-"><a
                                                         class="dropdown-item" href="#">Akıllı Otopark Sistemi</a></li>
                                                 <li class="d-flex align-items-center" data-icon="-"><a
@@ -100,8 +102,8 @@
 
                                 <li class="dropdown menu-button">
                                     <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown1" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false"
-                                        onclick="navbarMenuClick(this)">Hizmetlerimiz</a>
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-2">Hizmetlerimiz</a>
                                     <div id="isActiveMenu1" class="is-active-menu"></div>
                                     <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
                                         aria-labelledby="navbarDropdown1">
@@ -121,8 +123,8 @@
 
                                 <li class="dropdown menu-button">
                                     <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown2" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false"
-                                        onclick="navbarMenuClick(this)">Hakkımızda</a>
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-3">Hakkımızda</a>
                                     <div id="isActiveMenu2" class="is-active-menu"></div>
                                     <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
                                         aria-labelledby="navbarDropdown2">
@@ -141,13 +143,32 @@
                                 </li>
 
                                 <li class="dropdown menu-button">
-                                    <a class="nav-link" href="./contact.html"  onclick="navbarMenuClick(this)">İletişim</a>
+                                    <a class="nav-link" href="./contact.html" onclick="navbarMenuClick(this)"
+                                        key="nav-4">İletişim</a>
                                     <div id="isActiveMenu3" class="is-active-menu"></div>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <button class="language-button">TR</button>
+                            <button class="language-button dropdown-toggle" id="dropdownMenuButtonLang"
+                                data-bs-toggle="dropdown" aria-expanded="false">TR</button>
+                            <ul class="dropdown-menu dropdown-menu-dark language-dropdown"
+                                aria-labelledby="dropdownMenuButtonLang">
+                                <li style="cursor: pointer;">
+                                    <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem" name="tr">
+                                        <span>TR</span>
+                                        <img src="./assets/photos/flag-turkey.png" style="width: 40px;height: 40px;"
+                                            alt="">
+                                    </a>
+                                </li>
+                                <li style="cursor: pointer;">
+                                    <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem" name="en">
+                                        <span>EN</span>
+                                        <img src="./assets/photos/flag-united-kingdom.png"
+                                            style="width: 40px;height: 40px;" alt="">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!--mobile navbar-->
@@ -161,14 +182,34 @@
                                         close
                                     </span>
                                 </button>
-                                <button class="language-button">TR</button>
+                                <button class="language-button dropdown-toggle" id="dropdownMenuButtonLang"
+                                    data-bs-toggle="dropdown" aria-expanded="false">TR</button>
+                                <ul class="dropdown-menu dropdown-menu-dark language-dropdown-mobile"
+                                    aria-labelledby="dropdownMenuButtonLang">
+                                    <li style="cursor: pointer;">
+                                        <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem"
+                                            name="tr">
+                                            <span>TR</span>
+                                            <img src="./assets/photos/flag-turkey.png" style="width: 40px;height: 40px;"
+                                                alt="">
+                                        </a>
+                                    </li>
+                                    <li style="cursor: pointer;">
+                                        <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem"
+                                            name="en">
+                                            <span>EN</span>
+                                            <img src="./assets/photos/flag-united-kingdom.png"
+                                                style="width: 40px;height: 40px;" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
 
                             <ul class="list-unstyled mobile-menu">
                                 <li class="mobile-menu-li">
                                     <a class="nav-link" ref="#" id="navbarDropdown" onclick="navbarMenuClick(this)"
                                         data-bs-toggle="collapse" href="#multiCollapseExample" role="button"
-                                        aria-expanded="false" aria-controls="multiCollapseExample">
+                                        aria-expanded="false" aria-controls="multiCollapseExample" key="nav-1">
                                         Akıllı Şehir Çözümleri
                                     </a>
 
@@ -205,7 +246,8 @@
                                 <li class="mobile-menu-li">
                                     <a class="nav-link" ref="#" role="button" id="navbarDropdown1"
                                         data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1" onclick="navbarMenuClick(this)">
+                                        aria-controls="multiCollapseExample1" onclick="navbarMenuClick(this)"
+                                        key="nav-2">
                                         Hizmetlerimiz
                                     </a>
                                     <div id="isActiveMenu01" class="is-active-menu-mobile"></div>
@@ -232,7 +274,8 @@
                                 <li class="mobile-menu-li">
                                     <a class="nav-link" ref="#" role="button" id="navbarDropdown2"
                                         data-bs-toggle="collapse" href="#multiCollapseExample2" aria-expanded="false"
-                                        aria-controls="multiCollapseExample2" onclick="navbarMenuClick(this)">
+                                        aria-controls="multiCollapseExample2" onclick="navbarMenuClick(this)"
+                                        key="nav-3">
                                         Hakkımızda
                                     </a>
                                     <div id="isActiveMenu02" class="is-active-menu-mobile"></div>
@@ -251,7 +294,8 @@
                                 </li>
 
                                 <li class="mobile-menu-li">
-                                    <a class="nav-link" href="./contact.html" onclick="navbarMenuClick(this)">
+                                    <a class="nav-link" href="./contact.html" onclick="navbarMenuClick(this)"
+                                        key="nav-4">
                                         İletişim
                                     </a>
                                     <div id="isActiveMenu03" class="is-active-menu-mobile"></div>
@@ -706,8 +750,7 @@
                     <span class="header">İletişim</span>
                     <div class="iletisim-content d-flex flex-wrap">
                         <div><img src="./assets/photos/footer-facebook.png" alt=""></div>
-                        <div class="footer-social-margin"><img
-                                src="./assets/photos/footer-twitter.png" alt=""></div>
+                        <div class="footer-social-margin"><img src="./assets/photos/footer-twitter.png" alt=""></div>
                         <div><img src="./assets/photos/footer-instagram.png" alt=""></div>
                     </div>
                 </div>
@@ -741,6 +784,7 @@
 
     <script src="./assets/owl/owl.carousel.min.js"></script>
     <script src="./js/home.js"></script>
+    <script src="./js/i18n.js"></script>
 </body>
 
 </html>

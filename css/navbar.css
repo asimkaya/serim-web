@@ -300,3 +300,9 @@ nav .language-button {
   color: #ffffff;
   text-align: center;
 }
+
+
+.language-dropdown[data-bs-popper] {
+  left: auto;
+  text-align: center;
+}
