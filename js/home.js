@@ -138,3 +138,8 @@ checkScreen();
 $(window).bind("resize", function () {
   checkScreen();
 });
+
+
+function RoutePage(route) {
+  window.location.href = '././'+route;
+}

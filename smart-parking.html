@@ -1,12 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Serim</title>
+    <title>Serim - Akıllı Otopark</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -30,15 +29,20 @@
     <link rel="stylesheet" href="./assets/owl/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/smart-parking.css">
+    <style>
+
+
+    </style>
 </head>
 
 <body>
     <main>
-
         <div class="header-image">
             <div class="bg-color">
+
                 <nav class="navbar navbar-expand-lg">
                     <a href="/" style="text-decoration: none;">
                         <div class="logo d-flex flex-column align-items-center">
@@ -73,7 +77,7 @@
                                                         class="dropdown-item" href="./ticket-system.html">Biletleme
                                                         Sistemi</a></li>
                                                 <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="./smart-parking.html">Akıllı Otopark Sistemi</a></li>
+                                                        class="dropdown-item" href="#">Akıllı Otopark Sistemi</a></li>
                                                 <li class="d-flex align-items-center" data-icon="-"><a
                                                         class="dropdown-item" href="./e-scooter.html">Elektrikli Scooter
                                                         Platformu</a>
@@ -305,289 +309,365 @@
                         </div>
                     </div>
                 </nav>
+                <div class="page-header">
+                    <span>ParkoMobil</span>
+                </div>
+            </div>
 
-                <div class="carousel-div">
-                    <!--data-bs-interval="false" bu otomatik oynatmayı durdurmak için-->
-                    <div id="carouselExampleControls" class="carousel slide col-md-6" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="carousel-item-content">
-                                    <p class="carousel-item-content-header">abfGO Online Bilet Satış ve Rezervasyonu</p>
-                                    <p class="carousel-item-content-p">abfGO Online Bilet Satış ve Rezervasyon Sistemi;
-                                        Bilet satışlarında uzun kuyruklarda
-                                        beklemeden, zamandan tasarruf ederek müşterilerin taleplerine göre hazırlanan
-                                        çeşitli
-                                        biletlerin, kurumun prensipleri doğrultusunda satışında kolaylık sağlayan bir
-                                        sistemdir.</p>
-                                    <button class="discover-button">KEŞFET</button>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="carousel-item-content">
-                                    <p class="carousel-item-content-header">abfGO Online Bilet Satış ve Rezervasyonu</p>
-                                    <p class="carousel-item-content-p">abfGO Online Bilet Satış ve Rezervasyon Sistemi;
-                                        Bilet satışlarında uzun kuyruklarda
-                                        beklemeden, zamandan tasarruf ederek müşterilerin taleplerine göre hazırlanan
-                                        çeşitli
-                                        biletlerin, kurumun prensipleri doğrultusunda satışında kolaylık sağlayan bir
-                                        sistemdir.</p>
-                                    <button class="discover-button">KEŞFET</button>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="carousel-item-content">
-                                    <p class="carousel-item-content-header">abfGO Online Bilet Satış ve Rezervasyonu</p>
-                                    <p class="carousel-item-content-p">abfGO Online Bilet Satış ve Rezervasyon Sistemi;
-                                        Bilet satışlarında uzun kuyruklarda
-                                        beklemeden, zamandan tasarruf ederek müşterilerin taleplerine göre hazırlanan
-                                        çeşitli
-                                        biletlerin, kurumun prensipleri doğrultusunda satışında kolaylık sağlayan bir
-                                        sistemdir.</p>
-                                    <button class="discover-button">KEŞFET</button>
-                                </div>
-                            </div>
+        </div>
+        <div class="section-one">
+            <div class="section d-flex">
+                <div class="page-route pe-5">
+                    <div class="top d-flex justify-content-between flex-wrap">
+                        <div>
+                            <span>Ana Sayfa</span>
+                            <span style="margin-left: 5px; margin-right: 5px;"> / </span>
+                            <span>Akıllı Şehir Çözümleri</span>
+                            <span style="margin-left: 5px; margin-right: 5px;"> / </span>
+                            <span>Akıllı Otopark</span>
                         </div>
-                        <div class="carousel-btn-div">
-                            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev"
-                                class="geri">
-                            </button>
-                            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next"
-                                class="ileri">
-                            </button>
+
+                        <div class="social-icons">
+                            <img src="./assets/photos/scooter-facebook.png" alt="">
+                            <img src="./assets/photos/scooter-ig.png" alt="" class="ms-1 me-1">
+                            <img src="./assets/photos/scooter-tweet.png" alt="">
                         </div>
                     </div>
+                    <div class="bottom">
+                        <div></div>
+                    </div>
+                    <div class="page-route-content d-flex flex-column">
+                        <span class="page-route-header">ParkoMobil</span>
+                        <span class="page-route-text mt-2">
+                            Otopark kapasitesinin büyük bir kısmını oluşturan cadde kenarı otoparkları işletmesi iş
+                            gücüne dayalıdır, takibi ve
+                            yönetimi kolay değildir. Bunu yanında tahsilat problemleri, kayıp kaçak oranları, doluluk
+                            oranı tespiti ve en önemlisi
+                            de kesilen fişlerin yasal dayanağının olmaması verimliliği düşürmekte ve maliyetlerini
+                            artırmaktadır.
+                        </span>
+                        <span class="page-route-text2 mt-3">
+                            Sürücüler için otopark giriş
+                            çıkışları, manuel süreçler
+                            ve güncel teknolojilerin
+                            kullanılamaması müşteri
+                            memnuniyetsizliğini
+                            artırmaktadır
+                        </span>
+                    </div>
                 </div>
-
-
-                <div>
-                    <div class="page-cards">
-                        <div class="ticket-system">
-                            <div class="left">
+                <div class="card-route">
+                    <div class="card-custom">
+                        <div
+                            class="card-header-custom d-flex flex-row justify-content-lg-start align-items-center ps-5">
+                            <div>
+                                <img src="./assets/photos/card-building.png" alt="">
                             </div>
-                            <div class="right">
-                                <span class="header">Biletleme Sistemi</span>
-                                <div class="hr-div"></div>
-                                <span class="content">Lorem ipsum dolor sit amet, atque eaque eius esse et
-                                    harum inventore ipsam nam necessi is
-                                    the tatibus nemo pariatur provident.</span>
-                                <div class="a-div">
-                                    <a href="./ticket-system.html">Daha Fazla Bilgi</a>
-                                </div>
+                            <div class="card-header-text ps-4">
+                                Akıllı Şehir Çözümleri
                             </div>
                         </div>
-                        <div class="smart-system">
-                            <div class="left">
-                            </div>
-                            <div class="right">
-                                <span class="header">Akıllı Otopark Sistemi</span>
-                                <div class="hr-div"></div>
-                                <span class="content">Lorem ipsum dolor sit amet, atque eaque eius esse et
-                                    harum inventore ipsam nam necessi is
-                                    the tatibus nemo pariatur provident.</span>
-                                <div class="a-div">
-                                    <a href="./smart-parking.html">Daha Fazla Bilgi</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="share-platform">
-                            <div class="left">
-                            </div>
-                            <div class="right">
-                                <span class="header">Paylaşım Platformu</span>
-                                <div class="hr-div"></div>
-                                <span class="content">Lorem ipsum dolor sit amet, atque eaque eius esse et
-                                    harum inventore ipsam nam necessi is
-                                    the tatibus nemo pariatur provident.</span>
-                                <div class="a-div">
-                                    <a href="./e-scooter.html">Daha Fazla Bilgi</a>
-                                </div>
+                        <div class="card-content ps-1">
+                            <div class="card-list">
+                                <ul class="list-unstyled">
+                                    <li data-icon="-">
+                                        <a href="./ticket-system.html">Biletleme Sistemi</a>
+                                        <div class="hr-div"></div>
+                                    </li>
+                                    <li data-icon="-">
+                                        <a href="" class="active">Akıllı Otopark Sistemi</a>
+                                        <div class="hr-div"></div>
+                                    </li>
+                                    <li data-icon="-">
+                                        <a href="./e-scooter.html">Elektrikli Scooter Platformu</a>
+                                        <div class="hr-div"></div>
+                                    </li>
+                                    <li data-icon="-">
+                                        <a href="">Paylaşımlı Bisiklet Sistemi</a>
+                                        <div class="hr-div"></div>
+                                    </li>
+                                    <li data-icon="-">
+                                        <a href="">Tur Yönetim Sistemi</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="mouse-icon"></div>
             </div>
         </div>
         <div class="section-two">
-            <div class="section-two-position">
-                <div class="section-ticket-system">
-                    <div class="section-words">
-                        <div class="section-header">BİLETLEME SİSTEMİ</div>
-                        <div class="section-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                            takimata
-                            sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr,
-                            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</div>
-                        <div class="section-button">
-                            <button>DAHA FAZLA BİLGİ AL ⮕</button>
-                        </div>
-                    </div>
-                    <div class="section-image"></div>
+            <div class="section d-flex flex-wrap">
+                <div class="section-two-image">
+                    <img src="./assets/photos/akilli-otopark-header.jpg" alt="">
                 </div>
-
-                <div class="section-smart-system">
-                    <div class="section-image"></div>
-
-                    <div class="section-words">
-                        <div class="section-header">Akıllı Otopark Sistemİ</div>
-                        <div class="section-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                            takimata
-                            sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr,
-                            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</div>
-                        <div class="section-button">
-                            <button onclick="RoutePage('smart-parking.html')">DAHA FAZLA BİLGİ AL ⮕</button>
-                        </div>
+                <div class="section-two-content">
+                    <div class="header">ParkoMobil AZALTIR</div>
+                    <div class="aciklama fw-light mb-4">
+                        <ul class="list-unstyled fw-bold">
+                            <li>- Kayıp kacak oranını</li>
+                            <li>- Sürücülerin boş parklara hızlı yönlendirerek trafiği</li>
+                            <li>- Çevreye etkinlerinden dolayı, karbon emisyon oranlarını</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-four">
+            <div class="section d-flex flex-wrap">
+                <div class="section-two-content">
+                    <div class="header">ParkoMobil ARTIRIR</div>
+                    <div class="aciklama fw-light mb-4">
+                        <ul class="list-unstyled fw-bold">
+                            <li>- Yasal süreçlere geçilmesi ile ödeme oranı ve tahsilatını</li>
+                            <li>- Ödeme kanallarının sayısını</li>
+                            <li>- Sahadaki iş gücünün verimliliğini</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="section-share-platform">
-                    <div class="section-words">
-                        <div class="section-header">PAYLAŞIM PLATFORMU</div>
-                        <div class="section-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-                            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                            takimata
-                            sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr,
-                            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</div>
-                        <div class="section-button">
-                            <button>DAHA FAZLA BİLGİ AL ⮕</button>
-                        </div>
-                    </div>
-                    <div class="section-image"></div>
-                </div>
-
-                <div class="haberler-word">
-                    <div>HABERLER</div>
-                </div>
-
-                <div class="div-news">
-                    <div class="img-div">
-                        <img src="./assets/photos/connected-technology.jpg" alt="">
-                        <div class="news-information">
-                            <div class="tech-header"> Teknoloji </div>
-                            <div class="tech-content"> Serim’den Yeni Nesil Biletleme Sistemi </div>
-                            <div class="tech-button">
-                                <button>DEVAMINI OKU &nbsp; ⮕</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="new-headers">
-                        <div class="new-headers-header">HABERLER</div>
-                        <hr>
-                        <div class="new-tech" onclick="newsClick('Teknoloji', '#46c2ff')">
-                            <div class="arrow"></div>
-                            <div class="header header-tech">Teknoloji</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="new-design" onclick="newsClick('Tasarım','#719bb0')">
-                            <div class="arrow"></div>
-                            <div class="header header-design">Tasarım</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="new-politics" onclick="newsClick('siyaset','#f69f58')">
-                            <div class="arrow"></div>
-                            <div class="header header-politics">Siyaset</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="new-education" onclick="newsClick('eğitim','#45c487')">
-                            <div class="arrow"></div>
-                            <div class="header header-education">Eğitim</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="new-finance" onclick="newsClick('finans','#4c54fd')">
-                            <div class="arrow"></div>
-                            <div class="header header-finance">Finans</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
-                            </div>
-                        </div>
-                    </div>
+                <div class="section-two-image">
+                    <img src="./assets/photos/parko-mobil.png" alt="" style="max-width: 100%; max-height: 25rem;">
                 </div>
             </div>
         </div>
 
         <div class="section-three">
-            <div class="blog-word">
-                <div>BLOG</div>
+            <div class="section">
+                <div class="header ps-3">ParkoMobil Özellikleri</div>
+                <div class="content">
+                    <div class="card-custom">
+                        <div class="card-resize">
+                            <div class="card-header-custom">Plaka Okuma</div>
+                            <div class="card-content">
+                                Mobil telefonun kamerası ile plaka ve araç
+                                fotoğraflama: OCR teknolojisi kullanılarak
+                                fotoğraftan aracın kategorisi ve plakası metine
+                                çevrilir.
+                            </div>
+                            <div class="card-list">
+                                <ul class="list-unstyled">
+                                    <li data-icon="-">
+                                        Plaka Okuma (OCR)
+                                    </li>
+                                    <li data-icon="-">
+                                        Araç Fotoğraflama
+                                    </li>
+                                    <li data-icon="-">
+                                        Mobil İşlem
+                                    </li>
+                                    <li data-icon="-">
+                                        Kategoriye Ayırma
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-custom">
+                        <div class="card-resize">
+                            <div class="card-header-custom" style="color: #46C2FF;">Yeni Tebliğ Uyumu</div>
+                            <div class="card-content">
+                                Türkiye’de yeni çıkan
+                                tebliğe göre ilk defa plakaya fatura kesilecek.
+                                (VERGİ USUL KANUNU GENEL TEBLİĞİ (SIRA NO:
+                                509)’NDE DEĞİŞİKLİK YAPILMASINA DAİR TEBLİĞ
+                                (SIRA NO: 515)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-custom">
+                        <div class="card-resize">
+                            <div class="card-header-custom" style="color:#45C487">Kanıt ve Belgelendirme</div>
+                            <div class="card-content">
+                                GPS koordinat bilgisi
+                                ve zaman damgası yapılacağından yasal kanıt
+                                bulunduracak. Davalarda yasal delil olması
+                                nedeniyle lehte delil oluşturulacak.
+                            </div>
+                            <div class="card-list">
+                                <ul class="list-unstyled">
+                                    <li data-icon="-">
+                                        GPS
+                                    </li>
+                                    <li data-icon="-">
+                                        Zaman Damgası
+                                    </li>
+                                    <li data-icon="-">
+                                        Yasal Delil
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-custom">
+                        <div class="card-resize">
+                            <div class="card-header-custom" style="color: #E26726">Otomatik Faturalandırma</div>
+                            <div class="card-content">
+                                Plaka üzerinden E-Arşiv ve
+                                E-Fatura kesmek suretiyle yasal bir belge olmasını
+                                sağlayacağından yeni bir süreç olacak, borç
+                                tahsilatını kolaylaştıracak.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-custom">
+                        <div class="card-resize">
+                            <div class="card-header-custom" style="color: #719BB0;">Otopark Doluluk Oranı</div>
+                            <div class="card-content">
+                                Sensör kullanmadan,
+                                sahadan gelen veriler ve yapay zeka algoritması
+                                ile tahminleme yaparak, cadde kenarları için
+                                tahmini doluluk boşluk oranlarını verilebilecek.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-custom">
+                        <div class="card-resize">
+                            <div class="card-header-custom" style="color:#1A129F">Tahsilat Oranı</div>
+                            <div class="card-content">
+                                Müşteri etkileşimi ve
+                                ödeme sistemi ile ödemeyi kolaylaştıracak,
+                                tahsilatı artıracak.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="section-three-position">
-                <div class="blog-slider">
-                    <div class="owl-one owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-header-custom">
-                                    <span class="date">01.01.2021</span>
-                                    <span class="card-title">Teknoloji</span>
-                                </div>
-                                <img src="./assets/photos/card-photo.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
-                                    <div class="card-hr"></div>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
-                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+        </div>
+
+        <div class="section-five">
+            <div class="section">
+                <div class="container d-flex justify-content-center">
+                    <div class="timeline">
+                        <div class="timeline-container primary">
+                            <div class="timeline-icon">
+                                <i class="material-icons">receipt</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">E-Fatura / E-Arşiv</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">GİB Entegrasyonu</span>
+                                    <span data-icon="-">Plakaya Borçlandırma</span>
+                                    <span data-icon="-">Fatura Görüntüleme ve Sorgulama</span>
+                                    <span data-icon="-">Borcu Faturalandırma</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-header-custom">
-                                    <span class="date">01.01.2021</span>
-                                    <span class="card-title">Teknoloji</span>
-                                </div>
-                                <img src="./assets/photos/card-photo-2.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
-                                    <div class="card-hr"></div>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
-                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                        <div class="timeline-container danger">
+                            <div class="timeline-icon">
+                                <i class="material-icons">price_change</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">Fiyat Listesi</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">Araç Kategorisi</span>
+                                    <span data-icon="-">Fiyat Tipi</span>
+                                    <span data-icon="-">Tarife</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-header-custom">
-                                    <span class="date">01.01.2021</span>
-                                    <span class="card-title">Teknoloji</span>
-                                </div>
-                                <img src="./assets/photos/card-photo.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
-                                    <div class="card-hr"></div>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
-                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                        <div class="timeline-container success">
+                            <div class="timeline-icon">
+                                <i class="material-icons">subscriptions</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">Abonelik</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">Genel Abonelik</span>
+                                    <span data-icon="-">Etegrasyon (Prime TT vb.)</span>
+                                    <span data-icon="-">Süre Bazlı</span>
+                                    <span data-icon="-">Sahada Abonelik Satışı</span>
+                                    <span data-icon="-">Lokasyon Bazlı</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="card">
-                                <div class="card-header-custom">
-                                    <span class="date">01.01.2021</span>
-                                    <span class="card-title">Teknoloji</span>
+                        <div class="timeline-container warning">
+                            <div class="timeline-icon">
+                                <i class="material-icons">cast</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">Gelir Kontrolü</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">Muhasebe Satış ve Raporları</span>
+                                    <span data-icon="-">Beyanname</span>
+                                    <span data-icon="-">Masraf Kontrolü</span>
+                                    <span data-icon="-">Nakit Kasa Takibi</span>
+                                    <span data-icon="-">Banka Kontrolü</span>
                                 </div>
-                                <img src="./assets/photos/card-photo-2.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tasarımda Yeni Trendler</h5>
-                                    <div class="card-hr"></div>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, atque eaque eius esse et harum
-                                        inventore ipsam nam necessi is the tatibus nemo pariatur provident.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container">
+                            <div class="timeline-icon">
+                                <i class="material-icons">business_center</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">Ödeme Sistemi</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">WEB'ten Sanal Pos ile Ödeme</span>
+                                    <span data-icon="-">Nakit Tahsilatı</span>
+                                    <span data-icon="-">Şehir Kartı Entegrasyonu</span>
+                                    <span data-icon="-">Kredi Kartı</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-container info">
+                            <div class="timeline-icon">
+                                <i class="material-icons">phone_android</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">Terminal Uygulaması Özellikleri</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">Araç Giriş/Çıkış</span>
+                                    <span data-icon="-">Fatura</span>
+                                    <span data-icon="-">Plaka Tanıma</span>
+                                    <span data-icon="-">Plakaya Borçlandırma</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-container primary">
+                            <div class="timeline-icon">
+                                <i class="material-icons">badge</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">Personel Denetleme</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">Verimlilik ve Personel Takini</span>
+                                    <span data-icon="-">Vardiya</span>
+                                    <span data-icon="-">Parmak İzi Kontrolü</span>
+                                    <span data-icon="-">Haritadan Personel Takibi</span>
+                                    <span data-icon="-">Satış Raporu ve Tahsilat Beyanı</span>
+                                    <span data-icon="-">Puantaj</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-container danger">
+                            <div class="timeline-icon">
+                                <i class="material-icons">engineering</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">Hızlı İşleme</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">Yoğun Bölgeler için Çözüm</span>
+                                    <span data-icon="-">Fotoğraf</span>
+                                    <span data-icon="-">Tek Tip Fatura</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-container success">
+                            <div class="timeline-icon">
+                                <i class="material-icons">supervisor_account</i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">Amir Denetim Modülü</span></h4>
+                                <div class="timeline-content d-flex flex-column">
+                                    <span data-icon="-">Masraf Modülü</span>
+                                    <span data-icon="-">Para Depolama ve Beyan</span>
+                                    <span data-icon="-">Giriş Çıkış Tahsilat İzleme</span>
+                                    <span data-icon="-">Personel Takibi ve İşlemleri</span>
+                                    <span data-icon="-">Abonelik Satışı</span>
                                 </div>
                             </div>
                         </div>
@@ -596,144 +676,20 @@
             </div>
         </div>
 
-        <div class="section-four">
-            <div class="musterilerimiz-word">
-                <div>MÜŞTERİLERİMİZ</div>
-            </div>
-            <div class="clients-slider">
-                <div class="owl-two owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/budo.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/fotlogo@2x.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/kofteci-yusuf.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/Burulas.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/bbbus_2@2x.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/burulas-hava.png" alt="">
-                        </div>
-                    </div>
 
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/budo.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/fotlogo@2x.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/kofteci-yusuf.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/Burulas.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/bbbus_2@2x.png" alt="">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="client-card-item">
-                            <img src="./assets/photos/burulas-hava.png" alt="">
-                        </div>
-                    </div>
+        <div class="seo-hashtags">
+            <div class="section1">
+                <div>
+                    <img src="./assets/photos/hashtag.png" alt="">
                 </div>
+                <div class="hashs">#abfGo</div>
+                <div class="hashs">#onlinebiletsatış</div>
+                <div class="hashs">#rezervasyonsistemi</div>
+                <div class="hashs">#ebilet</div>
+                <div class="hashs">#UETDS</div>
+                <div class="hashs">#UETDSEntegrasyonu</div>
             </div>
-            <div class="yorumlar-word">
-                <div>MÜŞTERİ YORUMLARI</div>
-            </div>
-            <div class="yorumlar-people">
-                <div id="carouselExampleIndicators3" class="carousel slide" data-bs-interval="false"
-                    style="height: 100%;">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
-                            aria-label="Slide 2" style="margin-left: 20px; margin-right: 20px;"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="yorumlar-people-special-left">
-                                <div>
-                                    “
-                                </div>
-                            </div>
-                            <div class="item-people">
-                                <div>
-                                    <img src="./assets/photos/mehmet-sadik.png" alt="">
-                                </div>
-                                <div class="yorum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                                    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</div>
-                                <div class="people-name">Mehmet Sadık / BURCAR</div>
-                            </div>
-                            <div class="yorumlar-people-special-right">“</div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="yorumlar-people-special-left">
-                                <div>
-                                    “
-                                </div>
-                            </div>
-                            <div class="item-people">
-                                <div>
-                                    <img src="./assets/photos/mehmet-sadik.png" alt="">
-                                </div>
-                                <div class="yorum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                                    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</div>
-                                <div class="people-name">Asım Emre Kaya / SERİM</div>
-                            </div>
-                            <div class="yorumlar-people-special-right">“</div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="yorumlar-people-special-left">
-                                <div>
-                                    “
-                                </div>
-                            </div>
-                            <div class="item-people">
-                                <div>
-                                    <img src="./assets/photos/mehmet-sadik.png" alt="">
-                                </div>
-                                <div class="yorum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-                                    voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</div>
-                                <div class="people-name">Mehmet Sadık / BURCAR</div>
-                            </div>
-                            <div class="yorumlar-people-special-right">“</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </main>
     <footer>
@@ -782,8 +738,7 @@
         </div>
     </footer>
 
-    <script src="./assets/owl/owl.carousel.min.js"></script>
-    <script src="./js/home.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/i18n.js"></script>
 </body>
 

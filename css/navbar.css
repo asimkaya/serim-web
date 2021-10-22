@@ -306,3 +306,10 @@ nav .language-button {
   left: auto;
   text-align: center;
 }
+
+.language-dropdown-mobile[data-bs-popper] {
+  left: auto;
+  text-align: center;
+  top: 115px;
+  right: 0;
+}
