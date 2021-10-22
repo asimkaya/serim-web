@@ -277,7 +277,7 @@ textarea {
 }
 
 .contact-form input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
+textarea#message::-webkit-input-placeholder {
   opacity: 0.8;
 }
 
