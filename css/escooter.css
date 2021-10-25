@@ -29,12 +29,6 @@
   }
 }
 
-@media only screen and (max-width: 1710px) {
-  .section-two .section-two-content {
-    padding-left: 0 !important;
-  }
-}
-
 @media only screen and (max-width: 1802px) {
   .section-two .section {
     justify-content: center;
@@ -96,7 +90,7 @@
 
 .card-route .card-custom {
   width: 415px;
-  min-height: 595px;
+  min-height: 330px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 10px 10px 50px #00000012;
   border: none;
@@ -172,7 +166,7 @@
 
 .section-two .section-two-image img {
   max-width: 100%;
-  max-height: 25rem;
+  max-height: 20rem;
 }
 
 .section-two .section-two-content .header {
@@ -228,7 +222,7 @@
 
 .section-four-image img {
   max-width: 100%;
-  max-height: 25rem;
+  max-height: 20rem;
 }
 
 .section-four-content {

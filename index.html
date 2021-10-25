@@ -67,34 +67,20 @@
                                         <div class="box-arrow-border">
                                             <div class="box-arrow-background"></div>
                                         </div>
-                                        <ul class="d-flex">
-                                            <div>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="./ticket-system.html">Biletleme
-                                                        Sistemi</a></li>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="./smart-parking.html">Akıllı Otopark Sistemi</a></li>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="./e-scooter.html">Elektrikli Scooter
-                                                        Platformu</a>
-                                                </li>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="#">Rent a Car Araç Kiralama
-                                                        Sistemi</a></li>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="#">Maas</a></li>
-                                            </div>
-                                            <div>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="#">Paylaşımlı Bisiklet Sistemi</a>
-                                                </li>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="./public-transport.html">Toplu
-                                                        Taşıma Planlama Çözümü</a>
-                                                </li>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="#">Tur Yönetim Sistemi</a></li>
-                                            </div>
+                                        <ul>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./ticket-system.html">Biletleme
+                                                    Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./smart-parking.html">Akıllı Otopark Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./e-scooter.html">Paylaşım
+                                                    Platformu</a>
+                                            </li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./public-transport.html">Toplu
+                                                    Taşıma Planlama Çözümü</a>
+                                            </li>
                                         </ul>
                                     </div>
 
@@ -177,7 +163,6 @@
 
                             <div class="mobile-language-close">
                                 <button mat-icon-button class="closebtn" onclick="closeNav()">
-                                    <!-- <mat-icon>close</mat-icon> -->
                                     <span class="material-icons">
                                         close
                                     </span>
@@ -215,31 +200,13 @@
 
                                     <div id="isActiveMenu00" class="is-active-menu-mobile"></div>
                                     <div class="collapse multi-collapse p-2" id="multiCollapseExample">
-                                        <ul class="d-flex ul-sidenav">
-                                            <div>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Biletleme
-                                                        Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Akıllı
-                                                        Otopark Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Elektrikli
-                                                        Scooter Platformu</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item" href="#">Rent
-                                                        a
-                                                        Car Araç Kiralama Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Maas</a>
-                                                </li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Paylaşımlı
-                                                        Bisiklet Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item" href="#">Toplu
-                                                        Taşıma Planlama Çözümü</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item" href="#">Tur
-                                                        Yönetim Sistemi</a></li>
-                                            </div>
+                                        <ul class="ul-sidenav">
+                                            <li class="d-flex" data-icon="-"><a class="dropdown-item" href="">Biletleme
+                                                    Sistemi</a></li>
+                                            <li class="d-flex" data-icon="-"><a class="dropdown-item" href="#">Akıllı
+                                                    Otopark Sistemi</a></li>
+                                            <li class="d-flex" data-icon="-"><a class="dropdown-item" href="#">Paylaşım
+                                                    Platformu</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -319,7 +286,8 @@
                                         çeşitli
                                         biletlerin, kurumun prensipleri doğrultusunda satışında kolaylık sağlayan bir
                                         sistemdir.</p>
-                                    <button class="discover-button">KEŞFET</button>
+                                    <button class="discover-button"
+                                        onclick="RoutePage('ticket-system.html')">KEŞFET</button>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -331,7 +299,8 @@
                                         çeşitli
                                         biletlerin, kurumun prensipleri doğrultusunda satışında kolaylık sağlayan bir
                                         sistemdir.</p>
-                                    <button class="discover-button">KEŞFET</button>
+                                    <button class="discover-button"
+                                        onclick="RoutePage('ticket-system.html')">KEŞFET</button>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -343,7 +312,8 @@
                                         çeşitli
                                         biletlerin, kurumun prensipleri doğrultusunda satışında kolaylık sağlayan bir
                                         sistemdir.</p>
-                                    <button class="discover-button">KEŞFET</button>
+                                    <button class="discover-button"
+                                        onclick="RoutePage('ticket-system.html')">KEŞFET</button>
                                 </div>
                             </div>
                         </div>
@@ -421,7 +391,7 @@
                             elitr,
                             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</div>
                         <div class="section-button">
-                            <button>DAHA FAZLA BİLGİ AL ⮕</button>
+                            <button onclick="RoutePage('ticket-system.html')">DAHA FAZLA BİLGİ AL ⮕</button>
                         </div>
                     </div>
                     <div class="section-image"></div>
@@ -456,7 +426,7 @@
                             elitr,
                             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</div>
                         <div class="section-button">
-                            <button>DAHA FAZLA BİLGİ AL ⮕</button>
+                            <button onclick="RoutePage('e-scooter.html')">DAHA FAZLA BİLGİ AL ⮕</button>
                         </div>
                     </div>
                     <div class="section-image"></div>
