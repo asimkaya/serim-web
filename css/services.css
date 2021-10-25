@@ -1,6 +1,6 @@
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 890px) {
   .page-header::before {
-    font-size: 110px;
+    font-size: 100px;
   }
   .page-header span {
     font-size: 20px;
@@ -10,9 +10,9 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
   .page-header::before {
-    font-size: 60px;
+    font-size: 50px;
   }
   .page-header span {
     font-size: 15px;
@@ -43,18 +43,24 @@
     padding-left: 0 !important;
   }
 }
-
 .bg-color {
   min-height: 450px;
 }
 
 .page-header::before {
-  content: "SCOOTER";
+  content: "DYNAMICS";
 }
 
 .section {
   margin-left: 10%;
   margin-right: 10%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-evenly;
+}
+
+.section2 {
   height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -173,7 +179,7 @@
 
 .section-two .section-two-image img {
   max-width: 100%;
-  max-height: 20rem;
+  max-height: 18rem;
 }
 
 .section-two .section-two-content .header {
@@ -191,72 +197,4 @@
 .section-two .section-two-content .liste ul li {
   font-weight: bold;
   color: #4e4e6d;
-}
-
-.section-three {
-  min-height: 590px;
-}
-
-.section-three .section {
-  padding-top: 200px;
-}
-
-.section-three .section .header {
-  font: normal normal bold 36px/60px Poppins;
-  letter-spacing: 0px;
-  color: #21212e;
-}
-
-.section-three .section .content,
-.section-three .section .content2 {
-  font: normal normal normal 16px/25px Poppins;
-  letter-spacing: 0px;
-  color: #666686;
-  margin-top: 20px;
-}
-
-.section-four {
-  min-height: 590px;
-  background-color: #f4f5f9;
-}
-
-.section-four .section-four-content .header {
-  font-weight: bold;
-  font-size: 35px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.section-four-image img {
-  max-width: 100%;
-  max-height: 20rem;
-}
-
-.section-four-content {
-  max-width: 45rem;
-  margin-top: 112px;
-}
-
-.section-five {
-  min-height: 590px;
-}
-
-.section-five .section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  padding-top: 10rem;
-}
-
-.section-five .header {
-  font: normal normal bold 36px/60px Poppins;
-  letter-spacing: 0px;
-  color: #21212e;
-  text-transform: capitalize;
-}
-
-.section-five .text {
-  font: normal normal normal 16px/25px Poppins;
-  letter-spacing: 0px;
-  color: #666686;
 }
