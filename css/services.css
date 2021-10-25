@@ -68,7 +68,7 @@
 }
 
 .section-one {
-  min-height: 710px;
+  min-height: 510px;
   background-color: #fff;
 }
 
@@ -103,7 +103,7 @@
 
 .card-route .card-custom {
   width: 415px;
-  min-height: 330px;
+  min-height: 400px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 10px 10px 50px #00000012;
   border: none;
