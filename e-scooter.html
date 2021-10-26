@@ -58,7 +58,8 @@
                             <ul class="list-unstyled navbar-nav me-auto">
                                 <li class="dropdown menu-button">
                                     <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)">
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-1">
                                         Akıllı Şehir Çözümleri</a>
                                     <div id="isActiveMenu0" class="is-active-menu"></div>
                                     <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
@@ -67,13 +68,16 @@
                                             <div class="box-arrow-background"></div>
                                         </div>
                                         <ul>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="./ticket-system.html">Biletleme Sistemi</a></li>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="#">Akıllı Otopark Sistemi</a></li>
-                                                <li class="d-flex align-items-center" data-icon="-"><a
-                                                        class="dropdown-item" href="./e-scooter.html"> Paylaşım Platformu</a>
-                                                </li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./ticket-system.html" key="mob-nav-1">Biletleme
+                                                    Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./smart-parking.html" key="mob-nav-2">Akıllı Otopark
+                                                    Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./e-scooter.html" key="mob-nav-3">Paylaşım
+                                                    Platformu</a>
+                                            </li>
                                         </ul>
                                     </div>
 
@@ -81,8 +85,8 @@
 
                                 <li class="dropdown menu-button">
                                     <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown1" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false"
-                                        onclick="navbarMenuClick(this)">Hizmetlerimiz</a>
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-2">Hizmetlerimiz</a>
                                     <div id="isActiveMenu1" class="is-active-menu"></div>
                                     <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
                                         aria-labelledby="navbarDropdown1">
@@ -90,20 +94,31 @@
                                             <div class="box-arrow-background"></div>
                                         </div>
                                         <ul>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/microsoft-dynamics.html">Microsoft Dynamics
+                                                    365</a>
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/loyality-card-app.html" key="mob-nav-4">Sadakat
+                                                    Kartı
+                                                    Uygulamaları</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/call-center.html" key="mob-nav-5">Çağrı Merkezi
+                                                    Çözümleri</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/cms.html" key="mob-nav-6">İçerik Yönetim
+                                                    Sistemi(CMS)</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/custom-software.html" key="mob-nav-7">Özel
+                                                    Yazılım</a></li>
                                         </ul>
                                     </div>
                                 </li>
 
                                 <li class="dropdown menu-button">
                                     <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown2" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false"
-                                        onclick="navbarMenuClick(this)">Hakkımızda</a>
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-3">Hakkımızda</a>
                                     <div id="isActiveMenu2" class="is-active-menu"></div>
                                     <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
                                         aria-labelledby="navbarDropdown2">
@@ -111,18 +126,18 @@
                                             <div class="box-arrow-background"></div>
                                         </div>
                                         <ul>
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/about-us.html" key="mob-nav-8">Hakkımızda</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/certificates.html" key="mob-nav-9">Kalite
+                                                    Belgeleri</a></li>
                                         </ul>
                                     </div>
                                 </li>
 
                                 <li class="dropdown menu-button">
-                                    <a class="nav-link" href="./contact.html"  onclick="navbarMenuClick(this)">İletişim</a>
+                                    <a class="nav-link" href="./contact.html" onclick="navbarMenuClick(this)"
+                                        key="nav-4">İletişim</a>
                                     <div id="isActiveMenu3" class="is-active-menu"></div>
                                 </li>
                             </ul>
@@ -160,72 +175,85 @@
                                     </span>
                                 </button>
                                 <button class="language-button dropdown-toggle" id="dropdownMenuButtonLang"
-                                data-bs-toggle="dropdown" aria-expanded="false">TR</button>
-                            <ul class="dropdown-menu dropdown-menu-dark language-dropdown-mobile"
-                                aria-labelledby="dropdownMenuButtonLang">
-                                <li style="cursor: pointer;">
-                                    <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem"
-                                        name="tr">
-                                        <span>TR</span>
-                                        <img src="./assets/photos/flag-turkey.png" style="width: 40px;height: 40px;"
-                                            alt="">
-                                    </a>
-                                </li>
-                                <li style="cursor: pointer;">
-                                    <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem"
-                                        name="en">
-                                        <span>EN</span>
-                                        <img src="./assets/photos/flag-united-kingdom.png"
-                                            style="width: 40px;height: 40px;" alt="">
-                                    </a>
-                                </li>
-                            </ul>
+                                    data-bs-toggle="dropdown" aria-expanded="false">TR</button>
+                                <ul class="dropdown-menu dropdown-menu-dark language-dropdown-mobile"
+                                    aria-labelledby="dropdownMenuButtonLang">
+                                    <li style="cursor: pointer;">
+                                        <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem"
+                                            name="tr">
+                                            <span>TR</span>
+                                            <img src="./assets/photos/flag-turkey.png" style="width: 40px;height: 40px;"
+                                                alt="">
+                                        </a>
+                                    </li>
+                                    <li style="cursor: pointer;">
+                                        <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem"
+                                            name="en">
+                                            <span>EN</span>
+                                            <img src="./assets/photos/flag-united-kingdom.png"
+                                                style="width: 40px;height: 40px;" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
 
                             <ul class="list-unstyled mobile-menu">
                                 <li class="mobile-menu-li">
                                     <a class="nav-link" ref="#" id="navbarDropdown" onclick="navbarMenuClick(this)"
                                         data-bs-toggle="collapse" href="#multiCollapseExample" role="button"
-                                        aria-expanded="false" aria-controls="multiCollapseExample">
+                                        aria-expanded="false" aria-controls="multiCollapseExample" key="nav-1">
                                         Akıllı Şehir Çözümleri
                                     </a>
 
                                     <div id="isActiveMenu00" class="is-active-menu-mobile"></div>
                                     <div class="collapse multi-collapse p-2" id="multiCollapseExample">
-                                        <ul class=" ul-sidenav">
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="./ticket-system.html">Biletleme
-                                                        Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="./smart-parking.html">Akıllı
-                                                        Otopark Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="./e-scooter.html">Paylaşım Platformu</a></li>
+                                        <ul class="ul-sidenav">
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./ticket-system.html" key="mob-nav-1">Biletleme
+                                                    Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./smart-parking.html" key="mob-nav-2">Akıllı Otopark
+                                                    Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./e-scooter.html" key="mob-nav-3">Paylaşım
+                                                    Platformu</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="mobile-menu-li">
                                     <a class="nav-link" ref="#" role="button" id="navbarDropdown1"
                                         data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1" onclick="navbarMenuClick(this)">
+                                        aria-controls="multiCollapseExample1" onclick="navbarMenuClick(this)"
+                                        key="nav-2">
                                         Hizmetlerimiz
                                     </a>
                                     <div id="isActiveMenu01" class="is-active-menu-mobile"></div>
                                     <div class="collapse multi-collapse p-2" id="multiCollapseExample1">
                                         <ul class="d-flex ul-sidenav">
                                             <div>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Biletleme
-                                                        Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Akıllı
-                                                        Otopark Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Elektrikli
-                                                        Scooter Platformu</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item" href="#">Rent
-                                                        a
-                                                        Car Araç Kiralama Sistemi</a></li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item"
+                                                        href="./services/microsoft-dynamics.html">Microsoft Dynamics
+                                                        365</a>
+                                                </li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/loyality-card-app.html"
+                                                        key="mob-nav-4">Sadakat
+                                                        Kartı
+                                                        Uygulamaları</a></li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/call-center.html"
+                                                        key="mob-nav-5">Çağrı Merkezi
+                                                        Çözümleri</a></li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/cms.html"
+                                                        key="mob-nav-6">İçerik Yönetim
+                                                        Sistemi(CMS)</a></li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/custom-software.html"
+                                                        key="mob-nav-7">Özel
+                                                        Yazılım</a></li>
                                             </div>
                                         </ul>
                                     </div>
@@ -234,26 +262,28 @@
                                 <li class="mobile-menu-li">
                                     <a class="nav-link" ref="#" role="button" id="navbarDropdown2"
                                         data-bs-toggle="collapse" href="#multiCollapseExample2" aria-expanded="false"
-                                        aria-controls="multiCollapseExample2" onclick="navbarMenuClick(this)">
+                                        aria-controls="multiCollapseExample2" onclick="navbarMenuClick(this)"
+                                        key="nav-3">
                                         Hakkımızda
                                     </a>
                                     <div id="isActiveMenu02" class="is-active-menu-mobile"></div>
                                     <div class="collapse multi-collapse p-2" id="multiCollapseExample2">
                                         <ul class="d-flex ul-sidenav">
                                             <div>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Biletleme
-                                                        Sistemi</a></li>
-                                                <li class="d-flex" data-icon="-"><a class="dropdown-item"
-                                                        href="#">Akıllı
-                                                        Otopark Sistemi</a></li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/about-us.html"
+                                                        key="mob-nav-8">Hakkımızda</a></li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/certificates.html"
+                                                        key="mob-nav-9">Kalite Belgeleri</a></li>
                                             </div>
                                         </ul>
                                     </div>
                                 </li>
 
                                 <li class="mobile-menu-li">
-                                    <a class="nav-link" href="./contact.html" onclick="navbarMenuClick(this)">
+                                    <a class="nav-link" href="./contact.html" onclick="navbarMenuClick(this)"
+                                        key="nav-4">
                                         İletişim
                                     </a>
                                     <div id="isActiveMenu03" class="is-active-menu-mobile"></div>
@@ -282,9 +312,12 @@
                         </div>
 
                         <div class="social-icons">
-                            <img src="./assets/photos/scooter-facebook.png" alt="">
-                            <img src="./assets/photos/scooter-ig.png" alt="" class="ms-1 me-1">
-                            <img src="./assets/photos/scooter-tweet.png" alt="">
+                            <a href="https://www.facebook.com/serimbilisim" target="_blank" class="text-decoration-none">
+                                <img src="./assets/photos/scooter-facebook.png" alt="">
+                            </a>
+                            <a href="https://twitter.com/serimyazilim" target="_blank" class="text-decoration-none">
+                                <img src="./assets/photos/scooter-tweet.png" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="bottom">
@@ -328,10 +361,6 @@
                                     </li>
                                     <li data-icon="-">
                                         <a href="./e-scooter.html" class="active">Paylaşım Platformu</a>
-                                        <div class="hr-div"></div>
-                                    </li>
-                                    <li data-icon="-">
-                                        <a href="./public-transport.html">Toplu Taşıma Planlama Çözümü</a>
                                     </li>
                                 </ul>
                             </div>
@@ -470,9 +499,21 @@
                 <div class="footer-iletisim">
                     <span class="header">İletişim</span>
                     <div class="iletisim-content d-flex flex-wrap">
-                        <div><img src="./assets/photos/footer-facebook.png" alt=""></div>
-                        <div class="footer-social-margin"><img src="./assets/photos/footer-twitter.png" alt=""></div>
-                        <div><img src="./assets/photos/footer-instagram.png" alt=""></div>
+                        <div>
+                            <a href="https://www.facebook.com/serimbilisim" target="_blank">
+                                <img src="./assets/photos/footer-facebook.png" alt="">
+                            </a>
+                        </div>
+                        <div class="footer-social-margin">
+                            <a href="https://twitter.com/serimyazilim" target="_blank">
+                                <img src="./assets/photos/footer-twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/company/serimsoftwaresolutions/" target="_blank">
+                                <img src="./assets/photos/footer-linkedin.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -482,10 +523,10 @@
                     <span class="header">Hızlı Menü</span>
                     <div class="speed-menu-content" style="min-width: 7.4rem;">
                         <ul class="list-unstyled">
-                            <li> <a href="#">ANA SAYFA</a></li>
-                            <li><a href="#">HİZMETLERİMİZ</a></li>
-                            <li><a href="#">HAKKIMIZDA</a></li>
-                            <li><a href="#">İLETİŞİM</a></li>
+                            <li> <a href="./index.html">ANA SAYFA</a></li>
+                            <li><a href="./services/microsoft-dynamics.html">HİZMETLERİMİZ</a></li>
+                            <li><a href="./services/about-us.html">HAKKIMIZDA</a></li>
+                            <li><a href="./contact.html">İLETİŞİM</a></li>
                         </ul>
                     </div>
                 </div>
@@ -495,8 +536,10 @@
                 <div class="footer-whoweare">
                     <span class="header">Biz Kimiz?</span>
                     <div class="whoweare-content">
-                        <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</span>
+                        <span>
+                            Serim Yazılım Teknolojileri Ltd. Şti. 2011 yılında CRM, ERP Entegrasyonu, Web ve Mobil
+                            tabanlı yazılım teknolojileri geliştirmek amacıyla kurulmuştur.
+                        </span>
                     </div>
                 </div>
             </div>
@@ -504,6 +547,7 @@
     </footer>
 
     <script src="./js/main.js"></script>
+    <script src="./js/i18n.js"></script>
 </body>
 
 </html>
