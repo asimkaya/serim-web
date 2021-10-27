@@ -29,11 +29,6 @@
   }
 }
 
-@media only screen and (max-width: 1710px) {
-  .section-two .section-two-content {
-    padding-left: 0 !important;
-  }
-}
 
 @media only screen and (max-width: 1802px) {
   .section-two .section {
@@ -204,13 +199,13 @@
 
 .section-two .section-two-image {
   margin-top: 5rem;
-  width: 40%;
+  width: 45%;
   height: 380px;
 }
 
 .section-two .section-two-content {
   margin-top: 10rem;
-  padding-left: 8rem;
+  padding-left: 2rem;
   max-width: 45rem;
 }
 
