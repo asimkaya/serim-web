@@ -65,3 +65,64 @@ $(window).bind("resize", function () {
   cardRouteHide();
 });
 
+
+function DownloadButton(url) {
+  let lang = localStorage.getItem("language");
+  if (lang == "tr") {
+    if(url == "abfgo") {
+      const aElement = document.createElement('a');
+      aElement.style.display = 'none';
+      aElement.href = '../assets/pdf/abfgo-tr.pdf';
+      aElement.download = 'abfgo-tr'
+      document.body.appendChild(aElement);
+      aElement.click();
+      document.body.removeChild(aElement);
+    }
+    else if(url == "parkomobil") {
+      const aElement = document.createElement('a');
+      aElement.style.display = 'none';
+      aElement.href = '../assets/pdf/parkomobil.pdf';
+      aElement.download = 'parkomobil'
+      document.body.appendChild(aElement);
+      aElement.click();
+      document.body.removeChild(aElement);
+    }
+    else if(url == "heymobility") {
+      const aElement = document.createElement('a');
+      aElement.style.display = 'none';
+      aElement.href = '../assets/pdf/heymobility.pdf';
+      aElement.download = 'heymobility'
+      document.body.appendChild(aElement);
+      aElement.click();
+      document.body.removeChild(aElement);
+    }
+  } else {
+    if(url == "abfgo") {
+      const aElement = document.createElement('a');
+      aElement.style.display = 'none';
+      aElement.href = '../assets/pdf/abfgo-en.pdf';
+      aElement.download = 'abfgo-en'
+      document.body.appendChild(aElement);
+      aElement.click();
+      document.body.removeChild(aElement);
+    }
+    else if(url == "parkomobil") {
+      const aElement = document.createElement('a');
+      aElement.style.display = 'none';
+      aElement.href = '../assets/pdf/parkomobil.pdf';
+      aElement.download = 'parkomobil'
+      document.body.appendChild(aElement);
+      aElement.click();
+      document.body.removeChild(aElement);
+    }
+    else if(url == "heymobility") {
+      const aElement = document.createElement('a');
+      aElement.style.display = 'none';
+      aElement.href = '../assets/pdf/heymobility.pdf';
+      aElement.download = 'heymobility'
+      document.body.appendChild(aElement);
+      aElement.click();
+      document.body.removeChild(aElement);
+    }
+  }
+}
