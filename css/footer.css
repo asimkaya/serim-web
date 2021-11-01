@@ -1,8 +1,4 @@
 @media only screen and (max-width: 700px) {
-  .footer-social-margin {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
   .seo-hashtags .section1 {
     flex-wrap: wrap !important;
     flex-direction: column !important;
@@ -10,6 +6,13 @@
   }
   .seo-hashtags .section1 div {
     margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1355px) {
+  .footer-social-margin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
 

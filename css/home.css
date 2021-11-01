@@ -775,7 +775,7 @@ nav .language-button {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   align-items: center;
 }
 .section-two .haberler-word div {
@@ -1067,6 +1067,7 @@ nav .language-button {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-top: 20px;
 }
 .section-three .blog-word div {
   font-weight: bold;
