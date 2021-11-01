@@ -610,6 +610,7 @@ nav .language-button {
 .page-cards .ticket-system,
 .page-cards .share-platform,
 .page-cards .smart-system {
+  cursor: pointer;
   width: 450px;
   height: 277px;
   background-color: #262634;
