@@ -756,14 +756,14 @@ nav .language-button {
   margin-bottom: 30px;
 }
 .section-two .section-two-position .section-smart-system .section-image {
-  background-image: url("../assets/photos/smart-auto.png");
+  background-image: url("../assets/photos/image-014.jpg");
   background-size: 100% 100%;
   border-radius: 10px 0px 0px 10px;
   width: 100%;
   background-repeat: no-repeat;
 }
 .section-two .section-two-position .section-share-platform .section-image {
-  background-image: url("../assets/photos/smart-scooter.png");
+  background-image: url("../assets/photos/sharing-platform.jpg");
   background-size: 100% 100%;
   border-radius: 0px 10px 10px 0px;
   width: 100%;
@@ -1113,7 +1113,7 @@ nav .language-button {
   text-align: center;
 }
 .section-four .musterilerimiz-word:before {
-  content: "MÜŞTERİLERİMİZ";
+  content: "REFERANS";
   color: #ffffff;
   font-size: 120px;
   opacity: 0.03;
