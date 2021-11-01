@@ -143,3 +143,7 @@ $(window).bind("resize", function () {
 function RoutePage(route) {
   window.location.href = '././'+route;
 }
+
+$(window).on("load", function () {
+  $("#loading").hide();
+});
