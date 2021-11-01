@@ -7,7 +7,7 @@ $(document).ready(function () {
       "nav-4": "İletişim",
       "mob-nav-1": "Biletleme Sistemi",
       "mob-nav-2": "Akıllı Otopark Yönetimi",
-      "mob-nav-3": "Paylaşım Platformu",
+      "mob-nav-3": "Araç Paylaşım Platformu",
       "mob-nav-4": "Sadakat Kartı Uygulamaları",
       "mob-nav-5": "Çağrı Merkezi Çözümleri",
       "mob-nav-6": "İçerik Yönetim Sistemi(CMS)",
