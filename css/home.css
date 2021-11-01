@@ -316,7 +316,7 @@ nav .navbar-nav a {
   color: white !important;
 }
 nav .navbar-nav .menu-button .is-active-menu {
-  width: 25px;
+  width: 70px;
   background-color: #4c54fd;
   height: 2px;
   margin-left: auto;
@@ -395,7 +395,7 @@ nav .language-button {
   margin-left: 15px;
 }
 .header-image {
-  background-image: url("../assets/photos/test4.jpg");
+  background-image: url("../assets/photos/smart-city-hero-image@2x.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -610,6 +610,7 @@ nav .language-button {
 .page-cards .ticket-system,
 .page-cards .share-platform,
 .page-cards .smart-system {
+  cursor: pointer;
   width: 450px;
   height: 277px;
   background-color: #262634;
@@ -737,7 +738,7 @@ nav .language-button {
 .section-two .section-two-position .section-share-platform .section-words .section-button button,
 .section-two .section-two-position .section-smart-system .section-words .section-button button {
   width: 220px;
-  height: 40px;
+  height: 50px;
   background-color: #4c54fd;
   border: none;
   border-radius: 10px;
@@ -752,8 +753,8 @@ nav .language-button {
   background-repeat: no-repeat;
 }
 .section-two .section-two-position .section-smart-system {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .section-two .section-two-position .section-smart-system .section-image {
   background-image: url("../assets/photos/image-014.jpg");
@@ -763,7 +764,7 @@ nav .language-button {
   background-repeat: no-repeat;
 }
 .section-two .section-two-position .section-share-platform .section-image {
-  background-image: url("../assets/photos/sharing-platform.jpg");
+  background-image: url("../assets/photos/image-023.jpg");
   background-size: 100% 100%;
   border-radius: 0px 10px 10px 0px;
   width: 100%;
@@ -774,7 +775,7 @@ nav .language-button {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   align-items: center;
 }
 .section-two .haberler-word div {
@@ -1066,6 +1067,7 @@ nav .language-button {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-top: 20px;
 }
 .section-three .blog-word div {
   font-weight: bold;
@@ -1282,4 +1284,12 @@ nav .language-button {
   text-align: center;
   top: 115px;
   right: 0;
+}
+
+.client-card-item img {
+  opacity: 0.7;
+}
+
+.client-card-item:hover img {
+  opacity: 1 !important;
 }
