@@ -316,7 +316,7 @@ nav .navbar-nav a {
   color: white !important;
 }
 nav .navbar-nav .menu-button .is-active-menu {
-  width: 25px;
+  width: 70px;
   background-color: #4c54fd;
   height: 2px;
   margin-left: auto;
@@ -395,7 +395,7 @@ nav .language-button {
   margin-left: 15px;
 }
 .header-image {
-  background-image: url("../assets/photos/test4.jpg");
+  background-image: url("../assets/photos/smart-city-hero-image@2x.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
