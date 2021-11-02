@@ -39,11 +39,14 @@
   .section-two .section {
     justify-content: center;
   }
-  .section-four .section {
-    justify-content: center;
-  }
+  
   .section-four-content {
     padding-right: 0 !important;
+  }
+}
+@media only screen and (max-width: 1065px) {
+  .section-four .section {
+    justify-content: center;
   }
 }
 
@@ -78,7 +81,8 @@
 }
 
 .header-image {
-  background-image: url("../assets/photos/akilli-otopark-header.jpg");
+  /* background-image: url("../assets/photos/abfgo-background.jpg"); */
+  background-image: url("../assets/photos/iletisim-header-img.png");
 }
 .bg-color {
   min-height: 450px;
