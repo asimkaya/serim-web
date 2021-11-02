@@ -62,7 +62,6 @@
 
 .section2 {
   height: 100%;
-  padding-top: 50px;
   padding-bottom: 50px;
   justify-content: space-evenly;
 }
@@ -197,4 +196,10 @@
 .section-two .section-two-content .liste ul li {
   font-weight: bold;
   color: #4e4e6d;
+}
+.header-certificates {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 50px;
+  font-weight: bold;
 }
