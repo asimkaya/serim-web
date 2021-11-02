@@ -98,7 +98,7 @@
 }
 
 .section-one {
-  min-height: 710px;
+  min-height: 480px;
   background-color: #fff;
 }
 
@@ -198,9 +198,9 @@
 }
 
 .section-two .section-two-image {
-  margin-top: 5rem;
-  width: 45%;
-  height: 380px;
+  margin-top: 3rem;
+  width: 32%;
+  height: 445px;
 }
 
 .section-two .section-two-content {
@@ -209,7 +209,7 @@
   max-width: 45rem;
 }
 
-.section-two .section-two-image iframe {
+.section-two .section-two-image img {
   width: 100%;
   height: 100%;
 }
@@ -296,7 +296,7 @@
 }
 
 .section-four {
-  min-height: 632px;
+  min-height: 465px;
   background-color: #f4f5f9;
 }
 
