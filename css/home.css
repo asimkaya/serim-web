@@ -51,7 +51,7 @@
 }
 @media only screen and (max-width: 650px) {
   .section-three .blog-word {
-    margin-top: 10rem !important;
+    margin-top: 5rem !important;
   }
   
 }
@@ -703,7 +703,7 @@ nav .language-button {
   margin-right: 14%;
   background-color: transparent;
   height: inherit;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .section-two .section-two-position .section-ticket-system,
 .section-two .section-two-position .section-share-platform,
@@ -942,8 +942,8 @@ nav .language-button {
   margin-top: 6px;
 }
 .section-three {
-  min-height: 1450px;
-  padding-top: 25rem;
+  min-height: 1150px;
+  padding-top: 20rem;
   background-color: white;
 }
 .section-three .section-three-position {
@@ -1078,7 +1078,6 @@ nav .language-button {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 3rem;
 }
 .section-three .blog-word div {
   font-weight: bold;
