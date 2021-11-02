@@ -47,6 +47,13 @@
   .openSideNav {
     width: 95% !important;
   }
+
+}
+@media only screen and (max-width: 650px) {
+  .section-three .blog-word {
+    margin-top: 10rem !important;
+  }
+  
 }
 @media only screen and (max-device-width: 1650px) {
   .page-cards .ticket-system {
@@ -155,7 +162,7 @@
     font-size: 20px !important;
   }
   .yorumlar-word:before {
-    font-size: 70px !important;
+    font-size: 60px !important;
   }
   .yorumlar-word div {
     font-size: 20px !important;
@@ -935,7 +942,7 @@ nav .language-button {
   margin-top: 6px;
 }
 .section-three {
-  min-height: 1350px;
+  min-height: 1450px;
   padding-top: 25rem;
   background-color: white;
 }
@@ -1071,7 +1078,7 @@ nav .language-button {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 20px;
+  margin-top: 3rem;
 }
 .section-three .blog-word div {
   font-weight: bold;
@@ -1201,7 +1208,7 @@ nav .language-button {
 
 .section-four .yorumlar-people {
   background: #2e2e41 0% 0% no-repeat padding-box;
-  height: 400px;
+  min-height: 400px;
   margin-left: 13%;
   margin-right: 13%;
   margin-top: 4rem;
@@ -1260,6 +1267,7 @@ nav .language-button {
   font: normal normal 800 22px/33px Poppins;
   letter-spacing: 0px;
   color: #ffffff;
+  margin-top: 1rem;
 }
 .yorumlar-people .carousel-indicators [data-bs-target] {
   height: 15px;
@@ -1300,7 +1308,7 @@ nav .language-button {
 
 #background-video {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   object-fit: cover;
   position: fixed;
   left: 0;
