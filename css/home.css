@@ -756,7 +756,8 @@ nav .language-button {
   font-size: 11px;
 }
 .section-two .section-two-position .section-ticket-system .section-image {
-  background-image: url("../assets/photos/iphone-travel.png");
+  /* background-image: url("../assets/photos/iphone-travel.png"); */
+  background-image: url("../assets/photos/biletleme-sistemi-home.jpg");
   background-size: 100% 100%;
   border-radius: 0px 10px 10px 0px;
   width: 100%;
