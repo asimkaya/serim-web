@@ -93,7 +93,7 @@
   .page-cards .ticket-system,
   .page-cards .share-platform,
   .page-cards .smart-system {
-    width: 310px !important;
+    width: 95% !important;
     height: auto !important;
   }
   .page-cards .ticket-system .left,
@@ -395,7 +395,7 @@ nav .language-button {
   margin-left: 15px;
 }
 .header-image {
-  background-image: url("../assets/photos/smart-city-hero-image@2x.jpg");
+  /* background-image: url("../assets/photos/smart-city-hero-image@2x.jpg"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -526,7 +526,7 @@ nav .language-button {
   padding-top: 60px;
 }
 .carousel-div {
-  margin-left: 9.3%;
+  margin-left: 5%;
   margin-top: 10%;
 }
 .carousel-div .carousel .carousel-item-content {
@@ -675,14 +675,17 @@ nav .language-button {
   margin-bottom: 10px;
 }
 .mouse-icon {
-  background-image: url("../assets/photos/mouse-icon.png");
+  /* background-image: url("../assets/photos/mouse-icon.png");
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: center;
+  background-position-y: center; */
   width: 100%;
   height: 100px;
   margin-top: 25px;
   padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-two {
   background: #21212e 0% 0% no-repeat padding-box;
@@ -934,6 +937,7 @@ nav .language-button {
 .section-three {
   min-height: 1350px;
   padding-top: 25rem;
+  background-color: white;
 }
 .section-three .section-three-position {
   margin-left: 14%;
@@ -1178,7 +1182,7 @@ nav .language-button {
   justify-content: center;
   align-items: center;
   position: relative;
-  padding-top: 130px;
+  padding-top: 30px;
 }
 .section-four .yorumlar-word div {
   font-weight: bold;
@@ -1292,4 +1296,41 @@ nav .language-button {
 
 .client-card-item:hover img {
   opacity: 1 !important;
+}
+
+#background-video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
 }

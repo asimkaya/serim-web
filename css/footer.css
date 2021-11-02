@@ -117,3 +117,11 @@ footer .main-div .header {
   font: normal normal bold 16px/22px Poppins;
   text-align: center;
 }
+
+.footer-icons li {
+  display: flex;
+  align-items: center;
+}
+.footer-icons li span {
+  margin-left: 0.5rem;
+}
