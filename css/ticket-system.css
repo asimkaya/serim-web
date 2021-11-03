@@ -199,8 +199,8 @@
 
 .section-two .section-two-image {
   margin-top: 3rem;
-  width: 32%;
-  height: 445px;
+  width: 28%;
+  height: 400px;
 }
 
 .section-two .section-two-content {
@@ -364,4 +364,11 @@
   height: 70px;
   background-color: transparent;
   border: none;
+}
+.section-four-img {
+  width: 35vw;
+}
+.section-four-img img{
+  width: 100%;
+  height: 100%;
 }
