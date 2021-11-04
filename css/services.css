@@ -214,6 +214,7 @@
   flex-direction: column;
   position: relative;
   padding-top: 10rem;
+  min-height: 510px;
 }
 
 h1 {
@@ -321,10 +322,10 @@ h1 span {
 .input span::before {
   content: attr(data-info);
   top: -65px;
-  width: 70px;
+  width: 105px;
   transform: translateX(-5px) rotateZ(-45deg);
   font-size: 12px;
-  text-indent: -10px;
+  text-indent: 0px;
 }
 .long span::before {
   top: -120px;
