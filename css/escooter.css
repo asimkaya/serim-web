@@ -44,6 +44,9 @@
   }
 }
 
+.header-image {
+  background-image: url(../assets/photos/fren-gas-zil.jpeg);
+}
 .bg-color {
   min-height: 450px;
 }
@@ -97,7 +100,7 @@
 
 .card-route .card-custom {
   width: 415px;
-  min-height: 340px;
+  min-height: 205px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 10px 10px 50px #00000012;
   border: none;
@@ -275,4 +278,11 @@
   height: 70px;
   background-color: transparent;
   border: none;
+}
+
+.image-scooter {
+  margin-top: 1rem !important;
+}
+.image-scooter img {
+  max-height: 27rem !important;
 }
