@@ -205,10 +205,19 @@
 }
 
 /*timelie*/
+.section-timeline-main-div {
+  background-color: #f4f5f9;
+}
+.section-timeline-main-div .header {
+  font: normal normal bold 36px/60px Poppins;
+  letter-spacing: 0px;
+  color: #21212e;
+  text-align: center;
+  padding-top: 50px;
+}
 .section-timeline {
   font-weight: 500;
   color: #424949;
-  background-color: white;
   padding: 0 25px;
   display: flex;
   flex-direction: column;
