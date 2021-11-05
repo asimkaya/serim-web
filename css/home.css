@@ -47,14 +47,8 @@
   .openSideNav {
     width: 95% !important;
   }
+}
 
-}
-@media only screen and (max-width: 650px) {
-  .section-three .blog-word {
-    margin-top: 5rem !important;
-  }
-  
-}
 @media only screen and (max-device-width: 1650px) {
   .page-cards .ticket-system {
     margin-top: 20px !important;
@@ -193,38 +187,38 @@
   }
 }
 @media only screen and (max-width: 1450px) {
-  .section-two .div-news .img-div {
+  .section-three .div-news .img-div {
     width: 50% !important;
   }
-  .section-two .div-news .new-headers {
+  .section-three .div-news .new-headers {
     width: 60% !important;
   }
 }
 @media only screen and (max-width: 800px) {
-  .section-two .new-tech:hover .arrow,
-  .section-two .new-design:hover .arrow,
-  .section-two .new-politics:hover .arrow,
-  .section-two .new-education:hover .arrow,
-  .section-two .new-finance:hover .arrow {
+  .section-three .new-tech:hover .arrow,
+  .section-three .new-design:hover .arrow,
+  .section-three .new-politics:hover .arrow,
+  .section-three .new-education:hover .arrow,
+  .section-three .new-finance:hover .arrow {
     display: none !important;
   }
-  .section-two .div-news .img-div {
+  .section-three .div-news .img-div {
     width: 0 !important;
     transition: width 1s ease-in-out;
   }
-  .section-two .div-news .img-div .news-information {
+  .section-three .div-news .img-div .news-information {
     display: none !important;
   }
-  .section-two .div-news .new-headers {
+  .section-three .div-news .new-headers {
     width: 100% !important;
     border-radius: 10px !important;
   }
 }
 @media only screen and (max-width: 1400px) {
-  .section-two .div-news .img-div .news-information {
+  .section-three .div-news .img-div .news-information {
     display: none !important;
   }
-  .section-two .div-news .new-headers {
+  .section-three .div-news .new-headers {
     width: 100% !important;
     border-radius: 10px !important;
   }
@@ -236,30 +230,16 @@
   }
 }
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
-  .section-two .div-news .img-div {
+  .section-three .div-news .img-div {
     width: 50% !important;
     transition: width 1s ease-in-out;
   }
-  .section-two .div-news .new-headers {
+  .section-three .div-news .new-headers {
     width: 60% !important;
     transition: width 1s ease-in-out;
   }
 }
-@media only screen and (max-width: 1650px) {
-  .section-two {
-    height: 125rem !important;
-  }
-}
-@media only screen and (max-width: 1280px) {
-  .section-two {
-    height: 130rem !important;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .section-two {
-    height: 144rem !important;
-  }
-}
+
 @media only screen and (max-width: 420px) {
   .section-two {
     height: 186rem !important;
@@ -696,7 +676,7 @@ nav .language-button {
 }
 .section-two {
   background: #21212e 0% 0% no-repeat padding-box;
-  height: 120rem;
+  /* min-height: 96rem; */
 }
 .section-two .section-two-position {
   margin-left: 14%;
@@ -704,6 +684,7 @@ nav .language-button {
   background-color: transparent;
   height: inherit;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .section-two .section-two-position .section-ticket-system,
 .section-two .section-two-position .section-share-platform,
@@ -781,7 +762,7 @@ nav .language-button {
   width: 100%;
   background-repeat: no-repeat;
 }
-.section-two .haberler-word {
+.section-three .haberler-word {
   height: 211px;
   width: 100%;
   display: flex;
@@ -789,38 +770,38 @@ nav .language-button {
   /* margin-top: 50px; */
   align-items: center;
 }
-.section-two .haberler-word div {
+.section-three .haberler-word div {
   font-weight: bold;
   font-size: 32px;
-  color: white;
+  color: black;
   text-align: center;
 }
-.section-two .haberler-word:before {
+.section-three .haberler-word:before {
   content: "HABERLER";
-  color: white;
+  color: #21212e;
   font-size: 150px;
   opacity: 0.1;
   font-weight: bold;
   position: absolute;
 }
-.section-two .div-news {
+.section-three .div-news {
   height: 656px;
   background-color: transparent;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
 }
-.section-two .div-news .img-div {
+.section-three .div-news .img-div {
   height: inherit;
   border-radius: 10px;
   width: 67%;
 }
-.section-two .div-news .img-div .news-information {
+.section-three .div-news .img-div .news-information {
   position: absolute;
   margin-top: -15rem;
   margin-left: 3rem;
 }
-.section-two .div-news .img-div .news-information .tech-header {
+.section-three .div-news .img-div .news-information .tech-header {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0px;
@@ -828,7 +809,7 @@ nav .language-button {
   font-weight: bold;
   margin-bottom: 1rem;
 }
-.section-two .div-news .img-div .news-information .tech-content {
+.section-three .div-news .img-div .news-information .tech-content {
   font-size: 38px;
   font-weight: bold;
   color: #fff;
@@ -836,7 +817,7 @@ nav .language-button {
   width: 399px;
   margin-bottom: 1rem;
 }
-.section-two .div-news .img-div .news-information .tech-button button {
+.section-three .div-news .img-div .news-information .tech-button button {
   background: #6156f9 0% 0% no-repeat padding-box;
   color: white;
   text-transform: uppercase;
@@ -846,40 +827,40 @@ nav .language-button {
   border-radius: 10px;
   font-size: 11px;
 }
-.section-two .div-news .img-div img {
+.section-three .div-news .img-div img {
   border-radius: 10px 0 0 10px;
   height: inherit;
   width: 100%;
 }
-.section-two .div-news .new-headers {
+.section-three .div-news .new-headers {
   width: 33%;
   height: max-content;
   background-color: white;
   padding-top: 30px;
   border-radius: 0 10px 10px 0;
 }
-.section-two .div-news .new-headers .new-headers-header {
+.section-three .div-news .new-headers .new-headers-header {
   font-weight: bold;
   color: black;
   font-size: 18px;
   padding-left: 34px;
 }
-.section-two .div-news .new-headers .new-tech,
-.section-two .div-news .new-headers .new-design,
-.section-two .div-news .new-headers .new-politics,
-.section-two .div-news .new-headers .new-education,
-.section-two .div-news .new-headers .new-finance {
+.section-three .div-news .new-headers .new-tech,
+.section-three .div-news .new-headers .new-design,
+.section-three .div-news .new-headers .new-politics,
+.section-three .div-news .new-headers .new-education,
+.section-three .div-news .new-headers .new-finance {
   cursor: pointer;
   padding-left: 34px;
   padding-right: 25px;
   padding-top: 9px;
   padding-bottom: 9px;
 }
-.section-two .div-news .new-headers .new-tech:hover .arrow,
-.section-two .div-news .new-headers .new-design:hover .arrow,
-.section-two .div-news .new-headers .new-politics:hover .arrow,
-.section-two .div-news .new-headers .new-education:hover .arrow,
-.section-two .div-news .new-headers .new-finance:hover .arrow {
+.section-three .div-news .new-headers .new-tech:hover .arrow,
+.section-three .div-news .new-headers .new-design:hover .arrow,
+.section-three .div-news .new-headers .new-politics:hover .arrow,
+.section-three .div-news .new-headers .new-education:hover .arrow,
+.section-three .div-news .new-headers .new-finance:hover .arrow {
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
@@ -889,63 +870,63 @@ nav .language-button {
   margin-left: -53px;
   margin-top: 26px;
 }
-.section-two .div-news .new-headers .new-tech .header-tech,
-.section-two .div-news .new-headers .new-design .header-tech,
-.section-two .div-news .new-headers .new-politics .header-tech,
-.section-two .div-news .new-headers .new-education .header-tech,
-.section-two .div-news .new-headers .new-finance .header-tech {
+.section-three .div-news .new-headers .new-tech .header-tech,
+.section-three .div-news .new-headers .new-design .header-tech,
+.section-three .div-news .new-headers .new-politics .header-tech,
+.section-three .div-news .new-headers .new-education .header-tech,
+.section-three .div-news .new-headers .new-finance .header-tech {
   color: #46c2ff;
 }
-.section-two .div-news .new-headers .new-tech .header-design,
-.section-two .div-news .new-headers .new-design .header-design,
-.section-two .div-news .new-headers .new-politics .header-design,
-.section-two .div-news .new-headers .new-education .header-design,
-.section-two .div-news .new-headers .new-finance .header-design {
+.section-three .div-news .new-headers .new-tech .header-design,
+.section-three .div-news .new-headers .new-design .header-design,
+.section-three .div-news .new-headers .new-politics .header-design,
+.section-three .div-news .new-headers .new-education .header-design,
+.section-three .div-news .new-headers .new-finance .header-design {
   color: #719bb0;
 }
-.section-two .div-news .new-headers .new-tech .header-politics,
-.section-two .div-news .new-headers .new-design .header-politics,
-.section-two .div-news .new-headers .new-politics .header-politics,
-.section-two .div-news .new-headers .new-education .header-politics,
-.section-two .div-news .new-headers .new-finance .header-politics {
+.section-three .div-news .new-headers .new-tech .header-politics,
+.section-three .div-news .new-headers .new-design .header-politics,
+.section-three .div-news .new-headers .new-politics .header-politics,
+.section-three .div-news .new-headers .new-education .header-politics,
+.section-three .div-news .new-headers .new-finance .header-politics {
   color: #f69f58;
 }
-.section-two .div-news .new-headers .new-tech .header-education,
-.section-two .div-news .new-headers .new-design .header-education,
-.section-two .div-news .new-headers .new-politics .header-education,
-.section-two .div-news .new-headers .new-education .header-education,
-.section-two .div-news .new-headers .new-finance .header-education {
+.section-three .div-news .new-headers .new-tech .header-education,
+.section-three .div-news .new-headers .new-design .header-education,
+.section-three .div-news .new-headers .new-politics .header-education,
+.section-three .div-news .new-headers .new-education .header-education,
+.section-three .div-news .new-headers .new-finance .header-education {
   color: #45c487;
 }
-.section-two .div-news .new-headers .new-tech .header-finance,
-.section-two .div-news .new-headers .new-design .header-finance,
-.section-two .div-news .new-headers .new-politics .header-finance,
-.section-two .div-news .new-headers .new-education .header-finance,
-.section-two .div-news .new-headers .new-finance .header-finance {
+.section-three .div-news .new-headers .new-tech .header-finance,
+.section-three .div-news .new-headers .new-design .header-finance,
+.section-three .div-news .new-headers .new-politics .header-finance,
+.section-three .div-news .new-headers .new-education .header-finance,
+.section-three .div-news .new-headers .new-finance .header-finance {
   color: #4c54fd;
 }
-.section-two .div-news .new-headers .new-tech .header,
-.section-two .div-news .new-headers .new-design .header,
-.section-two .div-news .new-headers .new-politics .header,
-.section-two .div-news .new-headers .new-education .header,
-.section-two .div-news .new-headers .new-finance .header {
+.section-three .div-news .new-headers .new-tech .header,
+.section-three .div-news .new-headers .new-design .header,
+.section-three .div-news .new-headers .new-politics .header,
+.section-three .div-news .new-headers .new-education .header,
+.section-three .div-news .new-headers .new-finance .header {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
 }
-.section-two .div-news .new-headers .new-tech .content,
-.section-two .div-news .new-headers .new-design .content,
-.section-two .div-news .new-headers .new-politics .content,
-.section-two .div-news .new-headers .new-education .content,
-.section-two .div-news .new-headers .new-finance .content {
+.section-three .div-news .new-headers .new-tech .content,
+.section-three .div-news .new-headers .new-design .content,
+.section-three .div-news .new-headers .new-politics .content,
+.section-three .div-news .new-headers .new-education .content,
+.section-three .div-news .new-headers .new-finance .content {
   font-weight: 300;
   font-size: 14px;
   margin-top: 6px;
 }
 .section-three {
-  min-height: 1150px;
-  padding-top: 20rem;
   background-color: white;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .section-three .section-three-position {
   margin-left: 14%;
