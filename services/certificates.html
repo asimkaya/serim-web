@@ -51,6 +51,9 @@
         .section-two .section-two-content {
             margin-top: 3rem;
         }
+        .section {
+            padding-top: 0 !important;
+        }
     </style>
 </head>
 
@@ -307,19 +310,19 @@
                 <div class="page-route pe-5">
                     <div class="top d-flex justify-content-between flex-wrap">
                         <div>
-                            <span>Ana Sayfa</span>
+                            <span key="index-14">Ana Sayfa</span>
                             <span style="margin-left: 5px; margin-right: 5px;"> / </span>
-                            <span>Hakkımızda</span>
+                            <span key="nav-3">Hakkımızda</span>
                             <span style="margin-left: 5px; margin-right: 5px;"> / </span>
-                            <span>Kalite Belgeleri</span>
+                            <span key="mob-nav-9">Kalite Belgeleri</span>
                         </div>
                     </div>
                     <div class="bottom">
                         <div></div>
                     </div>
                     <div class="page-route-content d-flex flex-column">
-                        <span class="page-route-header">Hakkımızda</span>
-                        <span class="page-route-text mt-2">
+                        <span class="page-route-header" key="nav-3">Hakkımızda</span>
+                        <span class="page-route-text mt-2" key="about-2">
                             Serim; kurumların ihtiyacı Web ve Mobil yazılım teknolojileri
                             geliştirmek amacıyla 2009 yılında kurulmuştur. ARGE ve kendi yazılımlarını geliştirmek için
                             2014 yılından itibaren Ulutek Teknopark’a taşınmıştır. Kısa sürede satış ve pazarlama ağını
@@ -341,7 +344,7 @@
                             <div>
                                 <img src="./assets/photos/card-building.png" alt="">
                             </div>
-                            <div class="card-header-text ps-4">
+                            <div class="card-header-text ps-4" key="nav-3">
                                 Hakkımızda
                             </div>
                         </div>
@@ -349,11 +352,11 @@
                             <div class="card-list">
                                 <ul class="list-unstyled">
                                     <li data-icon="-">
-                                        <a href="../services/about-us.html">Tarihçe</a>
+                                        <a href="../services/about-us.html" key="about-1">Tarihçe</a>
                                         <div class="hr-div"></div>
                                     </li>
                                     <li data-icon="-">
-                                        <a href="../services/certificates.html" class="active">Kalite Belgeleri</a>
+                                        <a href="../services/certificates.html" class="active" key="mob-nav-9">Kalite Belgeleri</a>
                                     </li>
                                 </ul>
                             </div>
@@ -364,7 +367,7 @@
         </div>
         <div class="section-two">
             <div class="header-certificates">
-                <span>KALİTE BELGELERİ</span>
+                <span key="mob-nav-9" class="text-uppercase">KALİTE BELGELERİ</span>
             </div>
             <div class="section2 d-flex flex-wrap">
 
@@ -386,7 +389,7 @@
         <div class="section-licance">
             <div class="section">
                 <div class="header-certificates">
-                    <span>YETKİ BELGESİ</span>
+                    <span key="about-14" class="text-uppercase">YETKİ BELGESİ</span>
                 </div>
                 <div style="width: 100%; text-align: center;">
                     <img src="../assets/photos/yetkibelgesi.jpg" alt="" style="width: 65%; border: 1px black solid;">

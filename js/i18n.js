@@ -218,6 +218,7 @@ $(document).ready(function () {
       "about-11": "Mobil Yolcu Kontrol Sistemi (QR). Fason App (Fason Takip Sistemi SaaS). Mobil Saha Satış Sistemi",
       "about-12": "E-TWOW Türkiye distirbütörü ve Codice temsilcisi.",
       "about-13": "Hey Scooter Paylaşım platformu. ParkoMobil Otopark Yönetim Sistemi",
+      "about-14": "Kalite Belgesi",
     },
 
     en: {
@@ -437,6 +438,7 @@ $(document).ready(function () {
       "about-11": "Mobile Passenger Control System (QR). Contract App (Contract Tracking System SaaS). Mobile Field Sales System",
       "about-12": "E-TWOW Turkey distributor and Codice representative.",
       "about-13": "Hey Scooter Sharing platform. ParkoMobil Parking Management System",
+      "about-14": "Licance of Authorization",
     },
   };
 
