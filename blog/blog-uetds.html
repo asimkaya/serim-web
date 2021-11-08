@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Serim - Blog</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./assets/photos/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owl/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/blog.css">
+
+</head>
+
+<body>
+    <div id="loading">
+        <img id="loading-image" src="./assets/photos/loading.gif">
+    </div>
+    <main>
+        <div class="header-image">
+            <div class="bg-color">
+                <nav class="navbar navbar-expand-lg">
+                    <a href="/" style="text-decoration: none;">
+                        <div class="logo d-flex flex-column align-items-center">
+                            <img src="./assets/photos/logo_beyaz2x.png" alt="">
+                            <span>SERİM</span>
+                        </div>
+                    </a>
+
+                    <button class="burger-button" mat-icon-button color="primary" onclick="openNav()">
+                        <i class="material-icons">
+                            menu
+                        </i>
+                    </button>
+                    <!--burası desktop için navbar-->
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="col-9">
+                            <ul class="list-unstyled navbar-nav me-auto">
+                                <li class="dropdown menu-button">
+                                    <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-1">
+                                        Akıllı Şehir Çözümleri</a>
+                                    <div id="isActiveMenu0" class="is-active-menu"></div>
+                                    <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
+                                        aria-labelledby="navbarDropdown">
+                                        <div class="box-arrow-border">
+                                            <div class="box-arrow-background"></div>
+                                        </div>
+                                        <ul>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./ticket-system.html" key="mob-nav-1">abfGo Akıllı Biletleme
+                                                    Sistemi</a></li>
+                                            <li class="d-flex align-items-center mt-1 mb-1" data-icon="-"><a
+                                                    class="dropdown-item" href="./smart-parking.html"
+                                                    key="mob-nav-2">ParkoMobil Otopark
+                                                    Yönetimi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./hey-mobility.html" key="mob-nav-3">HeyMobility Paylaşım
+                                                    Platformu</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </li>
+
+                                <li class="dropdown menu-button">
+                                    <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown1" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-2">Hizmetlerimiz</a>
+                                    <div id="isActiveMenu1" class="is-active-menu"></div>
+                                    <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
+                                        aria-labelledby="navbarDropdown1">
+                                        <div class="box-arrow-border1">
+                                            <div class="box-arrow-background"></div>
+                                        </div>
+                                        <ul>
+                                            <li class="d-flex align-items-center mb-1" data-icon="-"><a
+                                                    class="dropdown-item" href="./services/e-scooter.html">Hey
+                                                    Scooter</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/custom-software.html" key="mob-nav-7">Özel
+                                                    Yazılım</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="dropdown menu-button">
+                                    <a class="nav-link dropdown-toggle" ref="#" id="navbarDropdown2" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false" onclick="navbarMenuClick(this)"
+                                        key="nav-3">Hakkımızda</a>
+                                    <div id="isActiveMenu2" class="is-active-menu"></div>
+                                    <div class="dropdown-menu dropdown-menu-dark mt-5 animate slideIn"
+                                        aria-labelledby="navbarDropdown2">
+                                        <div class="box-arrow-border2">
+                                            <div class="box-arrow-background"></div>
+                                        </div>
+                                        <ul>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./services/about-us.html" key="mob-nav-8">Hakkımızda</a></li>
+                                            <li class="d-flex align-items-center mt-1" data-icon="-"><a
+                                                    class="dropdown-item" href="./services/certificates.html"
+                                                    key="mob-nav-9">Kalite
+                                                    Belgeleri</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="dropdown menu-button">
+                                    <a class="nav-link" href="./contact.html" onclick="navbarMenuClick(this)"
+                                        key="nav-4">İletişim</a>
+                                    <div id="isActiveMenu3" class="is-active-menu"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="language-button dropdown-toggle" id="dropdownMenuButtonLang"
+                                data-bs-toggle="dropdown" aria-expanded="false">TR</button>
+                            <ul class="dropdown-menu dropdown-menu-dark language-dropdown"
+                                aria-labelledby="dropdownMenuButtonLang">
+                                <li style="cursor: pointer;">
+                                    <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem" name="tr">
+                                        <span>TR</span>
+                                        <img src="./assets/photos/flag-turkey.png" style="width: 40px;height: 40px;"
+                                            alt="">
+                                    </a>
+                                </li>
+                                <li style="cursor: pointer;">
+                                    <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem" name="en">
+                                        <span>EN</span>
+                                        <img src="./assets/photos/flag-united-kingdom.png"
+                                            style="width: 40px;height: 40px;" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--mobile navbar-->
+                    <div id="mySidenav" class="sidenav">
+                        <div class="sidenavImg">
+
+                            <div class="mobile-language-close">
+                                <button mat-icon-button class="closebtn" onclick="closeNav()">
+                                    <span class="material-icons">
+                                        close
+                                    </span>
+                                </button>
+                                <button class="language-button dropdown-toggle" id="dropdownMenuButtonLang"
+                                    data-bs-toggle="dropdown" aria-expanded="false">TR</button>
+                                <ul class="dropdown-menu dropdown-menu-dark language-dropdown-mobile"
+                                    aria-labelledby="dropdownMenuButtonLang">
+                                    <li style="cursor: pointer;">
+                                        <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem"
+                                            name="tr">
+                                            <span>TR</span>
+                                            <img src="./assets/photos/flag-turkey.png" style="width: 40px;height: 40px;"
+                                                alt="">
+                                        </a>
+                                    </li>
+                                    <li style="cursor: pointer;">
+                                        <a class="dropdown-item text-decoration-none dropdownMenuButtonLangItem"
+                                            name="en">
+                                            <span>EN</span>
+                                            <img src="./assets/photos/flag-united-kingdom.png"
+                                                style="width: 40px;height: 40px;" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <ul class="list-unstyled mobile-menu">
+                                <li class="mobile-menu-li">
+                                    <a class="nav-link" ref="#" id="navbarDropdown" onclick="navbarMenuClick(this)"
+                                        data-bs-toggle="collapse" href="#multiCollapseExample" role="button"
+                                        aria-expanded="false" aria-controls="multiCollapseExample" key="nav-1">
+                                        Akıllı Şehir Çözümleri
+                                    </a>
+
+                                    <div id="isActiveMenu00" class="is-active-menu-mobile"></div>
+                                    <div class="collapse multi-collapse p-2" id="multiCollapseExample">
+                                        <ul class="ul-sidenav">
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./ticket-system.html" key="mob-nav-1">abfGo Akıllı Biletleme
+                                                    Sistemi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./smart-parking.html" key="mob-nav-2">ParkoMobil Otopark
+                                                    Yönetimi</a></li>
+                                            <li class="d-flex align-items-center" data-icon="-"><a class="dropdown-item"
+                                                    href="./hey-mobility.html" key="mob-nav-3">HeyMobility Paylaşım
+                                                    Platformu</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="mobile-menu-li">
+                                    <a class="nav-link" ref="#" role="button" id="navbarDropdown1"
+                                        data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1" onclick="navbarMenuClick(this)"
+                                        key="nav-2">
+                                        Hizmetlerimiz
+                                    </a>
+                                    <div id="isActiveMenu01" class="is-active-menu-mobile"></div>
+                                    <div class="collapse multi-collapse p-2" id="multiCollapseExample1">
+                                        <ul class="d-flex ul-sidenav">
+                                            <div>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/custom-software.html"
+                                                        key="mob-nav-7">Özel
+                                                        Yazılım</a></li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/e-scooter.html">Hey
+                                                        Scooter</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="mobile-menu-li">
+                                    <a class="nav-link" ref="#" role="button" id="navbarDropdown2"
+                                        data-bs-toggle="collapse" href="#multiCollapseExample2" aria-expanded="false"
+                                        aria-controls="multiCollapseExample2" onclick="navbarMenuClick(this)"
+                                        key="nav-3">
+                                        Hakkımızda
+                                    </a>
+                                    <div id="isActiveMenu02" class="is-active-menu-mobile"></div>
+                                    <div class="collapse multi-collapse p-2" id="multiCollapseExample2">
+                                        <ul class="d-flex ul-sidenav">
+                                            <div>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/about-us.html"
+                                                        key="mob-nav-8">Hakkımızda</a></li>
+                                                <li class="d-flex align-items-center" data-icon="-"><a
+                                                        class="dropdown-item" href="./services/certificates.html"
+                                                        key="mob-nav-9">Kalite Belgeleri</a></li>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="mobile-menu-li">
+                                    <a class="nav-link" href="./contact.html" onclick="navbarMenuClick(this)"
+                                        key="nav-4">
+                                        İletişim
+                                    </a>
+                                    <div id="isActiveMenu03" class="is-active-menu-mobile"></div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="page-header">
+                    <span>Blog</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="section-one">
+            <div class="section d-flex">
+                <div class="page-route pe-5">
+                    <div class="top d-flex justify-content-between flex-wrap">
+                        <div>
+                            <span key="index-14">Ana Sayfa</span>
+                            <span style="margin-left: 5px; margin-right: 5px;"> / </span>
+                            <span>Blog</span>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div></div>
+                    </div>
+                    <div class="page-route-content d-flex flex-column">
+
+                        <span class="page-route-header">
+                            U-ETDS Tam Zamanında
+                        </span>
+                        <span class="page-route-text mt-2">
+                            Ulaştırma ve altyapı bakanlığının, karayollarını displin altına almak için ve
+                            karayollarındaki güvenlik açıklarını kapatacak bir sistem getirdi . Bu sistemin adı
+                            U-ETDS(Ulaştırma Elektronik Takip Denetim Sistemi) sistemidir. Bu sistem “yolcu, kargo ve
+                            eşya(bagaj) taşımacılığını” kayıt altına alacak.
+                        </span>
+                        <div class="d-flex flex-row mt-4">
+                            <div class="container" id="blog-image">
+                                <img src="../assets/photos/blog-uetds.jpg" alt="" style="width: 100%; height: 100%;">
+
+                            </div>
+                            <div class="ps-4 d-flex flex-column" id="blog-content" >
+                                <b class="fs-4">U-ETDS Ne Zaman Devreye Girecek ? </b>
+                                <span class="pt-3 ps-1">
+                                    1 Kasım 2018 tarihinde uygulamaya başlanılacak olan U-ETDS sisteminin mağduriyet
+                                    yaratmaması adına 2 Ocak 2019’a kadar ertelenmesi istendi. Ulaştırma ve Altyapı
+                                    Bakanlığı Karayolu Taşıma Yönetmeliği’nin 40/3-4’üncü maddesinde yer alan U-ETDS
+                                    uygulamasında yeni düzenlemeye gitti. Karayolu Düzenleme Genel Müdürü Mahmut Gürses
+                                    imzasıyla Bakanlık makamına sunulan yazıda U-ETDS uygulamasının uygulanmasına
+                                    yönelik taşımacılar tarafından süre tanınması talebi geldiği belirtilerek, Bakan
+                                    Cahit Turhan’ın onayına sunulan talep 1 Kasım 2018 tarihinde imzalandı. Buna göre
+                                    A1, A2, B1, B2, D1 ve D2 belgelerine yönelik U-ETDS uygulaması 2 Ocak 2019 tarihine
+                                    kadar ertelendi.
+                                </span>
+                                <b class="fs-4 mt-3">U-ETDS Sisteminin İşleyişi Nasıl Olacak ? </b>
+                                <span class="pt-1 pt-3">
+                                    Firma bir defaya mahsus yetki tanımı için Bölge Müdürlüğüne yazılı başvuruda
+                                    bulunabilecek ve Bölge Müdürlüğü kullanıcısı, firmaya Yolcu Takip Sistemi
+                                    servislerine erişim için gerekli olan servis adresini, kullanıcı şifresini ve IP
+                                    yetkilendirmesini, UNET Otomasyon Sistemi üzerinden tanımlayacak. Ayrıca, firma bu
+                                    erişim bilgilerini kullanarak, kendi sisteminde zaten var olan sefer, yolcu,
+                                    personel ve taşıt bilgilerini başka bir arayüze girmeden, Türksat üzerinden U-ETDS
+                                    sistemine otomatik olarak aktarabilecek.
+                                    Diğer bir kolaylık ise; sistemi kullanacak olan firma, e-devlet üzerinden sağlanan
+                                    hizmet aracılığı ile Web Servis adresi, kullanıcı adı ve şifre bilgilerini
+                                    öğrenebilecek, firmanın Türksat sistemine erişiminde kullanacağı IP adresini
+                                    tanımlayabilecek ve yine bu erişim bilgilerini kullanarak kendi sisteminde var olan
+                                    bilgileri, Türksat üzerinden UETDS sistemine otomatik olarak aktarabilecek.
+
+                                    Öte yandan elektronik altyapısı olmayan firmalar ise; kamu.turkiye.gov.tr portalına
+                                    Türksat tarafından hazırlanacak arayüzler ve Bakanlık tarafındaki web servisler
+                                    aracılığı ile verilerini, yetkili personeli aracılığı ile manuel olarak girebilecek.
+                                    Sistemi kullanacak firma personelinin yetkilendirmesi ise Bölge Müdürlükleri veya
+                                    KDGM UNET kullanıcıları tarafından yapılacak.
+
+                                    Ayrıca e-devlet web servisleri üzerinden Online Otomasyon Sistemi kullanan firmalar
+                                    bakanlık web servislerini, TÜRKSAT üzerinden kullanarak verilerin otomatik
+                                    gönderimini sağlayacak.
+                                </span>
+
+                                <b class="fs-4 mt-3">Hes Kodu Sms ile Alınabilir mi?</b>
+                                <span class="pt-1 pt-3">
+                                    Evet, HES kodunu SMS mesaj yoluyla da alabilirsiniz. Kısa mesaj ile HES kodu almak
+                                    için, HES yazıp aralarında boşluk bırakılarak sırasıyla; TC kimlik numarası, kimlik
+                                    kartının seri numarasının son 4 hanesi ve seyahat edeceğimiz gün sayısını yazıp ve
+                                    2023’e SMS olarak gönderebilirsiniz.
+                                </span>
+
+                                <b class="fs-4 mt-3">abfGO HES Kodu Entegrasyonu</b>
+                                <span class="pt-1 pt-3">
+                                    abfGO HES kodu entegrasyonu ile tüm satış kanallarında ve operasyonda uyumlu
+                                    çalışmaktadır. Pazardaki ilk mobil check-in ile yolculuk öncesi tek tek yolcuların
+                                    kontrolü sağlanmakta, gereklilikler tam olarak yerine getirilmektedir.
+
+                                    HES kodu ve abfGO ile güvenli yolculuğun keyfini çıkartın…
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="seo-hashtags">
+            <div class="section1">
+                <div>
+                    <img src="./assets/photos/hashtag.png" alt="">
+                </div>
+                <div class="hashs">#abfGo</div>
+                <div class="hashs">#onlinebiletsatış</div>
+                <div class="hashs">#rezervasyonsistemi</div>
+                <div class="hashs">#ebilet</div>
+                <div class="hashs">#UETDS</div>
+                <div class="hashs">#UETDSEntegrasyonu</div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="main-div d-flex justify-content-between row">
+            <div class="col-6 col-lg-2 mb-3">
+                <div class="footer-logo d-flex align-items-center flex-column">
+                    <img src="./assets/photos/logo_beyaz2x.png" alt="">
+                    <span class="fst-italic">SERİM</span>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-2 mb-3" id="footer-iletisim-div">
+                <div class="footer-iletisim">
+                    <span class="header" key="nav-4">İletişim</span>
+                    <div class="iletisim-content d-flex flex-wrap">
+                        <ul class="list-unstyled text-white footer-icons">
+                            <li>
+                                <i class="material-icons">local_phone</i>
+                                <span>+90 (224) 440 00 79</span>
+                            </li>
+                            <li class="mt-3 mb-3">
+                                <i class="material-icons">local_phone</i>
+                                <span>0850 888 01 79</span>
+                            </li>
+                            <li>
+                                <i class="material-icons">email</i>
+                                <span>info@serim.com.tr</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-2 mb-3" id="footer-speed-menu">
+                <div class="footer-speed-menu">
+                    <span class="header" key="index-18">Hızlı Menü</span>
+                    <div class="speed-menu-content" style="min-width: 7.4rem;">
+                        <ul class="list-unstyled">
+                            <li> <a href="./index.html" key="index-14">ANA SAYFA</a></li>
+                            <li><a href="./services/e-scooter.html" key="index-15">HİZMETLERİMİZ</a></li>
+                            <li><a href="./services/about-us.html" key="index-16">HAKKIMIZDA</a></li>
+                            <li><a href="./contact.html" key="index-17">İLETİŞİM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-2 mb-3" id="footer-whoweare">
+                <div class="footer-iletisim">
+                    <span class="header" key="index-19">Sosyal Medya</span>
+                    <div class="iletisim-content d-flex flex-wrap">
+                        <div>
+                            <a href="https://www.facebook.com/serimbilisim" target="_blank">
+                                <img src="./assets/photos/footer-facebook.png" alt="">
+                            </a>
+                        </div>
+                        <div class="footer-social-margin">
+                            <a href="https://twitter.com/serimyazilim" target="_blank">
+                                <img src="./assets/photos/footer-twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.linkedin.com/company/serimsoftwaresolutions/" target="_blank">
+                                <img src="./assets/photos/footer-linkedin.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/i18n.js"></script>
+</body>
+
+</html>
