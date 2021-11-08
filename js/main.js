@@ -57,6 +57,14 @@ function cardRouteHide() {
     $(".card-route").fadeIn();
     $(".page-route").addClass("pe-5");
   }
+
+  if($(window).width() <= 1000) {
+    $("#blog-image").fadeOut();
+    $("#blog-content").removeClass("ps-4");
+  } else {
+    $("#blog-image").fadeIn();
+    $("#blog-content").addClass("ps-4");
+  }
 }
 
 cardRouteHide();
