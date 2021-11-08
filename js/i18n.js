@@ -172,20 +172,25 @@ $(document).ready(function () {
       "mobility-40": "Uygulama içi araç navigasyonu",
       "mobility-41": "Rezervasyon sistemi",
 
-      "hey-1": "Hey Scooter mikro ulaşım için geliştirilmiş bir elektrikli araç konseptidir. Dayanıklı ve etkin bir scooter ile araç paylaşım modeli oluşturmak, yerel markette lider bir pozisyona ulaşmak öncelikli amacımızdır. Kişisel kullanım için de mümkün olduğunca çok kullanıcıya erişerek scooterlerimizi deneyimlemelerini sağlamaktır.",
-      "hey-2": "Sahip olduğumuz akıllı mobilite çözümümüz, çalışanlarına sürdürülebilir bir ulaşım çözümü sunmak isteyen şirketlerden, öğrencilerine ekonomik bir ulaşım aracına erişim sağlamak isteyen üniversitelere, ya da araç paylaşım sistemi oluşturmak isteyen yatırımcılara kadar, bir çok iş alanı için uygundur.",
+      "hey-1":
+        "Hey Scooter mikro ulaşım için geliştirilmiş bir elektrikli araç konseptidir. Dayanıklı ve etkin bir scooter ile araç paylaşım modeli oluşturmak, yerel markette lider bir pozisyona ulaşmak öncelikli amacımızdır. Kişisel kullanım için de mümkün olduğunca çok kullanıcıya erişerek scooterlerimizi deneyimlemelerini sağlamaktır.",
+      "hey-2":
+        "Sahip olduğumuz akıllı mobilite çözümümüz, çalışanlarına sürdürülebilir bir ulaşım çözümü sunmak isteyen şirketlerden, öğrencilerine ekonomik bir ulaşım aracına erişim sağlamak isteyen üniversitelere, ya da araç paylaşım sistemi oluşturmak isteyen yatırımcılara kadar, bir çok iş alanı için uygundur.",
       "hey-3": "Sunduklarımız",
-      "hey-4": "Hey Scooter Akıllı Mobilite, Kullanıcılara istedikleri yerlere kolayca ulaşmalarını sağlayan, trafikte geçirilen zamanı azaltan, bütünleşik bir ulaşım çözümüdür. Mobilite çözümümüzün içeirigi;",
+      "hey-4":
+        "Hey Scooter Akıllı Mobilite, Kullanıcılara istedikleri yerlere kolayca ulaşmalarını sağlayan, trafikte geçirilen zamanı azaltan, bütünleşik bir ulaşım çözümüdür. Mobilite çözümümüzün içeirigi;",
       "hey-5": "- Scooter Filosu",
       "hey-6": "- Şarj İstasyonları",
       "hey-7": "- Akıllı Mobil Uygulama",
       "hey-8": "- Yönetici Paneli",
       "hey-9": "- Bakım, proje ve yazılımın geliştirilmesi/güncellenmesi",
       "hey-10": "Araç Paylaşımının Avantajları",
-      "hey-11": "Araç paylaşımı, ilk/son kilometre ulaşımında cazip bir çözümdür. Elektrikli Scooter kiralama göreceli olarak ucuzdur ve bu tür bir ulaşım aracı, trafik sıkışıklığı veya aşırı park bedelleri içim endişe etmeden, kullanıcılara kalabalık şehirlerde bile yolculuk imkanı sağlar. Üstelik elektrikli scooter:yürümek, bilgisayar kullanmak veya toplu taşıma araçlarındandaha hızlıdır.",
+      "hey-11":
+        "Araç paylaşımı, ilk/son kilometre ulaşımında cazip bir çözümdür. Elektrikli Scooter kiralama göreceli olarak ucuzdur ve bu tür bir ulaşım aracı, trafik sıkışıklığı veya aşırı park bedelleri içim endişe etmeden, kullanıcılara kalabalık şehirlerde bile yolculuk imkanı sağlar. Üstelik elektrikli scooter:yürümek, bilgisayar kullanmak veya toplu taşıma araçlarındandaha hızlıdır.",
       "hey-12": "Elektrikli scooter kiralama, bu avantajları ile bir çok organizasyona entegre edilebilir.",
       "hey-13": "Uygulama Alanları",
-      "hey-14": "Hey Scooter mikro mobilite çözümü farklı uygulama alanlarına sahiptir. Aşağıdaki uygulama alanlarında ihtiyaca uygun projelendirme ve çözüm üretilebilmektedir.",
+      "hey-14":
+        "Hey Scooter mikro mobilite çözümü farklı uygulama alanlarına sahiptir. Aşağıdaki uygulama alanlarında ihtiyaca uygun projelendirme ve çözüm üretilebilmektedir.",
       "hey-15": "- Akıllı Şehirler",
       "hey-16": "- Üniversite Kampüsleri",
       "hey-17": "- Oteller",
@@ -193,9 +198,26 @@ $(document).ready(function () {
       "hey-19": "- Limanlar",
 
       "custom-1": "Özel Yazılım Hizmeti",
-      "custom-2": "Özel yazılımlar ile sizin için aklınızdaki iş fikirlerini yazılıma çevirebiliriz. Uzun yıllar boyunca oluşturmuş olduğumuz birikim ve tecrübemiz ile aklınızdakileri hayata geçirmek çok kolay.",
-      "custom-3": "Firmanız içerisinde ihtiyaç duyulan, çeşitli amaçlara yönelik yazılımlar, tarafımızca hazırlanır. Web ve Mobil platformlara özel, profesyonel ve uçtan uca yazılımları kapsar. Detaylı bilgi için lütfen",
-      "custom-4": "iletişime geçiniz."
+      "custom-2":
+        "Özel yazılımlar ile sizin için aklınızdaki iş fikirlerini yazılıma çevirebiliriz. Uzun yıllar boyunca oluşturmuş olduğumuz birikim ve tecrübemiz ile aklınızdakileri hayata geçirmek çok kolay.",
+      "custom-3":
+        "Firmanız içerisinde ihtiyaç duyulan, çeşitli amaçlara yönelik yazılımlar, tarafımızca hazırlanır. Web ve Mobil platformlara özel, profesyonel ve uçtan uca yazılımları kapsar. Detaylı bilgi için lütfen",
+      "custom-4": "iletişime geçiniz.",
+
+      "about-1": "Tarihçe",
+      "about-2":
+        "Serim; kurumların ihtiyacı Web ve Mobil yazılım teknolojileri geliştirmek amacıyla 2009 yılında kurulmuştur. ARGE ve kendi yazılımlarını geliştirmek için 2014 yılından itibaren Ulutek Teknopark’a taşınmıştır. Kısa sürede satış ve pazarlama ağını genişleterek yurt dışı ofisini hizmete geçirmek suretiyle uluslararası pazarlara açılmıştır. Profesyonel yazılım uygulamaları ve proje yönetimi deneyimi ile, her zaman müşterilerinin başarısını sağlayacak en iyi uygulamaları geliştirmiştir. Misyonumuz müşterilerimizin ihtiyaçlarına en uygun çözümler sunarak, onlara değer katmak, beklentilerini en iyi şekilde karşılayarak gerçekleştirmektir. Hedefimiz; Ulusal ve Uluslararası alanda değer katan, müşterimiz ve çalışanlarımızın yüzünü güldüren lider yazılım ve hizmet şirketi olmaktır.",
+      "about-3": "Kilometre Taşları",
+      "about-4": "Serim Yazılım Teknolojileri kuruldu.",
+      "about-5": "Ms Dynamics CRM partner oldu",
+      "about-6": "Burulaş Budo Biletleme projesi devreye alındı.",
+      "about-7": "Ulutek Teknopark Teknoloji Geliştirme bölgesinde, Serim Arge merkezi kuruldu. Burulaş Havacılık biletleme çözümü yayınlandı.",
+      "about-8": "Rent a Car bulut tabanlı SaaS biletleme projesi devreye alındı. Konya Bilim Merkezi biletleme çözümü.",
+      "about-9": "Abfgo bulut tabanlı SaaS biletleme çözümü devreye alındı.",
+      "about-10": "İlk yurtdışı ofisi Bangladeş'te açıldı",
+      "about-11": "Mobil Yolcu Kontrol Sistemi (QR). Fason App (Fason Takip Sistemi SaaS). Mobil Saha Satış Sistemi",
+      "about-12": "E-TWOW Türkiye distirbütörü ve Codice temsilcisi.",
+      "about-13": "Hey Scooter Paylaşım platformu. ParkoMobil Otopark Yönetim Sistemi",
     },
 
     en: {
@@ -369,20 +391,25 @@ $(document).ready(function () {
       "mobility-40": "In-app car navigation",
       "mobility-41": "Reservation system",
 
-      "hey-1": "Hey Scooter is an electric vehicle concept developed for micro transportation. Our primary goal is to create a vehicle sharing model with a durable and efficient scooter and to reach a leading position in the local market. For personal use, it is to reach as many users as possible to experience our scooters.",
-      "hey-2": "Our smart mobility solution is suitable for many business areas, from companies that want to offer a sustainable transportation solution to their employees, to universities that want to provide their students with access to an affordable means of transportation, or to investors who want to create a car sharing system.",
+      "hey-1":
+        "Hey Scooter is an electric vehicle concept developed for micro transportation. Our primary goal is to create a vehicle sharing model with a durable and efficient scooter and to reach a leading position in the local market. For personal use, it is to reach as many users as possible to experience our scooters.",
+      "hey-2":
+        "Our smart mobility solution is suitable for many business areas, from companies that want to offer a sustainable transportation solution to their employees, to universities that want to provide their students with access to an affordable means of transportation, or to investors who want to create a car sharing system.",
       "hey-3": "What We Offer",
-      "hey-4": "Hey Scooter Smart Mobility is an integrated transportation solution that enables users to easily reach their desired destinations and reduces the time spent in traffic. The content of our mobility solution;",
+      "hey-4":
+        "Hey Scooter Smart Mobility is an integrated transportation solution that enables users to easily reach their desired destinations and reduces the time spent in traffic. The content of our mobility solution;",
       "hey-5": "- Scooter Fleet",
       "hey-6": "- Charging Stations",
       "hey-7": "- Smart Mobile App",
       "hey-8": "- Administration Panel",
       "hey-9": "- Development/update of maintenance, project and software",
       "hey-10": "Advantages of Car Sharing",
-      "hey-11": "Car sharing is an attractive solution for first/last mile transportation. Electric Scooter rental is relatively inexpensive and this type of transportation allows users to travel even in crowded cities without worrying about traffic jams or excessive parking fees. Moreover, electric scooters are faster than walking, using a computer or using public transport.",
+      "hey-11":
+        "Car sharing is an attractive solution for first/last mile transportation. Electric Scooter rental is relatively inexpensive and this type of transportation allows users to travel even in crowded cities without worrying about traffic jams or excessive parking fees. Moreover, electric scooters are faster than walking, using a computer or using public transport.",
       "hey-12": "Electric scooter rental can be integrated into many organizations with these advantages.",
       "hey-13": "Scope of Application",
-      "hey-14": "Hey Scooter micro mobility solution has different application areas. In the following application areas, projecting and solutions can be produced according to the needs.",
+      "hey-14":
+        "Hey Scooter micro mobility solution has different application areas. In the following application areas, projecting and solutions can be produced according to the needs.",
       "hey-15": "- Smart Cities",
       "hey-16": "- University Campuses",
       "hey-17": "- Hotels",
@@ -390,10 +417,26 @@ $(document).ready(function () {
       "hey-19": "- Ports",
 
       "custom-1": "Custom Software Service",
-      "custom-2": "With special software, we can turn your business ideas into software for you. With our knowledge and experience that we have built over many years, it is very easy to implement what you have in mind.",
-      "custom-3": "Software for various purposes, needed within your company, is prepared by us. It covers professional and end-to-end software for Web and Mobile platforms. For detailed information please",
-      "custom-4": "contact."
-    
+      "custom-2":
+        "With special software, we can turn your business ideas into software for you. With our knowledge and experience that we have built over many years, it is very easy to implement what you have in mind.",
+      "custom-3":
+        "Software for various purposes, needed within your company, is prepared by us. It covers professional and end-to-end software for Web and Mobile platforms. For detailed information please",
+      "custom-4": "contact.",
+
+      "about-1": "History",
+      "about-2":
+        "Serim; It was established in 2009 in order to develop Web and Mobile software technologies that institutions need. It has been moved to Ulutek Technopark since 2014 to develop R&D and its own software. In a short time, it expanded its sales and marketing network and opened up to international markets by putting its overseas office into service. With its professional software applications and project management experience, it has always developed the best practices that will ensure the success of its customers. Our mission is to add value to our customers by providing the most suitable solutions for their needs and to meet their expectations in the best way possible. Our goal is; To be the leading software and service company that adds value in the national and international arena and makes our customers and employees smile.",
+      "about-3": "Milestones",
+      "about-4": "Serim Software Technologies was established.",
+      "about-5": "Ms Dynamics CRM became a partner",
+      "about-6": "Burulaş Budo Ticketing project was commissioned.",
+      "about-7": "Serim R&D center was established in Ulutek Technopark Technology Development zone. Burulaş Aviation ticketing solution has been published.",
+      "about-8": "Rent a Car cloud-based SaaS ticketing project was commissioned. Konya Science Center ticketing solution.",
+      "about-9": "Abfgo cloud-based SaaS ticketing solution was commissioned.",
+      "about-10": "First overseas office opened in Bangladesh",
+      "about-11": "Mobile Passenger Control System (QR). Contract App (Contract Tracking System SaaS). Mobile Field Sales System",
+      "about-12": "E-TWOW Turkey distributor and Codice representative.",
+      "about-13": "Hey Scooter Sharing platform. ParkoMobil Parking Management System",
     },
   };
 
