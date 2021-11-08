@@ -5,7 +5,7 @@ $(document).ready(function () {
       "nav-2": "Hizmetlerimiz",
       "nav-3": "Hakkımızda",
       "nav-4": "İletişim",
-      "mob-nav-1": "AbfGo Akıllı Biletleme Sistemi",
+      "mob-nav-1": "abfGo Akıllı Biletleme Sistemi",
       "mob-nav-2": "ParkoMobil Otopark Yönetimi",
       "mob-nav-3": "HeyMobility Paylaşım Platformu",
       "mob-nav-4": "Sadakat Kartı Uygulamaları",
@@ -20,7 +20,7 @@ $(document).ready(function () {
       "index-4": "ParkoMobil yenilikçi mobil teknoloji, görüntü işleme ve e-arşiv fatura ile otopark yönetimini kolaylaştırır..",
       "index-5": "HEY Mobilite araç paylaşım ve yönetim platformu için esnek, ölçeklenebilir ve etkin bir çözümdür...",
       "index-6":
-        "abfGO; Kara yolu, deniz ve hava yolcu taşımacılığında işletmelerin ihtiyaçlarına göre tasarlanmış bilet rezervasyon ve satış sistemidir. Bulut ve on-premise tabanlı bir çözüm olan sistem satış kanalları, pazarlama ve operasyon yönetimini merkezileştirerek yönetimi şeffaflaştırır ve iş süreçlerini kolaylaştırır. Sistem sektörün lider kurumlarında geliştirilmek suretiyle know-how içermektedir ve beş yılı aşkın süredir kullanılıyor olması ile müşteri deneyiminde kendini kanıtlamıştır.",
+        "abfGo; Kara yolu, deniz ve hava yolcu taşımacılığında işletmelerin ihtiyaçlarına göre tasarlanmış bilet rezervasyon ve satış sistemidir. Bulut ve on-premise tabanlı bir çözüm olan sistem satış kanalları, pazarlama ve operasyon yönetimini merkezileştirerek yönetimi şeffaflaştırır ve iş süreçlerini kolaylaştırır. Sistem sektörün lider kurumlarında geliştirilmek suretiyle know-how içermektedir ve beş yılı aşkın süredir kullanılıyor olması ile müşteri deneyiminde kendini kanıtlamıştır.",
       "index-7":
         "Otopark kapasitesinin büyük bir kısmını oluşturan cadde kenarı otoparkları işletmesi iş gücüne dayalıdır, takibi ve yönetimi kolay değildir. Bunu yanında tahsilat problemleri, kayıp kaçak oranları, doluluk oranı tespiti ve en önemlisi de kesilen fişlerin yasal dayanağının olmaması verimliliği düşürmekte ve maliyetlerini artırmaktadır. Sürücüler için otopark giriş çıkışları, manuel süreçler ve güncel teknolojilerin kullanılamaması müşteri memnuniyetsizliğini artırmaktadır.",
       "index-8":
@@ -40,16 +40,16 @@ $(document).ready(function () {
 
       "ticket-1": "Biletleme Sistemi",
       "ticket-2":
-        "abfGO; Kara yolu, deniz ve hava yolcu taşımacılığında işletmelerin ihtiyaçlarına göre tasarlanmış bilet rezervasyon ve satış sistemidir. Bulut ve on-premise tabanlı bir çözüm olan sistem satış kanalları, pazarlama ve operasyon yönetimini merkezileştirerek yönetimi şeffaflaştırır ve iş süreçlerini kolaylaştırır. Sistem sektörün lider kurumlarında geliştirilmek suretiyle know-how içermektedir ve beş yılı aşkın süredir kullanılıyor olması ile müşteri deneyiminde kendini kanıtlamıştır.",
+        "abfGo; Kara yolu, deniz ve hava yolcu taşımacılığında işletmelerin ihtiyaçlarına göre tasarlanmış bilet rezervasyon ve satış sistemidir. Bulut ve on-premise tabanlı bir çözüm olan sistem satış kanalları, pazarlama ve operasyon yönetimini merkezileştirerek yönetimi şeffaflaştırır ve iş süreçlerini kolaylaştırır. Sistem sektörün lider kurumlarında geliştirilmek suretiyle know-how içermektedir ve beş yılı aşkın süredir kullanılıyor olması ile müşteri deneyiminde kendini kanıtlamıştır.",
       "ticket-3": "Sisteme Bakış ve Mimari Özet",
       "ticket-4":
-        "abfGO son teknoloji prensiplerini kullanarak, modüler yapısı ile ölçeklenebilir olduğunu kanıtlamıştır. Mikro servis temelli mimariye ve performansı arttırılmış satış-rezervasyon motoruna sahiptir. Bu sayede kullanım saatlerinin ve satış kampanyalarının yoğun olduğu saatlerde cevap veren yüksek performanslı alt yapısı olduğunu göstermektedir. Sistemin ölçeklenebilir, sağlam ve otonom olması ile birlikte diğer sistemlerle olan entegrasyonu bir diğer özelliğidir. Sistemin temelini iki önemli teknolojik oluşturmaktadır;",
+        "abfGo son teknoloji prensiplerini kullanarak, modüler yapısı ile ölçeklenebilir olduğunu kanıtlamıştır. Mikro servis temelli mimariye ve performansı arttırılmış satış-rezervasyon motoruna sahiptir. Bu sayede kullanım saatlerinin ve satış kampanyalarının yoğun olduğu saatlerde cevap veren yüksek performanslı alt yapısı olduğunu göstermektedir. Sistemin ölçeklenebilir, sağlam ve otonom olması ile birlikte diğer sistemlerle olan entegrasyonu bir diğer özelliğidir. Sistemin temelini iki önemli teknolojik oluşturmaktadır;",
       "ticket-5": "- Yüksek performanslı mimari",
       "ticket-6": "- API Entegrasyonu",
-      "ticket-7": "abfGO Özellikleri",
+      "ticket-7": "abfGo Özellikleri",
       "ticket-8": "Satış ve Rezervasyon",
       "ticket-9":
-        "abfGO operatör kurumun satış ve pazarlama kapasitesini her zaman arttırmayı hedeflemiştir. Sahip olduğu dinamik fiyat yönetimi ve pazarlama motoru sayesinde kaynakları verimli kullanmayı, koltuk doluluk oranlarını arttırmayı ve kar oranlarını yönetmeyi sağlamaktadır. Sistem aşağıdaki satış kanallarını desteklemektedir;",
+        "abfGo operatör kurumun satış ve pazarlama kapasitesini her zaman arttırmayı hedeflemiştir. Sahip olduğu dinamik fiyat yönetimi ve pazarlama motoru sayesinde kaynakları verimli kullanmayı, koltuk doluluk oranlarını arttırmayı ve kar oranlarını yönetmeyi sağlamaktadır. Sistem aşağıdaki satış kanallarını desteklemektedir;",
       "ticket-10": "- WEB ve Mobil (B2C)",
       "ticket-11": "- Gişe ve Çağrı Merkezi",
       "ticket-12": "- Seyahat Acentaları (B2B)",
@@ -63,14 +63,14 @@ $(document).ready(function () {
       "ticket-19": "gibi hizmetler şirketleri hedeflerine ulaştıracaktır.",
       "ticket-20": "Envanter Yönetimi",
       "ticket-21":
-        "abfGO merkezi bir satış sistemi olmakla beraber operatöre koltuk envanterini tanımlama ve kontrol etmek için esnek bir platform sunmaktadır. Koltuk planları, koltuk planlarında güncelleme ve yeni araç tanımlama noktalarında hızlı ve kolay çözümler bulundurmaktadır.",
+        "abfGo merkezi bir satış sistemi olmakla beraber operatöre koltuk envanterini tanımlama ve kontrol etmek için esnek bir platform sunmaktadır. Koltuk planları, koltuk planlarında güncelleme ve yeni araç tanımlama noktalarında hızlı ve kolay çözümler bulundurmaktadır.",
       "ticket-22": "Araç Profili",
       "ticket-23": "- Kapasite Planlaması",
       "ticket-24": "- Koltuk Planlaması",
       "ticket-25": "- Rezervasyon",
       "ticket-26": "İşletme Yönetimi",
       "ticket-27":
-        "abfGO platformundaki lojistik mimarisi, route planları ve fiyat listeleri gibi bir dizi mantıksal yapıların esnekliğini maksimum düzeyde sunar. İçerisinde barındırdığı şablon yapılarla seferlerin gün, hafta, yaz, kış gibi farklı tarife ve saatler hazır olarak saklanabilmektedir. Bu sayede sefer ve tarife değişimleri hızlı bir şekilde oluşturulmakta ve kolay bir şekilde yönetilebilmektedir.",
+        "abfGo platformundaki lojistik mimarisi, route planları ve fiyat listeleri gibi bir dizi mantıksal yapıların esnekliğini maksimum düzeyde sunar. İçerisinde barındırdığı şablon yapılarla seferlerin gün, hafta, yaz, kış gibi farklı tarife ve saatler hazır olarak saklanabilmektedir. Bu sayede sefer ve tarife değişimleri hızlı bir şekilde oluşturulmakta ve kolay bir şekilde yönetilebilmektedir.",
       "ticket-28": "Sadakat Programı",
       "ticket-29": "Sistem operatörlerin kendi sadakat kart programlarını ve seviyelerini belirlemelerine imkan sağlar.",
       "ticket-30": "Sadakat kart başvuru sistemi ile sanal kart ve fiziki kart kullanımı Sefer bazlı Puan ve kullanım.",
@@ -79,7 +79,7 @@ $(document).ready(function () {
         "Teknoloji ve mobilitenin yaygınlaştığı dijital dönüşüm dünyasında artık kağıdın yerini elektronik belgeler almaktadır. Biletsiz yolculuk için önemli bir adım olan E-Bilet sistemi aynı zamanda operasyon maliyetlerini de düşüren bir unsurdur.",
       "ticket-33": "Muhasebe Sistemi ve Gelir Kontrolü",
       "ticket-34":
-        "abfGO’yu başarılı kılan önemli bir alt yapı da muhasebe ve gelir kontrolüdür. Programın e-bilet, satış, tahsilat ve vardiya raporları gibi bir dizi kompleks karşılaştırmalar yaparak doğru raporlamayı başarıyla kullanıcıya sağlamaktadır. Nakit akşı ve gelir kontrolü için kullanılan raporların bir kaçı;",
+        "abfGo’yu başarılı kılan önemli bir alt yapı da muhasebe ve gelir kontrolüdür. Programın e-bilet, satış, tahsilat ve vardiya raporları gibi bir dizi kompleks karşılaştırmalar yaparak doğru raporlamayı başarıyla kullanıcıya sağlamaktadır. Nakit akşı ve gelir kontrolü için kullanılan raporların bir kaçı;",
       "ticket-35": "Muhasebe Satış Raporu",
       "ticket-36": "Kasa Raporu",
       "ticket-37": "E-Bilet Raporu",
@@ -198,7 +198,7 @@ $(document).ready(function () {
       "nav-2": "Services",
       "nav-3": "About Us",
       "nav-4": "Contact",
-      "mob-nav-1": "AbfGo Smart Ticketing System",
+      "mob-nav-1": "abfGo Smart Ticketing System",
       "mob-nav-2": "ParkoMobil Parking Management",
       "mob-nav-3": "HeyMobility Sharing Platform",
       "mob-nav-4": "Loyality Card Apps",
@@ -213,7 +213,7 @@ $(document).ready(function () {
       "index-4": "ParkoMobil innovative mobile technology, image processing and facilitates parking lot management with e-archive invoice...",
       "index-5": "HEY Mobility is a flexible, scalable and efficient solution for vehicle sharing and management platform...",
       "index-6":
-        "abfGO; In road, sea and air passenger transportation It is a ticket reservation and sales system designed according to the needs of businesses. cloud and The system, which is an on-premise-based solution, provides sales channels, marketing and operations management. centralizes, makes management transparent and streamlines business processes. system sector It includes know-how by being developed in leading institutions and has been around for more than five years. It has proven itself in customer experience.",
+        "abfGo; In road, sea and air passenger transportation It is a ticket reservation and sales system designed according to the needs of businesses. cloud and The system, which is an on-premise-based solution, provides sales channels, marketing and operations management. centralizes, makes management transparent and streamlines business processes. system sector It includes know-how by being developed in leading institutions and has been around for more than five years. It has proven itself in customer experience.",
       "index-7":
         "The operation of streetside car parks, which make up a large part of the parking lot capacity, is labor-based, and it is not easy to follow and manage. In addition, collection problems, loss and leakage rates, determination of occupancy rate, and most importantly, the lack of legal basis for cut receipts reduce efficiency and increase costs. Parking lot entrances and exits for drivers, manual processes and the inability to use up-to-date technologies increase customer dissatisfaction.",
       "index-8":
@@ -233,16 +233,16 @@ $(document).ready(function () {
 
       "ticket-1": "Ticketing System",
       "ticket-2":
-        "abfGO; It is a ticket reservation and sales system designed according to the needs of businesses in land, sea and air passenger transportation. Being a cloud and on-premise-based solution, the system makes management transparent and streamlines business processes by centralizing sales channels, marketing and operations management. The system includes know-how by being developed in the leading institutions of the sector and has proven itself in customer experience with its use for more than five years.",
+        "abfGo; It is a ticket reservation and sales system designed according to the needs of businesses in land, sea and air passenger transportation. Being a cloud and on-premise-based solution, the system makes management transparent and streamlines business processes by centralizing sales channels, marketing and operations management. The system includes know-how by being developed in the leading institutions of the sector and has proven itself in customer experience with its use for more than five years.",
       "ticket-3": "System Overview and Architectural Summary",
       "ticket-4":
-        "abfGO has proven to be scalable with its modular structure, using cutting-edge principles. It has a microservice-based architecture and a performance-enhanced sales-reservation engine. In this way, it shows that it has a high-performance infrastructure that responds during peak hours of usage and sales campaigns. Another feature of the system is that it is scalable, robust and autonomous, as well as its integration with other systems. Two important technologies form the basis of the system;",
+        "abfGo has proven to be scalable with its modular structure, using cutting-edge principles. It has a microservice-based architecture and a performance-enhanced sales-reservation engine. In this way, it shows that it has a high-performance infrastructure that responds during peak hours of usage and sales campaigns. Another feature of the system is that it is scalable, robust and autonomous, as well as its integration with other systems. Two important technologies form the basis of the system;",
       "ticket-5": "- High performance architecture",
       "ticket-6": "- API Integration",
-      "ticket-7": "abfGO Features",
+      "ticket-7": "abfGo Features",
       "ticket-8": "Sales and Reservation",
       "ticket-9":
-        "abfGO operator has always aimed to increase the sales and marketing capacity of the institution. Thanks to its dynamic price management and marketing engine, it provides efficient use of resources, increasing seat occupancy rates and managing profit rates. The system supports the following sales channels;",
+        "abfGo operator has always aimed to increase the sales and marketing capacity of the institution. Thanks to its dynamic price management and marketing engine, it provides efficient use of resources, increasing seat occupancy rates and managing profit rates. The system supports the following sales channels;",
       "ticket-10": "- WEB and Mobile (B2C)",
       "ticket-11": "- Box Office and Call Center",
       "ticket-12": "- Travel Agencies (B2B)",
@@ -256,14 +256,14 @@ $(document).ready(function () {
       "ticket-19": "such services will help companies achieve their goals.",
       "ticket-20": "Inventory Management",
       "ticket-21":
-        "abfGO is a centralized sales system and offers the operator a flexible platform to define and control the seat inventory. It has quick and easy solutions for seat plans, updating seat plans and new vehicle identification points.",
+        "abfGo is a centralized sales system and offers the operator a flexible platform to define and control the seat inventory. It has quick and easy solutions for seat plans, updating seat plans and new vehicle identification points.",
       "ticket-22": "- Vehicle Profile",
       "ticket-23": "- Capacity Planning",
       "ticket-24": "- Seat Planning",
       "ticket-25": "- Reservation",
       "ticket-26": "Business Administration",
       "ticket-27":
-        "The logistics architecture on the abfGO platform maximizes the flexibility of a number of logical structures such as route plans and price lists. With the template structures it contains, different tariffs and times of the flights such as days, weeks, summer and winter can be stored ready. In this way, time and tariff changes can be created quickly and easily managed.",
+        "The logistics architecture on the abfGo platform maximizes the flexibility of a number of logical structures such as route plans and price lists. With the template structures it contains, different tariffs and times of the flights such as days, weeks, summer and winter can be stored ready. In this way, time and tariff changes can be created quickly and easily managed.",
       "ticket-28": "Loyalty Program",
       "ticket-29": "The system allows operators to define their own loyalty card programs and levels.",
       "ticket-30": "Use of virtual and physical cards with the loyalty card application system. Expedition-based Points and usage.",
@@ -272,7 +272,7 @@ $(document).ready(function () {
         "In the world of digital transformation, where technology and mobility have become widespread, electronic documents are now taking the place of paper. The E-Ticket system, which is an important step for ticketless travel, is also a factor that reduces operational costs.",
       "ticket-33": "Accounting System and Income Control",
       "ticket-34":
-        "Another important infrastructure that makes abfGO successful is accounting and income control. The program successfully provides accurate reporting to the user by making complex comparisons such as e-ticket, sales, collection and shift reports. A few of the reports used for cash flow and income control;",
+        "Another important infrastructure that makes abfGo successful is accounting and income control. The program successfully provides accurate reporting to the user by making complex comparisons such as e-ticket, sales, collection and shift reports. A few of the reports used for cash flow and income control;",
       "ticket-35": "Accounting Sales Report",
       "ticket-36": "Cash Report",
       "ticket-37": "E-Ticket Report",
