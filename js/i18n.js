@@ -69,48 +69,109 @@ $(document).ready(function () {
       "ticket-24": "- Koltuk Planlaması",
       "ticket-25": "- Rezervasyon",
       "ticket-26": "İşletme Yönetimi",
-      "ticket-27": "abfGO platformundaki lojistik mimarisi, route planları ve fiyat listeleri gibi bir dizi mantıksal yapıların esnekliğini maksimum düzeyde sunar. İçerisinde barındırdığı şablon yapılarla seferlerin gün, hafta, yaz, kış gibi farklı tarife ve saatler hazır olarak saklanabilmektedir. Bu sayede sefer ve tarife değişimleri hızlı bir şekilde oluşturulmakta ve kolay bir şekilde yönetilebilmektedir.",
+      "ticket-27":
+        "abfGO platformundaki lojistik mimarisi, route planları ve fiyat listeleri gibi bir dizi mantıksal yapıların esnekliğini maksimum düzeyde sunar. İçerisinde barındırdığı şablon yapılarla seferlerin gün, hafta, yaz, kış gibi farklı tarife ve saatler hazır olarak saklanabilmektedir. Bu sayede sefer ve tarife değişimleri hızlı bir şekilde oluşturulmakta ve kolay bir şekilde yönetilebilmektedir.",
       "ticket-28": "Sadakat Programı",
       "ticket-29": "Sistem operatörlerin kendi sadakat kart programlarını ve seviyelerini belirlemelerine imkan sağlar.",
       "ticket-30": "Sadakat kart başvuru sistemi ile sanal kart ve fiziki kart kullanımı Sefer bazlı Puan ve kullanım.",
       "ticket-31": "E-Bilet",
-      "ticket-32": "Teknoloji ve mobilitenin yaygınlaştığı dijital dönüşüm dünyasında artık kağıdın yerini elektronik belgeler almaktadır. Biletsiz yolculuk için önemli bir adım olan E-Bilet sistemi aynı zamanda operasyon maliyetlerini de düşüren bir unsurdur.",
+      "ticket-32":
+        "Teknoloji ve mobilitenin yaygınlaştığı dijital dönüşüm dünyasında artık kağıdın yerini elektronik belgeler almaktadır. Biletsiz yolculuk için önemli bir adım olan E-Bilet sistemi aynı zamanda operasyon maliyetlerini de düşüren bir unsurdur.",
       "ticket-33": "Muhasebe Sistemi ve Gelir Kontrolü",
-      "ticket-34": "abfGO’yu başarılı kılan önemli bir alt yapı da muhasebe ve gelir kontrolüdür. Programın e-bilet, satış, tahsilat ve vardiya raporları gibi bir dizi kompleks karşılaştırmalar yaparak doğru raporlamayı başarıyla kullanıcıya sağlamaktadır. Nakit akşı ve gelir kontrolü için kullanılan raporların bir kaçı;",
+      "ticket-34":
+        "abfGO’yu başarılı kılan önemli bir alt yapı da muhasebe ve gelir kontrolüdür. Programın e-bilet, satış, tahsilat ve vardiya raporları gibi bir dizi kompleks karşılaştırmalar yaparak doğru raporlamayı başarıyla kullanıcıya sağlamaktadır. Nakit akşı ve gelir kontrolü için kullanılan raporların bir kaçı;",
       "ticket-35": "Muhasebe Satış Raporu",
       "ticket-36": "Kasa Raporu",
       "ticket-37": "E-Bilet Raporu",
       "ticket-38": "Bölgesel Raporlar",
       "ticket-39": "Yolcu Bilgilendirme Sistemi",
-      "ticket-40": "Yolculara seyahat bilgilendirilmesi ve sefer iptallari gibi durumların iletilmesi noktasında güvenli ve standart metotlar kullanılmaktadır. Aşağıdaki bilgilendirme standartlarında iletişim otonom olarak sağlanmaktadır;",
+      "ticket-40":
+        "Yolculara seyahat bilgilendirilmesi ve sefer iptallari gibi durumların iletilmesi noktasında güvenli ve standart metotlar kullanılmaktadır. Aşağıdaki bilgilendirme standartlarında iletişim otonom olarak sağlanmaktadır;",
       "ticket-41": "- Mobil Bildirim",
 
       "park-1": "Mobil Otopark",
-      "park-2": "Otopark kapasitesinin büyük bir kısmını oluşturan cadde kenarı otoparkları işletmesi iş gücüne dayalıdır, takibi ve yönetimi kolay değildir. Bunu yanında tahsilat problemleri, kayıp kaçak oranları, doluluk oranı tespiti ve en önemlisi de kesilen fişlerin yasal dayanağının olmaması verimliliği düşürmekte ve maliyetlerini artırmaktadır.",
-      "park-3": "Sürücüler için otopark giriş çıkışları, manuel süreçler ve güncel teknolojilerin kullanılamaması müşteri memnuniyetsizliğini artırmaktadır",
+      "park-2":
+        "Otopark kapasitesinin büyük bir kısmını oluşturan cadde kenarı otoparkları işletmesi iş gücüne dayalıdır, takibi ve yönetimi kolay değildir. Bunu yanında tahsilat problemleri, kayıp kaçak oranları, doluluk oranı tespiti ve en önemlisi de kesilen fişlerin yasal dayanağının olmaması verimliliği düşürmekte ve maliyetlerini artırmaktadır.",
+      "park-3":
+        "Sürücüler için otopark giriş çıkışları, manuel süreçler ve güncel teknolojilerin kullanılamaması müşteri memnuniyetsizliğini artırmaktadır",
       "park-4": "YAŞANABİLİR ŞEHİR",
-      "park-5": "Mobil otopark yönetimi ile kayıp kacak oranını azaltarak gelirlerinizi artırmanızı sağlar. Yapılan araştırmalar şehirlerin trafiğinin bir kısmı araçların park yeri aramakla geçirdiğini göstermektedir. Entegre ve online uygulama ile sürücülerin boş parklara hızlı yönlendirerek şehir trafiğinin rahatlaması sağlanabilmektedir. Tabiki doğal sonucu olarak şehirlerde çevreye etkinlerinden dolayı, karbon emisyon oranlarını düşmesini ve sağlıklı bir şehir oluşmasına katkı sağlamaktadır.",
+      "park-5":
+        "Mobil otopark yönetimi ile kayıp kacak oranını azaltarak gelirlerinizi artırmanızı sağlar. Yapılan araştırmalar şehirlerin trafiğinin bir kısmı araçların park yeri aramakla geçirdiğini göstermektedir. Entegre ve online uygulama ile sürücülerin boş parklara hızlı yönlendirerek şehir trafiğinin rahatlaması sağlanabilmektedir. Tabiki doğal sonucu olarak şehirlerde çevreye etkinlerinden dolayı, karbon emisyon oranlarını düşmesini ve sağlıklı bir şehir oluşmasına katkı sağlamaktadır.",
       "park-6": "VERİMLİLİK",
-      "park-7": "ParkoMobil Türkiye'deki otopark yönetimini çözen yenilikçi bir teknolojidir. Otopark yönetimindeki yasal süreçlerini kayıtlı hale getirmek suretiyle verimsizleşen otopark işletmesinin tahsilat oranlaının artmasını sağlamaktadır. Müşteri taleplerinin temassız ve online yapılmasını sağlanması, ödeme kanallarının artışı müşteri memnuniyeti sağlamaktadır. Bu saha yönetimi ve iş gücü verimliğinin etkin kullanılmasını sağlamaktadır.",
+      "park-7":
+        "ParkoMobil Türkiye'deki otopark yönetimini çözen yenilikçi bir teknolojidir. Otopark yönetimindeki yasal süreçlerini kayıtlı hale getirmek suretiyle verimsizleşen otopark işletmesinin tahsilat oranlaının artmasını sağlamaktadır. Müşteri taleplerinin temassız ve online yapılmasını sağlanması, ödeme kanallarının artışı müşteri memnuniyeti sağlamaktadır. Bu saha yönetimi ve iş gücü verimliğinin etkin kullanılmasını sağlamaktadır.",
       "park-8": "ParkoMobil Özellikleri",
       "park-9": "Plaka Okuma",
-      "park-10": "Mobil telefonun kamerası ile plaka ve araç fotoğraflama: OCR teknolojisi kullanılarak fotoğraftan aracın kategorisi ve plakası metine çevrilir.",
+      "park-10":
+        "Mobil telefonun kamerası ile plaka ve araç fotoğraflama: OCR teknolojisi kullanılarak fotoğraftan aracın kategorisi ve plakası metine çevrilir.",
       "park-11": "- Plaka Okuma (OCR)",
       "park-12": "- Araç Fotoğraflama",
       "park-13": "- Mobil İşlem",
       "park-14": "- Kategoriye Ayırma",
       "park-15": "Yeni Tebliğ Uyumu",
-      "park-16": "Türkiye’de yeni çıkan tebliğe göre ilk defa plakaya fatura kesilecek. (VERGİ USUL KANUNU GENEL TEBLİĞİ (SIRA NO: 509)’NDE DEĞİŞİKLİK YAPILMASINA DAİR TEBLİĞ (SIRA NO: 515)",
+      "park-16":
+        "Türkiye’de yeni çıkan tebliğe göre ilk defa plakaya fatura kesilecek. (VERGİ USUL KANUNU GENEL TEBLİĞİ (SIRA NO: 509)’NDE DEĞİŞİKLİK YAPILMASINA DAİR TEBLİĞ (SIRA NO: 515)",
       "park-17": "Kanıt ve Belgelendirme",
-      "park-18": "GPS koordinat bilgisi ve zaman damgası yapılacağından yasal kanıt bulunduracak. Davalarda yasal delil olması nedeniyle lehte delil oluşturulacak.",
+      "park-18":
+        "GPS koordinat bilgisi ve zaman damgası yapılacağından yasal kanıt bulunduracak. Davalarda yasal delil olması nedeniyle lehte delil oluşturulacak.",
       "park-19": "- Zaman Damgası",
       "park-20": "- Yasal Delil",
       "park-21": "Otomatik Faturalandırma",
-      "park-22": "Plaka üzerinden E-Arşiv ve E-Fatura kesmek suretiyle yasal bir belge olmasını sağlayacağından yeni bir süreç olacak, borç tahsilatını kolaylaştıracak.",
+      "park-22":
+        "Plaka üzerinden E-Arşiv ve E-Fatura kesmek suretiyle yasal bir belge olmasını sağlayacağından yeni bir süreç olacak, borç tahsilatını kolaylaştıracak.",
       "park-23": "Otopark Doluluk Oranı",
-      "park-24": "Sensör kullanmadan, sahadan gelen veriler ve yapay zeka algoritması ile tahminleme yaparak, cadde kenarları için tahmini doluluk boşluk oranlarını verilebilecek.",
+      "park-24":
+        "Sensör kullanmadan, sahadan gelen veriler ve yapay zeka algoritması ile tahminleme yaparak, cadde kenarları için tahmini doluluk boşluk oranlarını verilebilecek.",
       "park-25": "Tahsilat Oranı",
       "park-26": "Müşteri etkileşimi ve ödeme sistemi ile ödemeyi kolaylaştıracak, tahsilatı artıracak.",
+
+      "mobility-1": "Hızlıca Devreye Alın",
+      "mobility-2":
+        "HEY Mobilite Teknolojileri ile projelerinizi kısa bir süre içerisinde devreye alın. Tek yapmanız gereken araç filonuzu temin etmektir. Yazılım geliştirme veya donanım için kaynak ayırmanıza gerek yoktur. SAAS modeli ile kullandığınız kadar ödersiniz. Filonuzu büyütmek istediğinizde, ölçeklenebilir yapısı ile yeni araçlar kolay bir şekilde sisteme eklenebilir.",
+      "mobility-3": "Mobil Uygulama",
+      "mobility-4": "Çoklu Dil Desteği",
+      "mobility-5": "Türkçe, İngilizce, Rusça ve Arapça desteği gibi birden fazla dil seçeneği bulunur. İstediğiniz dile kolayca uyarlanabilir",
+      "mobility-6": "Hızlı Uyarlama ve Yayınlama",
+      "mobility-7": "Markanızı çok hızlı, bir aydan daha kısa sürede IOS ve Android markette yayınlayabiliriz.",
+      "mobility-8": "Arayüz Tasarımı",
+      "mobility-9": "Standart arayüz tasarımı ile birlikte kurumsal renklere uygun profesyonel tasarım sunuyoruz.",
+      "mobility-10": "Ödeme sistemi Entegrasyonu",
+      "mobility-11": "Ödeme sistemi partnerleri ile kredi kartı, pre paid kart ve debit kart bilgileriniz güvenle saklanır.",
+      "mobility-12": "Panel Özellikleri",
+      "mobility-13": "Konum Takibi",
+      "mobility-14":
+        "Gerçek zamanlı konum takibi ile araçlarınızın harita üzerindeki konumlarını takip edebilir, araç isimlerine göre filtreleme yapabilirsiniz.",
+      "mobility-15":
+        "Mobil uygulama, müşterilere yakınlarında olan araçları harita üzerinde bulma, kiralama ve kiralamayı sonlandırma, kiralama geçmişini görüntüleme gibi özellikler sağlar.",
+      "mobility-16": "Ödeme ve Faturalandırma",
+      "mobility-17":
+        "Kiralama tamamlandığında her bir müşteri için elektronik fatura oluşturulur. Faturalar müşteriler tarafından mobil uygulama üzerinden, kullanıcılar tarafından da panel üzerinden görülebilir.",
+      "mobility-18": "Alarm Takibi",
+      "mobility-19":
+        "Araçlardan gelen alarm verilerini gerçek zamanlı olarak görüp, müdahalede bulunabilir veya geçmişe yönelik alarm sorguları kullanabilirsiniz.",
+      "mobility-20": "Yönetim Paneli",
+      "mobility-21": "Gerçek zamanlı araç verileri",
+      "mobility-22": "Kullanıcı yönetim ekranları",
+      "mobility-23": "Sürüş ve alarm geçmişi",
+      "mobility-24": "Şarj istasyonları yönetimi",
+      "mobility-25": "Farklı araç türleri ekleme özelliği",
+      "mobility-26": "Çoklu bölge ve desteği (ülke,şehir,semt)",
+      "mobility-27": "Kullanım ve gelir raporları",
+      "mobility-28": "Yazılım Özellikleri",
+      "mobility-29": "Donanımdan bağımsız yazılım",
+      "mobility-30": "Araçların uzaktan kontrolü",
+      "mobility-31": "Tek bir uygulamada scooter, bisiklet ve elektirikli araç yönetimi",
+      "mobility-32": "Şarj istasyonları yönetimine uygun",
+      "mobility-33": "Farklı araç ve IOT türleri ile uyumlu",
+      "mobility-34": "Farklı ödeme sistemleri ile entegre",
+      "mobility-35": "Kendi markanızı kullanma olanağı",
+      "mobility-36": "Farklı roller için farklı kullanıcı tanımları",
+      "mobility-37": "Farklı ülkeler için çoklu dil desteği",
+      "mobility-38": "Kullanıcı dostu arayüz",
+      "mobility-39": "Kimlik doğrulama (isteğe bağlı)",
+      "mobility-40": "Uygulama içi araç navigasyonu",
+      "mobility-41": "Rezervasyon sistemi",
+
     },
 
     en: {
@@ -182,49 +243,107 @@ $(document).ready(function () {
       "ticket-24": "- Seat Planning",
       "ticket-25": "- Reservation",
       "ticket-26": "Business Administration",
-      "ticket-27": "The logistics architecture on the abfGO platform maximizes the flexibility of a number of logical structures such as route plans and price lists. With the template structures it contains, different tariffs and times of the flights such as days, weeks, summer and winter can be stored ready. In this way, time and tariff changes can be created quickly and easily managed.",
+      "ticket-27":
+        "The logistics architecture on the abfGO platform maximizes the flexibility of a number of logical structures such as route plans and price lists. With the template structures it contains, different tariffs and times of the flights such as days, weeks, summer and winter can be stored ready. In this way, time and tariff changes can be created quickly and easily managed.",
       "ticket-28": "Loyalty Program",
       "ticket-29": "The system allows operators to define their own loyalty card programs and levels.",
       "ticket-30": "Use of virtual and physical cards with the loyalty card application system. Expedition-based Points and usage.",
       "ticket-31": "E-Ticket",
-      "ticket-32": "In the world of digital transformation, where technology and mobility have become widespread, electronic documents are now taking the place of paper. The E-Ticket system, which is an important step for ticketless travel, is also a factor that reduces operational costs.",
+      "ticket-32":
+        "In the world of digital transformation, where technology and mobility have become widespread, electronic documents are now taking the place of paper. The E-Ticket system, which is an important step for ticketless travel, is also a factor that reduces operational costs.",
       "ticket-33": "Accounting System and Income Control",
-      "ticket-34": "Another important infrastructure that makes abfGO successful is accounting and income control. The program successfully provides accurate reporting to the user by making complex comparisons such as e-ticket, sales, collection and shift reports. A few of the reports used for cash flow and income control;",
+      "ticket-34":
+        "Another important infrastructure that makes abfGO successful is accounting and income control. The program successfully provides accurate reporting to the user by making complex comparisons such as e-ticket, sales, collection and shift reports. A few of the reports used for cash flow and income control;",
       "ticket-35": "Accounting Sales Report",
       "ticket-36": "Cash Report",
       "ticket-37": "E-Ticket Report",
       "ticket-38": "Regional Reports",
       "ticket-39": "Passenger Information System",
-      "ticket-40": "Safe and standard methods are used to inform passengers about travel information and flight cancellations. Communication is provided autonomously in the following information standards;",
+      "ticket-40":
+        "Safe and standard methods are used to inform passengers about travel information and flight cancellations. Communication is provided autonomously in the following information standards;",
       "ticket-41": "- Push-Notification",
 
       "park-1": "Mobile Parking",
-      "park-2": "The operation of streetside car parks, which make up a large part of the parking lot capacity, is labor-based, and it is not easy to follow and manage. In addition, collection problems, loss and leakage rates, determination of occupancy rate, and most importantly, the lack of legal basis for cut receipts reduce efficiency and increase costs.",
-      "park-3": "Parking lot entrances and exits for drivers, manual processes and the inability to use up-to-date technologies increase customer dissatisfaction.",
+      "park-2":
+        "The operation of streetside car parks, which make up a large part of the parking lot capacity, is labor-based, and it is not easy to follow and manage. In addition, collection problems, loss and leakage rates, determination of occupancy rate, and most importantly, the lack of legal basis for cut receipts reduce efficiency and increase costs.",
+      "park-3":
+        "Parking lot entrances and exits for drivers, manual processes and the inability to use up-to-date technologies increase customer dissatisfaction.",
       "park-4": "LIVABLE CITY",
-      "park-5": "With mobile parking management, it allows you to increase your income by reducing the loss and loss rate. Research shows that some of the traffic in cities is spent by cars looking for parking spaces. With the integrated and online application, it is possible to relieve the city traffic by directing the drivers to the empty parks quickly. Of course, as a natural result, it contributes to the reduction of carbon emission rates and the formation of a healthy city due to the environmental effects in cities.",
+      "park-5":
+        "With mobile parking management, it allows you to increase your income by reducing the loss and loss rate. Research shows that some of the traffic in cities is spent by cars looking for parking spaces. With the integrated and online application, it is possible to relieve the city traffic by directing the drivers to the empty parks quickly. Of course, as a natural result, it contributes to the reduction of carbon emission rates and the formation of a healthy city due to the environmental effects in cities.",
       "park-6": "PRODUCTIVITY",
-      "park-7": "ParkoMobil is an innovative technology that solves the parking management in Turkey. By registering the legal processes in parking lot management, it provides an increase in the collection rate of the inefficient parking lot business. Ensuring that customer requests are made contactless and online, and the increase in payment channels provides customer satisfaction. This ensures effective use of field management and workforce efficiency.",
+      "park-7":
+        "ParkoMobil is an innovative technology that solves the parking management in Turkey. By registering the legal processes in parking lot management, it provides an increase in the collection rate of the inefficient parking lot business. Ensuring that customer requests are made contactless and online, and the increase in payment channels provides customer satisfaction. This ensures effective use of field management and workforce efficiency.",
       "park-8": "ParkoMobil Features",
       "park-9": "Plate Reading",
-      "park-10": "Photographing license plates and vehicles with the camera of the mobile phone: Using OCR technology, the category and license plate of the vehicle are converted from the photo to text.",
+      "park-10":
+        "Photographing license plates and vehicles with the camera of the mobile phone: Using OCR technology, the category and license plate of the vehicle are converted from the photo to text.",
       "park-11": "- Plate Reading (OCR)",
       "park-12": "- Vehicle Photography",
       "park-13": "- Mobile Proccess",
       "park-14": "- Categorization",
       "park-15": "New Communiqué Harmonization",
-      "park-16": "According to the new communiqué in Turkey, an invoice will be issued to the plate for the first time. (COMMUNIQUÉ ON THE AMENDMENT OF THE GENERAL COMMUNIQUE OF THE TAX PROCEDURE LAW (ORDER NO: 509) (ORDER NO: 515)",
+      "park-16":
+        "According to the new communiqué in Turkey, an invoice will be issued to the plate for the first time. (COMMUNIQUÉ ON THE AMENDMENT OF THE GENERAL COMMUNIQUE OF THE TAX PROCEDURE LAW (ORDER NO: 509) (ORDER NO: 515)",
       "park-17": "Evidence and Documentation",
-      "park-18": "It will have legal proof as GPS coordinate information and timestamp will be made. Since there is legal evidence in the cases, favorable evidence will be created.",
+      "park-18":
+        "It will have legal proof as GPS coordinate information and timestamp will be made. Since there is legal evidence in the cases, favorable evidence will be created.",
       "park-19": "- Timestamp",
       "park-20": "- Legal Evidence",
       "park-21": "Automatic Billing",
-      "park-22": "It will be a new process as it will make it a legal document by cutting E-Archive and E-Invoice from the plate, and it will facilitate debt collection.",
+      "park-22":
+        "It will be a new process as it will make it a legal document by cutting E-Archive and E-Invoice from the plate, and it will facilitate debt collection.",
       "park-23": "Parking Occupancy Rate",
-      "park-24": "It will be possible to give estimated occupancy and vacancy rates for street edges by making estimations with data from the field and artificial intelligence algorithm without using sensors.",
+      "park-24":
+        "It will be possible to give estimated occupancy and vacancy rates for street edges by making estimations with data from the field and artificial intelligence algorithm without using sensors.",
       "park-25": "Collection Rate",
       "park-26": "It will facilitate payment and increase collection with customer interaction and payment system.",
 
+      "mobility-1": "Deploy Quickly",
+      "mobility-2":
+        "Commission your projects in a short time with HEY Mobility Technologies. All you have to do is to provide your vehicle fleet. You don't need to allocate resources for software development or hardware. With the SAAS model, you pay for what you use. When you want to expand your fleet, new vehicles can be easily added to the system with its scalable structure.",
+      "mobility-3": "Mobile App",
+      "mobility-4": "Multi-Language Support",
+      "mobility-5":
+        "It has multiple language options such as Turkish, English, Russian and Arabic support. Easily adaptable to your desired language.",
+      "mobility-6": "Rapid Adaptation and Release",
+      "mobility-7": "We can publish your brand very quickly, in less than a month, on the IOS and Android markets.",
+      "mobility-8": "Interface Design",
+      "mobility-9": "Along with the standard interface design, we offer professional design in accordance with corporate colors.",
+      "mobility-10": "Payment system Integration",
+      "mobility-11": "Your credit card, prepaid card and debit card information are securely stored with payment system partners.",
+      "mobility-12": "Panel Features",
+      "mobility-13": "Location Tracking",
+      "mobility-14": "With real-time location tracking, you can track the location of your vehicles on the map and filter by vehicle names.",
+      "mobility-15":
+        "The mobile application provides customers with features such as finding nearby vehicles on the map, renting and ending the rental, viewing the rental history.",
+      "mobility-16": "Payment and Billing",
+      "mobility-17":
+        "When the rental is completed, an electronic invoice is created for each customer. Invoices can be viewed by customers through the mobile application and by users through the panel.",
+      "mobility-18": "Alarm Tracking",
+      "mobility-19": "You can see real-time alarm data from vehicles and intervene or use historical alarm queries.",
+      "mobility-20": "Management Panel",
+      "mobility-21": "Real-time vehicle data",
+      "mobility-22": "User management screens",
+      "mobility-23": "Driving and alarm history",
+      "mobility-24": "Charging stations management",
+      "mobility-25": "Ability to add different types of vehicles",
+      "mobility-26": "Multi-region and support (country, city, district)",
+      "mobility-27": "Usage and revenue reports",
+      "mobility-28": "Software Features",
+      "mobility-29": "Hardware independent software",
+      "mobility-30": "Remote control of vehicles",
+      "mobility-31": "Scooter, bike and electric vehicle management in one app",
+      "mobility-32": "Suitable for charging stations management",
+      "mobility-33": "Compatible with different types of vehicles and IOTs",
+      "mobility-34": "Integrated with different payment systems",
+      "mobility-35": "Possibility to use your own brand",
+      "mobility-36": "Different user definitions for different roles",
+      "mobility-37": "Multi-language support for different countries",
+      "mobility-38": "User friendly interface",
+      "mobility-39": "Authentication (optional)",
+      "mobility-40": "In-app car navigation",
+      "mobility-41": "Reservation system",
     },
   };
 
@@ -237,7 +356,7 @@ $(document).ready(function () {
     let lang = localStorage.getItem("language");
     lang == "tr" ? $("#dropdownMenuButtonLang").text("TR") : $("#dropdownMenuButtonLang").text("EN");
 
-    $("a,h1,h2,h3,div,span,ul,button,label,p,li").each(function (index, element) {
+    $("a,h1,h2,h3,h5,div,span,ul,button,label,p,li").each(function (index, element) {
       $(this).text(arrLang[lang][$(this).attr("key")]);
     });
   }
@@ -248,7 +367,7 @@ $(document).ready(function () {
     let lang = localStorage.getItem("language");
     lang == "tr" ? $("#dropdownMenuButtonLang").text("TR") : $("#dropdownMenuButtonLang").text("EN");
 
-    $("a,h1,h2,h3,div,span,ul,button,label,p,li").each(function (index, element) {
+    $("a,h1,h2,h3,h5,div,span,ul,button,label,p,li").each(function (index, element) {
       $(this).text(arrLang[lang][$(this).attr("key")]);
     });
   });
