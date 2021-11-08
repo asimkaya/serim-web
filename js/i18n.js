@@ -219,6 +219,9 @@ $(document).ready(function () {
       "about-12": "E-TWOW Türkiye distirbütörü ve Codice temsilcisi.",
       "about-13": "Hey Scooter Paylaşım platformu. ParkoMobil Otopark Yönetim Sistemi",
       "about-14": "Kalite Belgesi",
+
+      "contact-1": "İletişim Bilgilerimiz",
+      "contact-2": "Gönder",
     },
 
     en: {
@@ -431,7 +434,8 @@ $(document).ready(function () {
       "about-4": "Serim Software Technologies was established.",
       "about-5": "Ms Dynamics CRM became a partner",
       "about-6": "Burulaş Budo Ticketing project was commissioned.",
-      "about-7": "Serim R&D center was established in Ulutek Technopark Technology Development zone. Burulaş Aviation ticketing solution has been published.",
+      "about-7":
+        "Serim R&D center was established in Ulutek Technopark Technology Development zone. Burulaş Aviation ticketing solution has been published.",
       "about-8": "Rent a Car cloud-based SaaS ticketing project was commissioned. Konya Science Center ticketing solution.",
       "about-9": "Abfgo cloud-based SaaS ticketing solution was commissioned.",
       "about-10": "First overseas office opened in Bangladesh",
@@ -439,6 +443,9 @@ $(document).ready(function () {
       "about-12": "E-TWOW Turkey distributor and Codice representative.",
       "about-13": "Hey Scooter Sharing platform. ParkoMobil Parking Management System",
       "about-14": "Licance of Authorization",
+
+      "contact-1": "Our Contact Information",
+      "contact-2": "Submit",
     },
   };
 
