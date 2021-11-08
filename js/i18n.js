@@ -191,6 +191,11 @@ $(document).ready(function () {
       "hey-17": "- Oteller",
       "hey-18": "- İşletmeler",
       "hey-19": "- Limanlar",
+
+      "custom-1": "Özel Yazılım Hizmeti",
+      "custom-2": "Özel yazılımlar ile sizin için aklınızdaki iş fikirlerini yazılıma çevirebiliriz. Uzun yıllar boyunca oluşturmuş olduğumuz birikim ve tecrübemiz ile aklınızdakileri hayata geçirmek çok kolay.",
+      "custom-3": "Firmanız içerisinde ihtiyaç duyulan, çeşitli amaçlara yönelik yazılımlar, tarafımızca hazırlanır. Web ve Mobil platformlara özel, profesyonel ve uçtan uca yazılımları kapsar. Detaylı bilgi için lütfen",
+      "custom-4": "iletişime geçiniz."
     },
 
     en: {
@@ -384,6 +389,11 @@ $(document).ready(function () {
       "hey-18": "- Businesses",
       "hey-19": "- Ports",
 
+      "custom-1": "Custom Software Service",
+      "custom-2": "With special software, we can turn your business ideas into software for you. With our knowledge and experience that we have built over many years, it is very easy to implement what you have in mind.",
+      "custom-3": "Software for various purposes, needed within your company, is prepared by us. It covers professional and end-to-end software for Web and Mobile platforms. For detailed information please",
+      "custom-4": "contact."
+    
     },
   };
 
