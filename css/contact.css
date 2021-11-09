@@ -88,6 +88,9 @@
   .submit-btn {
       margin-right: 0!important;
   }
+  .recaptcha-div {
+    padding-left: 0 !important;
+  }
 }
 .header-image {
   background-image: url("../assets/photos/iletisim-header-img.png");
@@ -248,7 +251,6 @@
 
 .section-three .contact-form {
   min-height: 376px;
-  width: 100%;
   background: #21212e 0% 0% no-repeat padding-box;
   border-radius: 7px;
   padding-bottom: 1rem;
@@ -320,6 +322,9 @@ textarea#message::-webkit-input-placeholder {
 }
 
 .submit-btn-div {
-  text-align: end;
   padding-top: 1rem;
+}
+
+.recaptcha-div {
+  padding-left: 6rem;
 }

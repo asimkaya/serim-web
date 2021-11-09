@@ -28,6 +28,7 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/owl/owl.theme.default.min.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -301,7 +302,7 @@
                             <span style="font: normal normal bold 16px/25px Poppins; color: #666686;">Bursa </span>
                             Uludağ Üniversitesi Ulutek Teknoloji Geliştirme Bölgesi 16059 Bursa,
                             Turkey <br>
-                           
+
                         </span>
                         <ul class="list-unstyled footer-icons mt-3" style="color: #666686;">
                             <li>
@@ -353,7 +354,8 @@
                 <div class="contact-form row">
                     <div class="contact-text col-md-3 d-flex flex-column">
                         <span class="header" key="contact-3">İletişim Formu</span>
-                        <span class="text" key="contact-4">Hizmetlerimiz hakkında bilgi almak için bizimle iletişime geçin.</span>
+                        <span class="text" key="contact-4">Hizmetlerimiz hakkında bilgi almak için bizimle iletişime
+                            geçin.</span>
                     </div>
 
                     <div class="contact-inputs col">
@@ -378,11 +380,17 @@
                             <div class="row">
                                 <div class="col-md-10">
                                     <textarea type="text" class="form-control message-input" placeholder="Mesajınız"
-                                        id="message"></textarea>
+                                        id="message" required></textarea>
                                 </div>
                             </div>
-                            <div class="submit-btn-div">
-                                <button type="submit" class="submit-btn" key="contact-2">Gönder</button>
+                            <div class="submit-btn-div row align-items-center">
+                                <div class="recaptcha-div">
+                                    <div class="g-recaptcha" data-sitekey="6Lc4riEdAAAAAEPchTPL-fs4qk68srtcmrtsB3eI"
+                                        data-callback="recaptchaCallback"></div>
+                                </div>
+                                <div class=" text-end">
+                                    <button type="submit" class="submit-btn" key="contact-2">Gönder</button>
+                                </div>
                             </div>
                         </form>
 
