@@ -95,18 +95,18 @@
   .page-cards .share-platform,
   .page-cards .smart-system {
     width: 95% !important;
-    height: auto !important;
+    /* height: auto !important; */
   }
   .page-cards .ticket-system .left,
   .page-cards .share-platform .left,
   .page-cards .smart-system .left {
     width: 100px !important;
   }
-  .page-cards .ticket-system .right,
+  /* .page-cards .ticket-system .right,
   .page-cards .share-platform .right,
   .page-cards .smart-system .right {
     width: 200px !important;
-  }
+  } */
   #mySidenav li a {
     color: white !important;
   }
@@ -391,7 +391,7 @@ nav .language-button {
   box-shadow: 0px 0px 40px #0000008a;
 }
 .bg-color {
-  min-height: 1245px;
+  min-height: 1030px;
   max-height: max-content;
   background: rgba(0, 1, 33, 0.3);
 }
@@ -599,7 +599,7 @@ nav .language-button {
 .page-cards .smart-system {
   cursor: pointer;
   width: 450px;
-  height: 277px;
+  min-height: 277px;
   background-color: #262634;
   box-shadow: 0px 10px 20px #0000008a;
   border-radius: 10px;
@@ -625,7 +625,7 @@ nav .language-button {
 .page-cards .ticket-system .right,
 .page-cards .share-platform .right,
 .page-cards .smart-system .right {
-  width: 285px;
+  width: 80%;
   color: white;
   padding-left: 24px;
   padding-top: 35px;
