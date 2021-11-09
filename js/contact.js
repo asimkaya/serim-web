@@ -530,16 +530,15 @@ $("#contact-form").submit(function (e) {
       },
       data: JSON.stringify(formData),
       success: function (data) {
-        console.log(data);
-        if ((data = !"robot")) {
+        if (data != "robot") {
           $("#alert-success").show();
-          setTimeout(function () {
-            window.location.reload;
+          setInterval(function () {
+            window.location.reload();
           }, 2000);
         } else {
           $("#alert-warn").show();
-          setTimeout(function () {
-            window.location.reload;
+          setInterval(function () {
+            window.location.reload();
           }, 2000);
         }
       },

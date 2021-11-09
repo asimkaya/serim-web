@@ -91,6 +91,9 @@
   .recaptcha-div {
     padding-left: 0 !important;
   }
+  .contact-text {
+    padding-left: 3px !important;
+  }
 }
 .header-image {
   background-image: url("../assets/photos/iletisim-header-img.png");
