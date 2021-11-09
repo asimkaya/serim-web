@@ -244,6 +244,8 @@ $(document).ready(function () {
       "contact-3": "İletişim Formu",
       "contact-4": "Hizmetlerimiz hakkında bilgi almak için bizimle iletişime geçin.",
       "contact-5": "Lütfen robot olmadığınızı doğrulayınız",
+      "contact-6": "Bilgileriniz bize ulaşmıştır. En kısa zamanda sizinle iletişime geçeceğiz.",
+      "contact-7": "İletişim formu gönderilirken bir hata oluştu. Lütfen bilgilerinizin doğruluğunu kontrol ediniz.",
     },
 
     en: {
@@ -471,6 +473,8 @@ $(document).ready(function () {
       "contact-3": "Contact Form",
       "contact-4": "Contact us to get information about our services.",
       "contact-5": "Please verify you are not a robot",
+      "contact-6": "Your information has reached us. We will contact you as soon as possible.",
+      "contact-7": "An error occurred while submitting the contact form. Please check the accuracy of your information.",
     },
   };
 
@@ -516,19 +520,32 @@ $("#contact-form").submit(function (e) {
   if (response == 0) {
     $("#error-message-robot").css("display", "block");
   } else {
+    $(".submit-btn").prop("disabled", true);
     $.ajax({
       type: "POST",
       url: "https://localhost:44389/mail",
       headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-     },
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
       data: JSON.stringify(formData),
       success: function (data) {
         console.log(data);
+        if ((data = !"robot")) {
+          $("#alert-success").show();
+          setTimeout(function () {
+            window.location.reload;
+          }, 2000);
+        } else {
+          $("#alert-warn").show();
+          setTimeout(function () {
+            window.location.reload;
+          }, 2000);
+        }
       },
       error: function (error) {
         console.warn(error);
+        $(".submit-btn").prop("disabled", false);
       },
     });
   }
