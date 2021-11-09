@@ -15,7 +15,7 @@ namespace SerimBackend.Controllers
     public class MailController : Controller
     {
         [HttpPost]
-        public JsonResult SendContactMail(Mail send)
+        public JsonResult Post(Mail send)
         {
             string secretKey = "6Lc4riEdAAAAADKQo1mv1PdhQ5Wz5ysq-RVDYNf8";
             var client = new WebClient();
@@ -33,9 +33,9 @@ namespace SerimBackend.Controllers
                 sc.Credentials = new NetworkCredential("username", "password");
 
                 MailMessage mail = new MailMessage();
-                mail.From = new MailAddress("@gmail.com", send.name);
+                mail.From = new MailAddress("serimcontact@gmail.com", send.name);
 
-                mail.To.Add(send.email);
+                mail.To.Add("serimcontact@gmail.com");
                 mail.Subject = send.subject;
                 mail.IsBodyHtml = true;
                 mail.Body = send.message;

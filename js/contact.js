@@ -243,6 +243,7 @@ $(document).ready(function () {
       "contact-2": "Gönder",
       "contact-3": "İletişim Formu",
       "contact-4": "Hizmetlerimiz hakkında bilgi almak için bizimle iletişime geçin.",
+      "contact-5": "Lütfen robot olmadığınızı doğrulayınız",
     },
 
     en: {
@@ -469,6 +470,7 @@ $(document).ready(function () {
       "contact-2": "Submit",
       "contact-3": "Contact Form",
       "contact-4": "Contact us to get information about our services.",
+      "contact-5": "Please verify you are not a robot",
     },
   };
 
@@ -498,12 +500,36 @@ $(document).ready(function () {
   });
 });
 
+$("#contact-form").submit(function (e) {
+  e.preventDefault();
+  const response = grecaptcha.getResponse();
 
-function onSubmit(token) {
-  console.log(token)
-  $("#contact-form").submit(function (e) {
-    e.preventDefault();
-    console.log(token);
-  })
-  
-}
+  let formData = {
+    name: $("#name").val(),
+    email: $("#mail").val().replace(" ", ""),
+    phoneNumber: $("#phone").val().replace(" ", ""),
+    subject: $("#about").val(),
+    message: $("#message").val(),
+    token: $("#g-recaptcha-response").val(),
+  };
+
+  if (response == 0) {
+    $("#error-message-robot").css("display", "block");
+  } else {
+    $.ajax({
+      type: "POST",
+      url: "https://localhost:44389/mail",
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+     },
+      data: JSON.stringify(formData),
+      success: function (data) {
+        console.log(data);
+      },
+      error: function (error) {
+        console.warn(error);
+      },
+    });
+  }
+});
