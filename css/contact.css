@@ -113,7 +113,7 @@
 }
 
 .section-one {
-  min-height: 710px;
+  min-height: 455px;
   background-color: #fff;
 }
 
@@ -247,6 +247,7 @@
 
 .section-three {
   min-height: 590px;
+  background-color: #f4f5f9;
 }
 
 .section-three .contact-form {
