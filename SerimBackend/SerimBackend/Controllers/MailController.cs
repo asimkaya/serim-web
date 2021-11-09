@@ -17,7 +17,7 @@ namespace SerimBackend.Controllers
         [HttpPost]
         public JsonResult Post(Mail send)
         {
-            string secretKey = "6Lc4riEdAAAAADKQo1mv1PdhQ5Wz5ysq-RVDYNf8";
+            string secretKey = "secret_key";
             var client = new WebClient();
             var result = client.DownloadString(string.Format("https://www.google.com/recaptcha/api/siteverify?secret={0}&response={1}", secretKey, send.token));
             var obj = JObject.Parse(result);
