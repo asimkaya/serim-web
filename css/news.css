@@ -1,0 +1,233 @@
+@media only screen and (max-width: 710px) {
+    .page-header::before {
+      font-size: 110px;
+    }
+    .page-header span {
+      font-size: 20px;
+    }
+    .section-five .section {
+      padding-top: 50px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .page-header::before {
+      font-size: 60px;
+    }
+    .page-header span {
+      font-size: 15px;
+    }
+    .section {
+      margin-left: 4% !important;
+      margin-right: 4% !important;
+    }
+    .bg-color {
+      min-height: 300px !important;
+    }
+    .page-header {
+      margin-top: 0 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 1802px) {
+    .section-two .section {
+      justify-content: center;
+    }
+    .section-four .section {
+      justify-content: center;
+    }
+    .section-four-content {
+      padding-right: 0 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .page-header::before {
+      font: normal normal bold 100px/226px Poppins;
+    }
+  }
+  
+  @media only screen and (max-width: 940px) {
+    .page-header::before {
+      font: normal normal bold 70px/226px Poppins;
+    }
+    .page-header span {
+      font: normal normal bold 20px/48px Poppins;
+    }
+    .section-two .section-two-image {
+      width: 90% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .page-header::before {
+      font: normal normal bold 40px/226px Poppins;
+    }
+    .page-header span {
+      font: normal normal bold 10px/48px Poppins;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .page-header::before {
+      font: normal normal bold 30px/226px Poppins;
+    }
+    .page-header span {
+      font: normal normal bold 10px/48px Poppins;
+    }
+  }
+  .header-image {
+    background-image: url("../assets/photos/iletisim-header-img.png");
+  }
+  .bg-color {
+    min-height: 450px;
+  }
+  
+  .page-header::before {
+    content: "NEWS";
+  }
+  
+  .section {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-evenly;
+  }
+  
+  .section-one {
+    min-height: 480px;
+    background-color: #fff;
+  }
+  
+  .section-one .page-route .top span {
+    font: normal normal 600 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #3c3c55;
+  }
+  
+  .section-one .page-route .bottom div {
+    height: 3px;
+    background: #21212e 0% 0% no-repeat padding-box;
+    margin-top: 0.5rem;
+  }
+  
+  .page-route-content {
+    margin-top: 50px;
+  }
+  
+  .page-route-content .page-route-header {
+    font: normal normal bold 36px/60px Poppins;
+    letter-spacing: 0px;
+    color: #21212e;
+  }
+  
+  .page-route-content .page-route-text,
+  .page-route-content .page-route-text2 {
+    font: normal normal normal 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #666686;
+  }
+  
+  .card-route .card-custom {
+    width: 415px;
+    min-height: 275px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 50px #00000012;
+    border: none;
+  }
+  
+  .card-route .card-custom .card-header-custom img {
+    width: 21px;
+    height: 25px;
+  }
+  
+  .card-route .card-custom .card-header-custom {
+    background-color: #21212e;
+    border-radius: 10px 10px 0 0;
+    height: 66px;
+  }
+  
+  .card-route .card-custom .card-header-custom .card-header-text {
+    color: white;
+    font: normal normal bold 18px/25px Poppins;
+    letter-spacing: 0px;
+    color: #ffffff;
+  }
+  
+  .card-content .card-list ul li a {
+    text-decoration: none;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #666686;
+  }
+  
+  .card-content .card-list ul li a:hover {
+    color: #4c54fd;
+  }
+  
+  .card-content .card-list ul li .active {
+    color: #4c54fd;
+    font-weight: bold;
+  }
+  
+  .card-content .card-list ul li::before {
+    content: attr(data-icon);
+    color: #4c54fd;
+    height: 3px;
+    font-weight: bold;
+  }
+  
+  .card-content .card-list ul li {
+    margin: 1.5rem;
+  }
+  
+  .card-content .card-list .hr-div {
+    height: 1px;
+    width: 100%;
+    background-color: #6a6363;
+    opacity: 0.2;
+    margin-top: 1rem;
+  }
+  
+  .section-two {
+    min-height: 590px;
+    background-color: #f4f5f9;
+  }
+  
+  .section-two .section-two-image {
+    margin-top: 3rem;
+    width: 46%;
+    height: 400px;
+  }
+  
+  .section-two .section-two-content {
+    margin-top: 10rem;
+    padding-left: 2rem;
+    max-width: 45rem;
+  }
+  
+  .section-two .section-two-image img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section-two .section-two-content .header {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: inherit;
+  }
+  
+  .section-two .section-two-content .liste ul li::before {
+    content: attr(data-icon);
+    font-weight: bold;
+  }
+  
+  .section-two .section-two-content .liste ul li {
+    font-weight: bold;
+    color: #4e4e6d;
+  }
+  

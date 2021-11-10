@@ -222,6 +222,8 @@ $(document).ready(function () {
 
       "contact-1": "İletişim Bilgilerimiz",
       "contact-2": "Gönder",
+
+      "news-1": "Haber"
     },
 
     en: {
@@ -446,6 +448,8 @@ $(document).ready(function () {
 
       "contact-1": "Our Contact Information",
       "contact-2": "Submit",
+
+      "news-1": "News"
     },
   };
 
