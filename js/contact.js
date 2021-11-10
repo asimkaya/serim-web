@@ -523,7 +523,7 @@ $("#contact-form").submit(function (e) {
     $(".submit-btn").prop("disabled", true);
     $.ajax({
       type: "POST",
-      url: "https://localhost:44389/mail",
+      url: "http://crm.serim.com.tr:9999/mail/SendMail",
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
