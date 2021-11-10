@@ -113,11 +113,8 @@ function newsClick(element, color, content, link, image) {
   $(".news-information > .tech-header").css("color", String(color));
   $("#tech-content-id").text(content);
   $("#tech-content-id1").text(content);
-  if (link == "../news/heybursa-news.html") {
-    $("#tech-content-id").css("color", "#46c2ff");
-  } else {
-    $(".news-information > .tech-content").css("color", "#ffff");
-  }
+ 
+    $(".news-information > .tech-content").css("color", color);
 
   let newlink = "window.location.href = '" + link + "'";
   $("#new-navigation-button").attr("onclick", newlink);
