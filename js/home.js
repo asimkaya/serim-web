@@ -108,9 +108,22 @@ function closeNav() {
   $("#mySidenav").removeClass("openSideNav").addClass("closeSideNav");
 }
 
-function newsClick(element, color) {
+function newsClick(element, color, content, link, image) {
   $(".news-information > .tech-header").text(element);
   $(".news-information > .tech-header").css("color", String(color));
+  $("#tech-content-id").text(content);
+  $("#tech-content-id1").text(content);
+  if (link == "../news/heybursa-news.html") {
+    $("#tech-content-id").css("color", "#46c2ff");
+  } else {
+    $(".news-information > .tech-content").css("color", "#ffff");
+  }
+
+  let newlink = "window.location.href = '" + link + "'";
+  $("#new-navigation-button").attr("onclick", newlink);
+  $("#new-navigation-button1").attr("onclick", newlink);
+
+  $("#news-image").attr("src", image);
 }
 
 function checkScreen() {
@@ -131,6 +144,12 @@ function checkScreen() {
     $("#footer-whoweare").removeClass("mt-5");
     $("#footer-speed-menu").removeClass("mt-5");
   }
+
+  if($(window).width() < 801) {
+    $("#mobile-tech-button").css("display", "block");
+  } else {
+    $("#mobile-tech-button").css("display", "none");
+  }
 }
 
 checkScreen();
@@ -139,13 +158,11 @@ $(window).bind("resize", function () {
   checkScreen();
 });
 
-
 function RoutePage(route) {
-  window.location.href = '././'+route;
+  window.location.href = "././" + route;
 }
 function RoutePageBlank(route) {
-  window.open(route,"_blank");
-  
+  window.open(route, "_blank");
 }
 
 $(window).on("load", function () {

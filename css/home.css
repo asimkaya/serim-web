@@ -213,6 +213,7 @@
     width: 0 !important;
     transition: width 1s ease-in-out;
   }
+ 
   .section-three .div-news .img-div .news-information {
     display: none !important;
   }
@@ -825,6 +826,16 @@ nav .language-button {
   width: 399px;
   margin-bottom: 1rem;
 }
+#mobile-tech-button button{
+  background: #6156f9 0% 0% no-repeat padding-box;
+  color: white;
+  text-transform: uppercase;
+  width: 220px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 11px;
+}
 .section-three .div-news .img-div .news-information .tech-button button {
   background: #6156f9 0% 0% no-repeat padding-box;
   color: white;
@@ -844,7 +855,7 @@ nav .language-button {
   width: 33%;
   height: max-content;
   background-color: white;
-  padding-top: 30px;
+  padding-top: 50px;
   border-radius: 0 10px 10px 0;
 }
 .section-three .div-news .new-headers .new-headers-header {

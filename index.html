@@ -420,19 +420,19 @@
             <div class="section-three-position">
                 <div class="div-news">
                     <div class="img-div">
-                        <img src="./assets/photos/connected-technology.jpg" alt="">
+                        <img src="./assets/photos/fuar-tanitim2.jpg" alt="" id="news-image">
                         <div class="news-information">
                             <div class="tech-header"> Teknoloji </div>
-                            <div class="tech-content"> Serim’den Yeni Nesil Biletleme Sistemi </div>
+                            <div class="tech-content" id="tech-content-id">MobileFest’de yerimiz alıyoruz. </div>
                             <div class="tech-button">
-                                <button>DEVAMINI OKU &nbsp; ⮕</button>
+                                <button key="news-2" id="new-navigation-button" onclick="window.location.href='./news/mobilefest.html'">DEVAMINI OKU ⮕</button>
                             </div>
                         </div>
                     </div>
                     <div class="new-headers">
                         <div class="new-headers-header">HABERLER</div>
                         <hr>
-                        <div class="new-tech" onclick="newsClick('Teknoloji', '#46c2ff')">
+                        <div class="new-tech" onclick="newsClick('Teknoloji', '#46c2ff', 'MobileFest’de yerimiz alıyoruz.','../news/mobilefest.html', '../assets/photos/fuar-tanitim2.jpg')">
                             <div class="arrow"></div>
                             <div class="header header-tech">Teknoloji</div>
                             <div class="content">
@@ -440,36 +440,40 @@
                             </div>
                         </div>
                         <hr>
-                        <div class="new-design" onclick="newsClick('Tasarım','#719bb0')">
+                        <div class="new-design" onclick="newsClick('Teknoloji','#46c2ff', 'HEY Lisans Almaya Hak Kazandı', '../news/licance-news.html', '../assets/photos/connected-technology.jpg')">
                             <div class="arrow"></div>
-                            <div class="header header-design">Tasarım</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
+                            <div class="header header-politics">Teknoloji</div>
+                            <div class="content">
+                                HEY Scooter Lisans Almaya Hak Kazandı
                             </div>
                         </div>
                         <hr>
-                        <div class="new-politics" onclick="newsClick('siyaset','#f69f58')">
+                        <div class="new-politics" onclick="newsClick('Teknoloji','#46c2ff','HEY Mobility 3. Parti İş Ortağı Oldu', '../news/teltonika-news.html', '../assets/photos/teltonika.jpg')">
                             <div class="arrow"></div>
-                            <div class="header header-politics">Siyaset</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
+                            <div class="header header-finance">Teknoloji</div>
+                            <div class="content">
+                                HEY Mobility 3. Parti İş Ortağı Oldu
                             </div>
                         </div>
                         <hr>
-                        <div class="new-education" onclick="newsClick('eğitim','#45c487')">
+                        <div class="new-education" onclick="newsClick('Teknoloji','#46c2ff','ParkoMobil canlıya çıktı', '../news/parkomobil-news.html', '../assets/photos/connected-technology.jpg')">
                             <div class="arrow"></div>
-                            <div class="header header-education">Eğitim</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
+                            <div class="header header-education">Teknoloji</div>
+                            <div class="content">
+                                ParkoMobil Bursa’da canlıya çıktı
                             </div>
                         </div>
                         <hr>
-                        <div class="new-finance" onclick="newsClick('finans','#4c54fd')">
+                        <div class="new-finance" onclick="newsClick('Teknoloji','#46c2ff','Hey Scooter Bursa Yollarında', '../news/heybursa-news.html', '../assets/photos/e-scooter-blue.jpeg')">
                             <div class="arrow"></div>
-                            <div class="header header-finance">Finans</div>
-                            <div class="content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                                nonum.
+                            <div class="header header-design">Teknoloji</div>
+                            <div class="content">
+                                Hey Scooter Bursa Yollarında
                             </div>
+                        </div>
+                        <div class="tech-button mt-3 text-center" id="mobile-tech-button">
+                            <div class="tech-content " id="tech-content-id1">MobileFest’de yerimiz alıyoruz. </div>
+                            <button key="news-2" id="new-navigation-button1" onclick="window.location.href='./news/mobilefest.html'">DEVAMINI OKU ⮕</button>
                         </div>
                     </div>
                 </div>
