@@ -224,7 +224,9 @@ $(document).ready(function () {
       "contact-2": "Gönder",
 
       "news-1": "Haber",
-      "news-2": "DEVAMINI OKU  ⮕"
+      "news-2": "DEVAMINI OKU  ⮕",
+      "comments-1": "Son kullanıcı tarafında mobil, web platformlarında kolay implementasyon imkanı, kolay kampanya kurgulanabilen mimarisi ile değişen yolcu taleplerine hızlı çözüm üretebiliyoruz. Qr kod ile biniş, karayolunda ilk yolcu check-in uygulaması ve bagaj biletleme gibi inovasyonları hem mobil hem web platformlarında Serim altyapısı ile hayata geçirdik.",
+      
     },
 
     en: {
@@ -451,7 +453,8 @@ $(document).ready(function () {
       "contact-2": "Submit",
 
       "news-1": "News",
-      "news-2": "READ MORE  ⮕"
+      "news-2": "READ MORE  ⮕",
+      "comments-1": "We are able to produce fast solutions for changing passenger demands with its easy implementation on mobile and web platforms on the end-user side, and its architecture where campaigns can be set up easily. We implemented innovations such as boarding with a QR code, the first passenger check-in application on the road and baggage ticketing, both on mobile and web platforms, with the Serim infrastructure.",
     },
   };
 
