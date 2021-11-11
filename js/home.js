@@ -113,8 +113,8 @@ function newsClick(element, color, content, link, image) {
   $(".news-information > .tech-header").css("color", String(color));
   $("#tech-content-id").text(content);
   $("#tech-content-id1").text(content);
- 
-    $(".news-information > .tech-content").css("color", color);
+
+  $(".news-information > .tech-content").css("color", color);
 
   let newlink = "window.location.href = '" + link + "'";
   $("#new-navigation-button").attr("onclick", newlink);
@@ -142,11 +142,17 @@ function checkScreen() {
     $("#footer-speed-menu").removeClass("mt-5");
   }
 
-  if($(window).width() < 801) {
+  if ($(window).width() < 801) {
     $("#mobile-tech-button").css("display", "block");
   } else {
     $("#mobile-tech-button").css("display", "none");
   }
+
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $(".card-content").text(function (index, currentText) {
+      return currentText.substr(0, 300) + "...";
+    });
+   }
 }
 
 checkScreen();

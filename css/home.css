@@ -249,9 +249,6 @@
 }
 
 @media only screen and (max-width: 420px) {
-  .section-two {
-    height: 186rem !important;
-  }
 
   .slider-blog-button-div {
     width: 300px !important;
