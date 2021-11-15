@@ -142,10 +142,12 @@ function checkScreen() {
     $("#footer-speed-menu").removeClass("mt-5");
   }
 
-  if ($(window).width() < 801) {
+  if ($(window).width() < 1011) {
     $("#mobile-tech-button").css("display", "block");
+    $("#mobile-tech-button1").css("display", "block");
   } else {
     $("#mobile-tech-button").css("display", "none");
+    $("#mobile-tech-button1").css("display", "none");
   }
 
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {

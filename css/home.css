@@ -193,15 +193,8 @@
     margin-right: 1% !important;
   }
 }
-@media only screen and (max-width: 1450px) {
-  .section-three .div-news .img-div {
-    width: 50% !important;
-  }
-  .section-three .div-news .new-headers {
-    width: 60% !important;
-  }
-}
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 1020px) {
   .section-three .new-tech:hover .arrow,
   .section-three .new-design:hover .arrow,
   .section-three .new-politics:hover .arrow,
@@ -211,9 +204,8 @@
   }
   .section-three .div-news .img-div {
     width: 0 !important;
-    transition: width 1s ease-in-out;
   }
- 
+
   .section-three .div-news .img-div .news-information {
     display: none !important;
   }
@@ -221,13 +213,17 @@
     width: 100% !important;
     border-radius: 10px !important;
   }
-}
-@media only screen and (max-width: 1400px) {
-  .section-three .div-news .img-div .news-information {
-    display: none !important;
+  .section-three .div-news {
+    height: auto !important;
   }
+}
+
+@media only screen and (max-width: 1400px) {
+  /* .section-three .div-news .img-div .news-information {
+    display: none !important;
+  } */
   .section-three .div-news .new-headers {
-    width: 100% !important;
+    /* width: 100% !important; */
     border-radius: 10px !important;
   }
   .section-three .section-three-position .blog-slider .button-ileri {
@@ -237,19 +233,16 @@
     left: 0 !important;
   }
 }
-@media only screen and (min-width: 800px) and (max-width: 1200px) {
-  .section-three .div-news .img-div {
-    width: 50% !important;
-    transition: width 1s ease-in-out;
+@media only screen and (min-width: 811px) and (max-width: 1200px) {
+  /* .section-three .div-news .img-div {
+    width: 100% !important;
   }
   .section-three .div-news .new-headers {
-    width: 60% !important;
-    transition: width 1s ease-in-out;
-  }
+    width: auto !important;
+  } */
 }
 
 @media only screen and (max-width: 420px) {
-
   .slider-blog-button-div {
     width: 300px !important;
   }
@@ -551,7 +544,6 @@ nav .language-button {
 .carousel-div .carousel-btn-div {
   position: absolute;
   right: 0;
-  bottom: 0;
 }
 .carousel-div .carousel-btn-div .geri {
   background-image: url("../assets/photos/coursel-btn.png");
@@ -823,7 +815,7 @@ nav .language-button {
   width: 399px;
   margin-bottom: 1rem;
 }
-#mobile-tech-button button{
+#mobile-tech-button button {
   background: #6156f9 0% 0% no-repeat padding-box;
   color: white;
   text-transform: uppercase;
@@ -850,9 +842,9 @@ nav .language-button {
 }
 .section-three .div-news .new-headers {
   width: 33%;
-  height: max-content;
+  /* height: max-content; */
   background-color: white;
-  padding-top: 50px;
+  padding-top: 20px;
   border-radius: 0 10px 10px 0;
 }
 .section-three .div-news .new-headers .new-headers-header {

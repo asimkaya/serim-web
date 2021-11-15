@@ -265,7 +265,7 @@ $(document).ready(function () {
       "index-12": "REFERENCES",
       "index-13": "Customer Comments",
       "index-14": "Home",
-      "index-15": "OUR SERVİCES",
+      "index-15": "OUR SERVICES",
       "index-16": "ABOUT US",
       "index-17": "CONTACT",
       "index-18": "Quick Menu",
