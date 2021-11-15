@@ -488,6 +488,7 @@ $(document).ready(function () {
     localStorage.setItem("language", $(this).attr("name"));
     let lang = localStorage.getItem("language");
     lang == "tr" ? $("#dropdownMenuButtonLang").text("TR") : $("#dropdownMenuButtonLang").text("EN");
+    lang == "tr" ? $("#dropdownMenuButtonLang1").text("TR") : $("#dropdownMenuButtonLang1").text("EN");
 
     $("a,h1,h2,h3,h5,div,span,ul,button,label,p,li").each(function (index, element) {
       $(this).text(arrLang[lang][$(this).attr("key")]);

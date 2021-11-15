@@ -1,3 +1,37 @@
+@media only screen and (min-width: 360px) {
+  #carousel-inner-id {
+    min-height: 22rem;
+  }
+}
+@media only screen and (min-width: 460px) {
+  #carousel-inner-id {
+    min-height: 18rem;
+  }
+}
+@media only screen and (min-width: 560px) {
+  #carousel-inner-id {
+    min-height: 12rem;
+  }
+}
+@media only screen and (min-width: 660px) {
+  #carousel-inner-id {
+    min-height: 14rem;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  #carousel-inner-id {
+    min-height: 12rem;
+  }
+}
+@media only screen and (min-width: 761px) {
+  #carousel-inner-id {
+    min-height: 14rem;
+  }
+}
+
+
+
 @media only screen and (max-width: 700px) {
   .footer-social-margin {
     margin-left: 0 !important;
@@ -153,9 +187,6 @@
   }
 }
 @media screen and (max-width: 550px) {
-  .bg-color {
-    background: rgba(0, 1, 33, 0.7) !important;
-  }
   .musterilerimiz-word:before {
     font-size: 40px !important;
   }
@@ -256,7 +287,7 @@
   .carousel-item-next,
   .carousel-item-prev,
   .carousel-item.active {
-    justify-content: center !important;
+    /* justify-content: center !important; */
   }
   .carousel-item-next .card,
   .carousel-item-prev .card,
@@ -544,6 +575,7 @@ nav .language-button {
 .carousel-div .carousel-btn-div {
   position: absolute;
   right: 0;
+  bottom: -1rem;
 }
 .carousel-div .carousel-btn-div .geri {
   background-image: url("../assets/photos/coursel-btn.png");
