@@ -225,7 +225,8 @@ $(document).ready(function () {
 
       "news-1": "Haber",
       "news-2": "DEVAMINI OKU  ⮕",
-      "comments-1": "Son kullanıcı tarafında mobil, web platformlarında kolay implementasyon imkanı, kolay kampanya kurgulanabilen mimarisi ile değişen yolcu taleplerine hızlı çözüm üretebiliyoruz. Qr kod ile biniş, karayolunda ilk yolcu check-in uygulaması ve bagaj biletleme gibi inovasyonları hem mobil hem web platformlarında Serim altyapısı ile hayata geçirdik.",
+      "comments-1": "Son kullanıcı tarafında mobil, web platformlarında kolay implementasyon imkanı, kolay kampanya kurgulanabilen mimarisi ile değişen yolcu taleplerine hızlı çözüm üretebiliyoruz.",
+      "comments-2": "Kendileri ile çalışmak gerçekten çok keyifli. Özel talep etmiş olduğumuz yazılımların tamamını zamanında alabildik. Teşekkürler Serim.",
       "carousel-1": "Akıllı Biletleme Sistemi",
       "carousel-2": "Kara yolu, deniz ve hava yolcu taşımacılığında işletmeler için bilet rezervasyon ve satış sistemi...",
       "carousel-3": "Otopark Yönetimi",
@@ -459,7 +460,8 @@ $(document).ready(function () {
 
       "news-1": "News",
       "news-2": "READ MORE  ⮕",
-      "comments-1": "We are able to produce fast solutions for changing passenger demands with its easy implementation on mobile and web platforms on the end-user side, and its architecture where campaigns can be set up easily. We implemented innovations such as boarding with a QR code, the first passenger check-in application on the road and baggage ticketing, both on mobile and web platforms, with the Serim infrastructure.",
+      "comments-1": "We are able to produce fast solutions for changing passenger demands with its easy implementation on mobile and web platforms on the end-user side, and its architecture where campaigns can be set up easily.",
+      "comments-2": "Working with them is really enjoyable. We were able to receive all of the software we requested on time. Thanks Serim.",
       "carousel-1": "Smart Ticketing System",
       "carousel-2": "Ticket reservation and sales system for businesses in road, sea and air passenger transportation...",
       "carousel-3": "Parking Management",
