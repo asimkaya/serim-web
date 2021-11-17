@@ -284,11 +284,6 @@
 }
 
 @media only screen and (max-width: 950px) {
-  .carousel-item-next,
-  .carousel-item-prev,
-  .carousel-item.active {
-    /* justify-content: center !important; */
-  }
   .carousel-item-next .card,
   .carousel-item-prev .card,
   .carousel-item.active .card {
@@ -733,6 +728,7 @@ nav .language-button {
   padding-left: 39px;
   padding-top: 25px;
   padding-bottom: 50px;
+  width: 140%;
 }
 .section-two .section-two-position .section-ticket-system .section-words .section-header,
 .section-two .section-two-position .section-share-platform .section-words .section-header,
@@ -766,8 +762,7 @@ nav .language-button {
   font-size: 11px;
 }
 .section-two .section-two-position .section-ticket-system .section-image {
-  /* background-image: url("../assets/photos/iphone-travel.png"); */
-  background-image: url("../assets/photos/biletleme-sistemi-home.jpg");
+  background-image: url("../assets/photos/square-ticket.png");
   background-size: 100% 100%;
   border-radius: 0px 10px 10px 0px;
   width: 100%;
